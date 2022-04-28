@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-bas-risk-management)](https://api.reuse.software/info/github.com/SAP-samples/btp-bas-risk-management)
+
 # Accelerate Development of SAP S/4 HANA Extension Applications with SAP Business Application Studio
 
 > Note: The content of this GitHub repository has been created as source for the SAP Discovery Center Mission [Accelerate Development of SAP S/4HANA Extension Applications with SAP Business Application Studio](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3784/3825/). So we recommend using directly the mission in the SAP Discovery Center.
