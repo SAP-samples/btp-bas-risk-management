@@ -1,0 +1,7 @@
+//@ui5-bundle riskmanagement-Launchpad/Component-preload.js
+jQuery.sap.registerPreloadedModules({
+"version":"2.0",
+"modules":{
+	"riskmanagement-Launchpad/i18n/i18n.properties":'# This is the resource bundle for risks\n\n#Texts for manifest.json\n\n#XTIT: Application name\nappTitle=Launchpad\n\n#YDES: Application description\nappDescription=Launchpad for UI applications\n',
+	"riskmanagement-Launchpad/manifest.json":'{"_version":"1.21.0","sap.app":{"id":"riskmanagement-Launchpad","type":"application","i18n":"i18n/i18n.properties","applicationVersion":{"version":"1.0.0"},"title":"riskmanagement","description":"Launchpad for riskmanagement"},"sap.ui":{"technology":"UI5","icons":{"icon":"","favIcon":"","phone":"","phone@2":"","tablet":"","tablet@2":""},"deviceTypes":{"desktop":true,"tablet":true,"phone":true}},"sap.ui5":{"flexEnabled":true,"dependencies":{"minUI5Version":"1.60.0","libs":{"sap.ui.core":{},"sap.m":{},"sap.ui.layout":{}}},"contentDensities":{"compact":true,"cozy":true},"models":{"i18n":{"type":"sap.ui.model.resource.ResourceModel","settings":{"bundleName":"launchpad.i18n.i18n"}}},"resources":{"css":[{"uri":"css/style.css"}]},"routing":{"config":{"routerClass":"sap.m.routing.Router","viewType":"XML","viewPath":"launchpad.view","controlId":"idAppControl","controlAggregation":"pages","async":true},"routes":[{"name":"RouteMainView","pattern":"RouteMainView","target":["TargetMainView"]}],"targets":{"TargetMainView":{"viewType":"XML","viewLevel":1,"viewId":"idAppControl","viewName":"MainView"}}}}}'
+}});

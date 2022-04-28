@@ -1,0 +1,81 @@
+{
+  "name": "riskmanagement",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "5.5.0",
+    "@sap/xsenv": "^3.1.1",
+    "@sap/xssec": "^3.2.8",
+    "express": "^4",
+    "hdb": "^0.18.3",
+    "passport": "^0.5.0"
+  },
+  "devDependencies": {
+    "@sap/hdi-deploy": "^4.2.0",
+    "@sap/ux-specification": "^1.90.12",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "start": "cds run"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "es2020": true,
+      "node": true,
+      "jest": true,
+      "mocha": true
+    },
+    "globals": {
+      "SELECT": true,
+      "INSERT": true,
+      "UPDATE": true,
+      "DELETE": true,
+      "CREATE": true,
+      "DROP": true,
+      "CDL": true,
+      "CQL": true,
+      "CXL": true,
+      "cds": true
+    },
+    "rules": {
+      "no-console": "off",
+      "require-atomic-updates": "off"
+    }
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sql"
+      },
+      "app-service": {
+        "impl": "srv/LCAPApplicationService.js"
+      },
+      "uaa": {
+        "kind": "xsuaa",
+        "credentials": {}
+      },
+      "API_BUSINESS_PARTNER": {
+        "kind": "odata",
+        "model": "srv/external/API_BUSINESS_PARTNER",
+        "credentials": {
+          "destination": "bupa",
+          "requestTimeout": 180000
+        }
+      }
+    },
+    "hana": {
+      "deploy-format": "hdbtable"
+    }
+  },
+  "lcap": true,
+  "sapux": [
+    "app/Riskmanagement_MyApp",
+    "app/Riskmanagement_Risks",
+    "app/Riskmanagement_Mitigations",
+    "app/Riskmanagement_Risks"
+  ]
+}

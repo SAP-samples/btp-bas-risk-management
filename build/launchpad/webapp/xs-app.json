@@ -1,0 +1,31 @@
+{
+	"welcomeFile": "/index.html",
+	"authenticationMethod": "route",
+	"logout": {
+		"logoutEndpoint": "/do/logout",
+		"logoutPage": "/logout.html"
+	},
+	"routes": [
+		{
+			"source": "^/index.html$",
+			"target": "/index.html",
+			"service": "html5-apps-repo-rt",
+			"cacheControl": "no-cache, no-store, must-revalidate",
+			"authenticationType": "xsuaa"
+		},
+		{
+			"source": "^/logout.html$",
+			"target": "/logout.html",
+			"service": "html5-apps-repo-rt",
+			"cacheControl": "no-cache, must-revalidate",
+			"authenticationType": "none"
+		},
+		{
+			"source": "^(.*)$",
+			"target": "$1",
+			"service": "html5-apps-repo-rt",
+			"cacheControl": "no-cache, must-revalidate",
+			"authenticationType": "xsuaa"
+		}
+	]
+}

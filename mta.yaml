@@ -1,0 +1,209 @@
+_schema-version: '3.1'
+ID: riskmanagement
+version: 1.0.0
+description: A simple CAP project.
+parameters:
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - rm -rf build/ui-deployer
+        - mkdir -p build/ui-deployer
+    - builder: custom
+      commands:
+        - npm install --production
+        - >-
+          bash -c "cds -v 2>/dev/null >/dev/null || npm install --no-save
+          @sap/cds-dk"
+        - npx cds build --production
+modules:
+  - name: riskmanagement-workflow
+    type: com.sap.application.content
+    path: workflow
+    requires:
+      - name: riskmanagement-service-workflow
+        parameters:
+          content-target: true
+      - name: riskmanagement-service-uaa
+      - name: riskmanagement-service-html5-apps-repo-host
+  - name: riskmanagement-Riskmanagement_Mitigations
+    type: html5
+    path: app/Riskmanagement_Mitigations
+    build-parameters:
+      builder: custom
+      commands:
+        - rm -rf dist-zip dist
+        - npm install
+        - >-
+          npx ui5 build --dest dist --include-task=generateManifestBundle
+          --include-task=generateCachebusterInfo
+        - mkdir dist-zip
+        - >-
+          bash -c "cd dist && npx bestzip
+          ../dist-zip/Riskmanagement_Mitigations.zip *"
+      _artifactName: Riskmanagement_Mitigations.zip
+      supported-platforms: []
+      build-result: dist-zip
+  - name: riskmanagement-Riskmanagement_Risks
+    type: html5
+    path: app/Riskmanagement_Risks
+    build-parameters:
+      builder: custom
+      commands:
+        - rm -rf dist-zip dist
+        - npm install
+        - >-
+          npx ui5 build --dest dist --include-task=generateManifestBundle
+          --include-task=generateCachebusterInfo
+        - mkdir dist-zip
+        - >-
+          bash -c "cd dist && npx bestzip ../dist-zip/Riskmanagement_Risks.zip
+          *"
+      _artifactName: Riskmanagement_Risks.zip
+      supported-platforms: []
+      build-result: dist-zip
+  - name: riskmanagement-launchpad
+    type: html5
+    path: build/launchpad
+    build-parameters:
+      builder: custom
+      commands:
+        - rm -rf dist-zip dist
+        - npm install
+        - >-
+          npx ui5 build --dest dist --include-task=generateManifestBundle
+          --include-task=generateCachebusterInfo
+        - mkdir dist-zip
+        - bash -c "cd dist && npx bestzip ../dist-zip/launchpad.zip *"
+      _artifactName: launchpad.zip
+      supported-platforms: []
+      build-result: dist-zip
+  - name: riskmanagement-db-deployer
+    type: hdb
+    path: gen/db
+    parameters:
+      buildpack: nodejs_buildpack
+    build-parameters:
+      builder: npm
+      ignore:
+        - node_modules
+    requires:
+      - name: riskmanagement-service-uaa
+      - name: riskmanagement-service-db
+      - name: riskmanagement-service-workflow
+  - name: riskmanagement-srv
+    type: nodejs
+    path: gen/srv
+    provides:
+      - name: srv-api
+        properties:
+          srv-url: '${default-url}'
+    build-parameters:
+      builder: npm
+      ignore:
+        - node_modules
+        - package-lock.json
+    requires:
+      - name: riskmanagement-service-uaa
+      - name: riskmanagement-service-db
+      - name: riskmanagement-service-workflow
+      - name: riskmanagement-service-destination
+  - name: riskmanagement-aux-destinations
+    type: com.sap.application.content
+    parameters:
+      content:
+        subaccount:
+          existing_destinations_policy: update
+          destinations:
+            - Authentication: OAuth2UserTokenExchange
+              Name: riskmanagement-service-uaa
+              ServiceInstanceName: riskmanagement-uaa
+              ServiceKeyName: riskmanagement-uaa-key
+              sap.cloud.service: lcap.riskmanagement
+            - Authentication: OAuth2UserTokenExchange
+              Name: riskmanagement-app-srv
+              TokenServiceInstanceName: riskmanagement-uaa
+              TokenServiceKeyName: riskmanagement-uaa-key
+              URL: '~{srv-api/srv-url}'
+              sap.cloud.service: lcap.riskmanagement
+            - Name: riskmanagement-service-html5-apps-repo-host
+              ServiceInstanceName: riskmanagement-html5-apps-repo-host
+              ServiceKeyName: riskmanagement-html5-apps-repo-host-key
+              sap.cloud.service: lcap.riskmanagement
+    build-parameters:
+      no-source: true
+    requires:
+      - name: riskmanagement-service-uaa
+        parameters:
+          service-key:
+            name: riskmanagement-uaa-key
+      - name: srv-api
+      - name: riskmanagement-service-html5-apps-repo-host
+        parameters:
+          service-key:
+            name: riskmanagement-html5-apps-repo-host-key
+      - name: riskmanagement-service-destination
+        parameters:
+          content-target: true
+  - name: riskmanagement-aux-ui-deployer
+    type: com.sap.application.content
+    path: build/ui-deployer
+    build-parameters:
+      build-result: resources
+      requires:
+        - name: riskmanagement-Riskmanagement_Mitigations
+          artifacts:
+            - Riskmanagement_Mitigations.zip
+          target-path: resources
+        - name: riskmanagement-Riskmanagement_Risks
+          artifacts:
+            - Riskmanagement_Risks.zip
+          target-path: resources
+        - name: riskmanagement-launchpad
+          artifacts:
+            - launchpad.zip
+          target-path: resources
+    requires:
+      - name: riskmanagement-service-html5-apps-repo-host
+        parameters:
+          content-target: true
+resources:
+  - type: org.cloudfoundry.managed-service
+    name: riskmanagement-service-workflow
+    parameters:
+      service: workflow
+      service-plan: standard
+      service-name: riskmanagement-workflow
+  - type: org.cloudfoundry.managed-service
+    name: riskmanagement-service-uaa
+    parameters:
+      service: xsuaa
+      service-plan: application
+      service-name: riskmanagement-uaa
+      path: xs-security.json
+      config:
+        xsappname: 'Riskmanagement-${space}'
+        role-collections:
+          - description: RiskmanagementManager
+            name: 'RiskmanagementManager-${space}'
+            role-template-references:
+              - $XSAPPNAME.RiskmanagementManager
+  - type: org.cloudfoundry.managed-service
+    name: riskmanagement-service-html5-apps-repo-host
+    parameters:
+      service: html5-apps-repo
+      service-plan: app-host
+      service-name: riskmanagement-html5-apps-repo-host
+  - type: org.cloudfoundry.managed-service
+    name: riskmanagement-service-db
+    parameters:
+      service: hana
+      service-plan: hdi-shared
+      service-name: riskmanagement-db
+  - type: org.cloudfoundry.managed-service
+    name: riskmanagement-service-destination
+    parameters:
+      service: destination
+      service-plan: lite
+      service-name: riskmanagement-destination
