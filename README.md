@@ -53,7 +53,7 @@ The tutorial is provided on the "as-is" basis. Currently, there are no known iss
 
 ## How to Obtain Support
 - Check if you find a solution in the [troubleshooting guide.](/documentation/complete/troubleshooting/)
-- Create an issue to get support or to report a bug in [GitHub](https://github.tools.sap/refapps/LCAP/issues).
+- Create an issue to get support or to report a bug in [GitHub](https://github.com/SAP-samples/btp-bas-risk-management/issues).
 
 ## License
 
