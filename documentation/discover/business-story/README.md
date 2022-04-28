@@ -9,4 +9,6 @@ This scenario covers:
 * Deploying the application on SAP BTP Cloud Foundry environment
 * On-premise connectivity
 
-    <img src="././images/SolutionDiagramBAS.png" width="80%">
+    ![Solution diagram](/./images/SolutionDiagramBAS.png)
+    
+
