@@ -2,7 +2,8 @@
 
 ## Introduction
 
-In this section, you will configure the Cloud Connector for connecting the SAP S/4HANA on-premise backend system with SAP BTP.
+In this section, you will use SAP Connectivity service to establish a connection between your created cloud application and the SAP S/4HANA backend system. First you will create a system mapping in Cloud Connector, then you will use SAP Destination service to retrieve technical information about destinations that are required to consume the SAP Connectivity service.
+
 
  <img src="././images/SolutionDiagram_4.png" width="80%">
 
@@ -11,7 +12,7 @@ In this section, you will configure the Cloud Connector for connecting the SAP S
 
 ### Configure Systems in Cloud Connector for Access with Technical User
 
-1. Open your Cloud Connector administration UI for the SAP S/4HANA on-premise system: https://localhost:8443/
+1. Open your [Cloud Connector](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/e6c7616abb5710148cfcf3e75d96d596.html?locale=en-US) administration UI for the SAP S/4HANA on-premise system: https://localhost:8443/
 
    > Adjust the port if you specified another one during the installation. Potentially, you have to use the external IP of your system.
 
@@ -121,7 +122,7 @@ In this section, you will configure the Cloud Connector for connecting the SAP S
 
 ## Summary
 
-In this section, you have used SAP Connectivity service to establish a connection between your created cloud application and the SAP S/4HANA backend system. First you have created a system mapping in Cloud Connector, then you have used SAP Destination service to retrieve technical information about destinations that are required to consume the SAP Connectivity service.
+In this section, you have configured the Cloud Connector for connecting the SAP S/4HANA on-premise backend system with SAP BTP.
 
 In the next section, you will add an API to your application to use the established connection to the backend system.
 

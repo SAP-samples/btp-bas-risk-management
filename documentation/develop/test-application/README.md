@@ -21,3 +21,5 @@ Congratulations! You now have finished a first version of your application. In t
 5. Choose a tile to try out your app.
 
    <img src="./images/test_app_3.png" width="80%">
+
+6. Make sure you exit the preview mode after your test is finished by clicking **Stop Preview** in SAP BAS.

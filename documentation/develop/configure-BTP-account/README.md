@@ -2,21 +2,24 @@
 
 ## Introduction
 
-You will now prepare your SAP BTP environment, configure your entitlements, and configure your account for the scenario.
+In this section you will configure an SAP BTP account with all the required entitlements, to develop your low-code application. You also will create an SAP HANA instance to store the data needed for your application.
 
  <img src="././images/SolutionDiagram_1.png" width="80%">
 
 ### Prepare Your SAP BTP Account
 
-1. In [SAP BTP Cockpit](https://account.hana.ondemand.com/), open your global account and navigate to **Boosters**.
+1. In [SAP BTP Cockpit](https://account.hana.ondemand.com/), open your global account and navigate to **[Boosters](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/fb1b56148f834749a2bf51127421610b.html?locale=en-US)**.
 
 2. Search for *Low-Code / No-Code App Development*.
 
-> This booster helps you to add low-code/no-code tools from SAP that accelerate business application development and will guide you through the process of enabling the tools, configuring entitlements, and assigning members on SAP BTP.
+> This booster will guide you through the process of enabling the tools, configuring entitlements, and assigning members on your SAP Business Technology Platform account.
+When this booster you will create an account with entitlements for the SAP Business Application Studio, Cloud Foundry Runtime, SAP HANA service and Launchpad service. 
 
-3. Choose **Start** to create a *Subaccount*.
+3. Choose **Start** to create a *[Subaccount](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/8ed4a705efa0431b910056c0acdbf377.html?locale=en-US#subaccounts)*.
 
    <img src="././images/booster_1.png" width="80%">
+
+> Subaccounts let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.
 
 4. In the pop-up a check is running to verify that your account fulfills all the necessary requirements. After all checks are successfully, choose **Next**.
 
@@ -40,22 +43,15 @@ You will now prepare your SAP BTP environment, configure your entitlements, and 
 
 8. In the next tab, review all the details and then choose **Finish** to start the account creation.
 
-9. After your account is created, open your created **Subaccount** and choose **Entitlements** on the left to add more services to your account.
+9. After your account is created, open your created **Subaccount** and choose **[Entitlements](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/00aa2c23479d42568b18882b1ca90d79.html?locale=en-US#entitlements)** on the left to add more services to your account.
 
 10. Choose **Configure Entitlements** and choose **Add Service Plans**.
 
     <img src="././images/entitlements_1.png" width="70%">
 
-11. In the pop-up use the search function to find required entitlements and then choose the following service plan on the left site:
+11. In the pop-up use the search function to find required entitlements for **SAP HANA Cloud** and then choose the service plan 'hana' on the left site.
 
-    | Service                           | Plan       |
-    |-----------------------------------|------------|
-    | Cloud Foundry Runtime             | MEMORY     |
-    | Launchpad Service                 | standard   |
-    | SAP HANA Cloud                    | hana       |
-    | SAP HANA Schemas & HDI Containers | hdi-shared |
-
-12. Choose **Add 4 Service Plans**.
+12. Choose **Add 1 Service Plans**.
 
     <img src="././images/entitlements_2.png" width="70%">
 
@@ -89,7 +85,7 @@ You will now prepare your SAP BTP environment, configure your entitlements, and 
 
  > The SAP HANA Cloud instance is the main cost driver of this scenario. To save costs, it's recommended to create the instance shortly before usage. Note that previewing your application is possible without the created SAP HANA Cloud instance and only needed for final deployment of your application.
 
-Now, you need to create an SAP HANA instance.
+Now, you need to create an [SAP HANA Cloud](https://help.sap.com/docs/HANA_CLOUD/f4997718ff9d45f49f90f5d01d16d5a0/2f0c5e3dc11d4eb8a1d6cb878a311f43.html?locale=en-US).
 
 1. Navigate back to your **Subaccount** and select your **Space**.
 
@@ -118,6 +114,6 @@ Now, you need to create an SAP HANA instance.
 
 ## Summary
 
-After finishing this section you now have configured an SAP BTP account, which will be used next to develop a low-code application. Also you have created an SAP HANA instance to store the data needed for your application.
+You now have prepared your SAP BTP environment, configured your entitlements, and configured your account for the scenario. In the next chapter you will use SAP Business Application Studio to develop your low-code application. (TODO)
 
 Need help? Look at the [Troubleshooting Guide](../../complete/troubleshooting#configure-your-sap-btp-environment-with-the-help-of-boosters) or use mission support to connect with mission experts.

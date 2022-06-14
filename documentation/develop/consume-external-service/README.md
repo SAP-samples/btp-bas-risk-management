@@ -2,7 +2,8 @@
 
 ## Introduction
 
-In this section, an external service API from an SAP S/4HANA system is used.
+In this section you will expand your application with an API which allows to get data from your SAP S/4HANA backend system. This enables the application to use data directly out from the backend system. Also you will update the user interface, so the data from backend is displayed correctly in your application.
+
 
 
 ### Add Business Partner API to Application
@@ -108,7 +109,7 @@ In this section, an external service API from an SAP S/4HANA system is used.
 
 ## Summary
 
-In this section you have expand you application with an API which allows to get data from your SAP S/4HANA backend system. Now the application can use data directly out from the backend system. Also you have updated the user interface, so the data from backend is displayed correctly in your application. In the next step you will deploy your application.
+ In this section, you have integrated an external service API from an SAP S/4HANA system to your application. In the next step you will deploy your application.
 
 
 Need help? Look at the [Troubleshooting Guide](../../complete/troubleshooting#consume-external-service-from-sap-s4hana) or use mission support to connect with mission experts.
