@@ -48,7 +48,7 @@ Now you can start the development of your application. First you will model your
 
 1. In this application two Data Models 'Risks' and 'Mitigations', to hold the data are needed. To create a Data Model open SAP Business Application Studio under tab **Home**, look for the tile **[Data Models](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/759ecc54523141d1af2b56f7b27c110a.html?locale=en-US)** and choose the **+** icon to add a new entity.
 
-   <img src="./images/add_data_model_1.png" width="40%">
+   <img src="./images/add_data_model_1.png" width="30%">
 
 2. Enter the **Entity Name** _Risks_ and choose the **+** icon in the table to add the following properties:
 
@@ -89,7 +89,7 @@ Now you can start the development of your application. First you will model your
 
 8. Choose **Create**.
 
-   <img src="./images/add_data_model_6.png" width="60%">
+   <img src="./images/add_data_model_6.png" width="50%">
 
 9. Repeat the step for **Mitigations** and click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
@@ -132,7 +132,7 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 1. Go back to the home page of the application. Find the **[Services](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/af4df4c8fcd94152bb7bf6a4e205709b.html?locale=en-US)** tile and choose the **+** icon to add a new service entity.
 
-   <img src="./images/add_services_1.png" width="40%">
+   <img src="./images/add_services_1.png" width="30%">
 
 2. On the next screen, enter the following and choose **Create** to finish:
    - Enter **Name:** _risks_
@@ -143,7 +143,7 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 3. In the screen **Service Editor**, find the risks entity and choose header of entry. A menu will appear on the right side of the screen. in section **Property Sheet** check the checkbox for _draft editing_.
 
-   <img src="./images/add_services_3.png" width="60%">
+   <img src="./images/add_services_3.png" width="40%">
 
 4. Back in **Service Editor** choose **Add Entity**. Repeat the previous steps and configure the new entity and choose **Create** to finish:
    - Enter **Name:** _mitigation_
@@ -160,7 +160,7 @@ Once the structure of your application is finished, you can add sample data to t
 
 1. Go back to the home page of the application. Find the **[Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)** tile and choose **+** icon to add a new data entity.
 
-   <img src="./images/add_data_1.png" width="40%">
+   <img src="./images/add_data_1.png" width="30%">
 
 2. In the pop-up choose **Import** and select _Risks_ in the **Import for Entity** field. Then choose **Import**.
 
@@ -206,7 +206,7 @@ Now, you can create roles to define different authorization for your application
 
 1. Go back to the home page of the application. Find the **[User Roles](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/369ed9cc7a724cfcb2bdbe20f8b6e7d6.html?locale=en-US)** tile and choose the **+** icon to add a new role.
 
-   <img src="./images/user_roles_1.png" width="40%">
+   <img src="./images/user_roles_1.png" width="30%">
 
 2. Choose the **+** icon to add new user role and enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
 

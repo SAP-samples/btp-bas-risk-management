@@ -10,7 +10,7 @@ In this section you will configure an SAP BTP account with all the required enti
 
 1. In [SAP BTP Cockpit](https://account.hana.ondemand.com/), open your global account and navigate to **[Boosters](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/fb1b56148f834749a2bf51127421610b.html?locale=en-US)**.
 
-2. Search for *Low-Code / No-Code App Development*.
+2. Search for *Prepare an Account for Developing Extension Applications*.
 
 > This booster will guide you through the process of enabling the tools, configuring entitlements, and assigning members on your SAP Business Technology Platform account.
 When this booster you will create an account with entitlements for the SAP Business Application Studio, Cloud Foundry Runtime, SAP HANA service and Launchpad service. 
@@ -67,7 +67,7 @@ When this booster you will create an account with entitlements for the SAP Busin
 
 16. In the menu appeared on the right side of your screen, choose **Create** and confirm creation in the pop-up screen.
 
-    <img src="././images/launchpad_2.png" width="70%">
+    <img src="././images/launchpad_2.png" width="80%">
 
 17. In the menu on the left, navigate to **Security** &rarr; **Role Collections**.
 
@@ -114,6 +114,6 @@ Now, you need to create an [SAP HANA Cloud](https://help.sap.com/docs/HANA_CLOUD
 
 ## Summary
 
-You now have prepared your SAP BTP environment, configured your entitlements, and configured your account for the scenario. In the next chapter you will use SAP Business Application Studio to develop your low-code application. (TODO)
+You now have prepared your SAP BTP environment, configured your entitlements, and configured your account for the scenario. In the next chapter you will use SAP Business Application Studio to develop your low-code application. 
 
 Need help? Look at the [Troubleshooting Guide](../../complete/troubleshooting#configure-your-sap-btp-environment-with-the-help-of-boosters) or use mission support to connect with mission experts.

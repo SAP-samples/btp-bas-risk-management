@@ -4,10 +4,8 @@
 
 In this section, you will use SAP Connectivity service to establish a connection between your created cloud application and the SAP S/4HANA backend system. First you will create a system mapping in Cloud Connector, then you will use SAP Destination service to retrieve technical information about destinations that are required to consume the SAP Connectivity service.
 
-
  <img src="././images/SolutionDiagram_4.png" width="80%">
 
-**Persona:** SAP BTP Admin
 
 
 ### Configure Systems in Cloud Connector for Access with Technical User
