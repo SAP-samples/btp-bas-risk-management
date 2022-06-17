@@ -21,7 +21,7 @@ In this section you will first create your development environment in SAP Busine
 
 3. In home page of SAP Business Application Studio choose button **[Create Dev Space](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/6053df8bca3946f098bc9f89e49d7317.html?locale=en-US)** to start
 
-   <img src="./images/create_dev_space_1.png" width="80%">
+   <img src="./images/create_dev_space_1.png" width="70%">
 
    > A dev space is a development environment with the tools, capabilities, and resources needed for developing your application.
 
@@ -33,17 +33,17 @@ In this section you will first create your development environment in SAP Busine
 
 6. Your Dev Space is now being created and as soon as status change to _Running_ you can open your Dev Space by clicking on the name
 
-   <img src="./images/create_dev_space_3.png" width="80%">
+   <img src="./images/create_dev_space_3.png" width="60%">
 
 7. In SAP Business Application Studio, choose **gear icon** on the top right and choose **Create Project** in dropdown
 
-   <img src="./images/create_dev_space_4.png" width="80%">
+   <img src="./images/create_dev_space_4.png" width="60%">
 
 8.  In the pop-up enter a **Project Name**, for example, _riskmanagement_ and provide a **Short Description**.
 
 9. Finish by choosing **Create**.
 
-   <img src="./images/create_dev_space_5.png" width="80%">
+   <img src="./images/create_dev_space_5.png" width="40%">
 
    > Loading SAP Business Application Studio for low-code development can take some time, especially if it’s the first time you use it.
 

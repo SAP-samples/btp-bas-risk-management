@@ -29,11 +29,11 @@ When this booster you will create an account with entitlements for the SAP Busin
 
    <img src="././images/booster_3.png" width="70%">
 
-6. (Optional) You can now configure your subaccount to your use case. To save costs it is recommended to remove the Entitlements for services which are not needed in this scenario. Find the Entitlements for _Application Autoscaler_, _Application Logging service_ and _Continuous Integration & Delivery_ in the table, and delete them by clicking the **bin icon**.
+6. (Optional) You can now configure your subaccount to your use case. To save costs it is recommended to remove the Entitlements for services which are not needed in this scenario. Find the entitlements for _Application Autoscaler_, _Application Logging service_ and _Continuous Integration & Delivery_ in the table, and delete them by clicking the **bin icon**.
 
-    <img src="././images/booster_4a.png" width="70%">
+    <img src="././images/booster_4a.png" width="50%">
 
-7. Enter the required information and finish by choosing **Next**:
+7. Then enter the required information for your subaccount configuration and finish by choosing **Next**:
   - **Subaccount Name:** for example, _Riskmanagement_
   - **Provider:** Amazon Web Services (AWS)
   - **Region:** EU10
