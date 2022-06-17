@@ -2,7 +2,7 @@
 
 ## Introduction
 
-To be able to access data in SAP BTP application from SAP S/4HANA system, you will activate the OData endpoint in your system. Next you will create yourself a user in SAP S/4HANA and assigne the needed authorization to allow the usage of your created OData endpoint.
+To be able to access data in SAP BTP application from SAP S/4HANA system, you will activate the OData endpoint in your system. Next you will create yourself a user in SAP S/4HANA and assign the needed authorization to allow the usage of your created OData endpoint.
 
  <img src="././images/SolutionDiagram_3.png" width="80%">
 

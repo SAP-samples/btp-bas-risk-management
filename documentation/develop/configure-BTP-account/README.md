@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this section you will configure an SAP BTP account with all the required entitlements, to develop your low-code application. You also will create an SAP HANA instance to store the data needed for your application.
+In this section you will configure an SAP BTP account with all the required entitlements, to develop your low-code application. You also will create an SAP HANA Cloud instance to store the data needed for your application.
 
  <img src="././images/SolutionDiagram_1.png" width="80%">
 
@@ -29,7 +29,11 @@ When this booster you will create an account with entitlements for the SAP Busin
 
    <img src="././images/booster_3.png" width="70%">
 
-6. Now, you can configure your subaccount. Enter the required information and finish by choosing **Next**:
+6. (Optional) You can now configure your subaccount to your use case. To save costs it is recommended to remove the Entitlements for services which are not needed in this scenario. Find the Entitlements for _Application Autoscaler_, _Application Logging service_ and _Continuous Integration & Delivery_ in the table, and delete them by clicking the **bin icon**.
+
+    <img src="././images/booster_4a.png" width="70%">
+
+7. Enter the required information and finish by choosing **Next**:
   - **Subaccount Name:** for example, _Riskmanagement_
   - **Provider:** Amazon Web Services (AWS)
   - **Region:** EU10
@@ -39,45 +43,45 @@ When this booster you will create an account with entitlements for the SAP Busin
 
     <img src="././images/booster_4.png" width="70%">
 
-7. You can add users to your account. Enter all required administrators and users e-mail addresses in the input field. In case you have multiple people you can separate e-mails with quotation marks. Choose **Next** to finish.
+8. You can add users to your account. Enter all required administrators and users e-mail addresses in the input field. In case you have multiple people you can separate e-mails with quotation marks. Choose **Next** to finish.
 
-8. In the next tab, review all the details and then choose **Finish** to start the account creation.
+9. In the next tab, review all the details and then choose **Finish** to start the account creation.
 
-9. After your account is created, open your created **Subaccount** and choose **[Entitlements](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/00aa2c23479d42568b18882b1ca90d79.html?locale=en-US#entitlements)** on the left to add more services to your account.
+10. After your account is created, open your created **Subaccount** and choose **[Entitlements](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/00aa2c23479d42568b18882b1ca90d79.html?locale=en-US#entitlements)** on the left to add more services to your account.
 
-10. Choose **Configure Entitlements** and choose **Add Service Plans**.
+12. Choose **Configure Entitlements** and choose **Add Service Plans**.
 
     <img src="././images/entitlements_1.png" width="70%">
 
-11. In the pop-up use the search function to find required entitlements for **SAP HANA Cloud** and then choose the service plan 'hana' on the left site.
+12. In the pop-up use the search function to find required entitlements for **SAP HANA Cloud** and then choose the service plan 'hana' on the left site.
 
-12. Choose **Add 1 Service Plans**.
+13. Choose **Add 1 Service Plans**.
 
     <img src="././images/entitlements_2.png" width="70%">
 
-13. Choose **Save** to finish the configuration.
+14. Choose **Save** to finish the configuration.
 
     <img src="././images/entitlements_3.png" width="70%">
 
-14. In the menu on the left, choose **Service Marketplace** and search for **Launchpad Service**.
+15. In the menu on the left, choose **Service Marketplace** and search for **Launchpad Service**.
 
-15. Choose **Launchpad Service** tile.
+16. Choose **Launchpad Service** tile.
 
     <img src="././images/launchpad_1.png" width="70%">
 
-16. In the menu appeared on the right side of your screen, choose **Create** and confirm creation in the pop-up screen.
+17. In the menu appeared on the right side of your screen, choose **Create** and confirm creation in the pop-up screen.
 
     <img src="././images/launchpad_2.png" width="80%">
 
-17. In the menu on the left, navigate to **Security** &rarr; **Role Collections**.
+18. In the menu on the left, navigate to **Security** &rarr; **Role Collections**.
 
      <img src="././images/launchpad_3.png" width="70%">
 
-18. In the role collection list, find _Launchpad Admin_ and choose it to open.
+19. In the role collection list, find _Launchpad Admin_ and choose it to open.
 
-19. Choose **Edit** button and scroll down to **User** section. Enter your email address in the section and select _Default Identity Provider_ as **Identity Provider**.
+20. Choose **Edit** button and scroll down to **User** section. Enter your email address in the section and select _Default Identity Provider_ as **Identity Provider**.
 
-20. Choose **Save**.
+21. Choose **Save**.
 
     <img src="././images/launchpad_4.png" width="70%">
 

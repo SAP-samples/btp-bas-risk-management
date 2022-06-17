@@ -2,7 +2,12 @@
 
 ## Introduction
 
-In this section you will first create your development environment in SAP Business Application Studio. Then you will create data models to hold the data, define relationships between the entities and upload some first test data. In addition, you will build a user interface to display this data. As last step you will add a role concept to define different authorization. 
+In this section you will first create your development environment in SAP Business Application Studio. Then you will use the created environment to develop the sample application: 
+- Create Data models
+- Define relationships between the entities
+- Upload test data
+- Build User Interface to display the data
+- Add Role concept to define different authorizations
 
  <img src="././images/SolutionDiagram_2.png" width="80%">
 
