@@ -2,7 +2,8 @@
 
 ## Introduction
 
-In this section, an external service API from an SAP S/4HANA system is used.
+In this section you will expand your application with an API, which allows to get data from your SAP S/4HANA backend system. This enables the application to use data directly out from the backend system. Also you will update the user interface, so the data from backend is displayed correctly in your application.
+
 
 
 ### Add Business Partner API to Application
@@ -13,9 +14,9 @@ In this section, an external service API from an SAP S/4HANA system is used.
 
 3. On the left side of your screen the menu **Service Center** will appear. Expand the section **SAP System** and find your **Subaccount** there.
 
-4. Then open the destination you created in section earlier, for example, **bupa**.
+4. Then open the destination that you created in section earlier, for example, **bupa**.
 
-5. On the **bupa** page choose **A_Business_Partner** in the list **Entity**.
+5. On the bupa page, choose **A_Business_Partner** in the list **Entity**.
 
 6. Choose **Add Data Model**.
 
@@ -64,11 +65,11 @@ In this section, an external service API from an SAP S/4HANA system is used.
 
     <img src="././images/update_UI_1.png" width="40%">
 
-4. In the Page Editor expand the **Columns** section and choose the **+** icon and select ***Add basic columns** from the dropdown.
+4. In the Page Editor, expand the **Columns** section and choose the **+** icon and select ***Add basic columns** from the dropdown.
 
     <img src="././images/update_UI_2.png" width="40%">
 
-5. In the pop-up choose **supplier_BusinessPartner** for **Columns**. Then choose **Add**.
+5. In the pop-up, choose **supplier_BusinessPartner** for **Columns**. Then choose **Add**.
 
     <img src="././images/update_UI_3.png" width="40%">
 
@@ -76,7 +77,7 @@ In this section, an external service API from an SAP S/4HANA system is used.
 
     <img src="././images/update_UI_4.png" width="40%">
 
-7. In the entry **Section** open **General Information** &rarr; **Form** &rarr; **Fields**. Choose the **+** icon to add new fields to the UI. In the dropdown select _Add Basic Fields_.
+7. In the entry **Section** open **General Information** &rarr; **Form** &rarr; **Fields**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Fields_.
 
     <img src="././images/update_UI_5.png" width="40%">
 
@@ -98,7 +99,7 @@ In this section, an external service API from an SAP S/4HANA system is used.
 
 12. In screen **Value Help** choose **Add column** button.
 
-13. In the dropdown select _SupplierFullName_.
+13. In the dropdown, select _SupplierFullName_.
 
 14. Repeat step 12 and 13 with _SupplierIsBlocked_.
 
@@ -108,7 +109,7 @@ In this section, an external service API from an SAP S/4HANA system is used.
 
 ## Summary
 
-In this section you have expand you application with an API which allows to get data from your SAP S/4HANA backend system. Now the application can use data directly out from the backend system. Also you have updated the user interface, so the data from backend is displayed correctly in your application. In the next step you will deploy your application.
+ In this section, you have integrated an external service API from an SAP S/4HANA system to your application. In the next step, you will deploy your application.
 
 
 Need help? Look at the [Troubleshooting Guide](../../complete/troubleshooting#consume-external-service-from-sap-s4hana) or use mission support to connect with mission experts.

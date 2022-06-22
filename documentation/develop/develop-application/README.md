@@ -2,7 +2,12 @@
 
 ## Introduction
 
-You will now develop the application with SAP Business Application Studio visual tools.
+In this section you will first create your development environment in SAP Business Application Studio. Then you will use the created environment to develop the sample application:
+- Create data models
+- Define relationships between the entities
+- Upload test data
+- Build a user interface to display the data
+- Add role concept to define different authorizations
 
  <img src="././images/SolutionDiagram_2.png" width="80%">
 
@@ -14,11 +19,11 @@ You will now develop the application with SAP Business Application Studio visual
 
 2. Find **SAP AppGyver** in the application section and choose the browser icon to open the app.
 
-   <img src="./images/open_appgyver_1.png" width="80%">
+3. In home page of SAP Business Application Studio choose button **Create Dev Space** to start
 
 ### Create Development Project
 
-Now, you are on the home page of low-code **Application Development**.
+   > A [dev space](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/6053df8bca3946f098bc9f89e49d7317.html?locale=en-US) in SAP Business Application Studio is a development environment with the tools, capabilities, and resources needed for developing your application.
 
 1. Start a new **Project** by choosing **Create**.
 
@@ -225,6 +230,6 @@ Now, you can create roles to define different authorization for your application
 
 ## Summary
 
-Congratulations! You now have finished a first version of your application. In this section you have created data models to hold the data, defined relationships between the entities and uploaded some first test data. In addition, you have build a user interface to display this data. As last step you have added a role concept to define different authorization. Next you will test the application.
+You now have developed your first application with SAP Business Application Studio visual tools. In the next section you will test the application.
 
 Need help? Look at the [Troubleshooting Guide](../../complete/troubleshooting#develop-risk-management-application-using-sap-business-application-studio-visual-tools) or use mission support to connect with mission experts.

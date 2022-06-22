@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this section, you will configure the Cloud Connector for connecting the SAP S/4HANA on-premise backend system with SAP BTP.
+In this section, you will use SAP Connectivity service to establish a connection between your created cloud application and the SAP S/4HANA backend system. First you will create a system mapping in [Cloud Connector](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/e6c7616abb5710148cfcf3e75d96d596.html?locale=en-US), then you will use SAP Destination service to retrieve technical information about destinations that are required to consume the SAP Connectivity service.
 
  <img src="././images/SolutionDiagram_4.png" width="80%">
 
@@ -67,7 +67,7 @@ In this section, you will configure the Cloud Connector for connecting the SAP S
 
     <img src="././images/configure_cloud_connector_5.png" width="70%">
 
-17.	Choose the **+** icon to add a resource.
+17.	Choose the **&#x2B;** icon to add a resource.
 
     <img src="././images/configure_cloud_connector_6.png" width="70%">
 
@@ -84,7 +84,7 @@ In this section, you will configure the Cloud Connector for connecting the SAP S
 
 ### Set Up Destination in SAP BTP Account
 
-> See [SAP Help Portal](https://help.sap.com/viewer/6d3eac5a9e3144a7b43932a1078c7628/Cloud/en-US/0a2e5a45d5494ec08318ead2019d54db.html) for more details.
+> See [SAP Help Portal](https://help.sap.com/viewer/6d3eac5a9e3144a7b43932a1078c7628/Cloud/en-US/0a2e5a45d5494ec08318ead2019d54db.html) for more details on how to set up a destination.
 
 1. Go back to [SAP BTP Cockpit](https://account.hana.ondemand.com/) and select your **Subaccount**.
 

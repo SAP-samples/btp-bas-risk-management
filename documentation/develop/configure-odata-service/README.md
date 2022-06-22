@@ -92,7 +92,7 @@ Now, we are going to create a user in our SAP S/4HANA backend system and assign 
 20. Now choose **Status**, then generate with clicking the **circle icon** on the top and **Save** the profile in the pop-up.
 
 
-21. Go back and switch to the **User** tab, select your **technical user** in the table, and choose **User Comparison** and choose full comparisons in the pop-up.
+21. Go back and switch to the **User** tab and select your **technical user** in the table. **Save** the profile, choose **User Comparison**, and choose full comparisons in the pop-up.
 
     <img src="././images/configure_odata_Service_12.png" width="80%"> ´
 
@@ -104,4 +104,4 @@ Now, we are going to create a user in our SAP S/4HANA backend system and assign 
 
 To be able to access data in SAP BTP application from SAP S/4HANA system, you have activated to OData endpoint in your system. Next you have created yourself a user in SAP S/4HANA and assigned the needed authorization to allow the usage of your created OData endpoint.
 
-In the next section you will use the Cloud Connector to create the connection between SAP S/4HANA system and your SAP BTP account.
+In the next section, you will use the Cloud Connector to create the connection between SAP S/4HANA system and your SAP BTP account.
