@@ -20,9 +20,9 @@ In this section, you will deploy the application to Cloud Foundry environment.
    - Select org
    - Select space
 
-4. Choose **Deploy**.
-
    <img src="././images/deploy_2.png" width="80%">
+
+4. Choose **Enter**.
 
 5. Your application will be deployed. This can take a few minutes.
 

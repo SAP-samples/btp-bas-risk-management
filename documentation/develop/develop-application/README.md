@@ -13,39 +13,47 @@ In this section you will first create your development environment in SAP Busine
 
 ## Develop Risk Management Application
 
-### Open Low-Code Development Tools
+### Open Low-Code Development Tools and Create Development Project
 
 1. Go back to your subaccount in [SAP BTP Cockpit](https://account.hana.ondemand.com/) and navigate to **Instances and Subscriptions** in the menu on the left side of the screen.
 
-2. Find **SAP AppGyver** in the application section and choose the browser icon to open the app.
+2. Find **SAP Business Application Studio** in the application section and choose the browser icon to open the app.
 
 3. In home page of SAP Business Application Studio choose button **Create Dev Space** to start
 
-### Create Development Project
+   <img src="./images/create_dev_space_1.png" width="70%">
 
    > A [dev space](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/6053df8bca3946f098bc9f89e49d7317.html?locale=en-US) in SAP Business Application Studio is a development environment with the tools, capabilities, and resources needed for developing your application.
 
-1. Start a new **Project** by choosing **Create**.
+4. Enter a name for your Dev Space for example, _Riskmanagement_  and select **[Low-Code-Based Full-Stack Cloud Application](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/00ad0484344c461caf80a7c695fd38af.html?locale=en-US)** in menu.
 
-   <img src="./images/application_development.png" width="70%">
+5. Choose **Create Dev Space**
 
-2. Select **Business Application** in the dropdown.
+   <img src="./images/create_dev_space_2.png" width="80%">
 
-3. In the pop-up enter a **Project Name**, for example, _riskmanagement_ and provide a **Short Description**.
+6. Your Dev Space is now being created and as soon as status change to _Running_ you can open your Dev Space by clicking on the name
 
-4. Finish by choosing **Create**.
+   <img src="./images/create_dev_space_3.png" width="60%">
 
-   > SAP Business Application Studio is about to be opened and a dev space is created.
+7. In SAP Business Application Studio, choose **gear icon** on the top right and choose **Create Project** in dropdown
+
+   <img src="./images/create_dev_space_4.png" width="60%">
+
+8.  In the pop-up enter a **Project Name**, for example, _riskmanagement_ and provide a **Short Description**.
+
+9. Finish by choosing **Create**.
+
+   <img src="./images/create_dev_space_5.png" width="40%">
 
    > Loading SAP Business Application Studio for low-code development can take some time, especially if it’s the first time you use it.
 
-#### Create Data Model
+#### Start Development of Application and Create Data Model
 
-First you will model your application and define the database table and the relationship between the entities.
+Now you can start the development of your application. First you will model your application and define the database table and the relationship between the entities.
 
-1. In SAP Business Application Studio under tab **Home**, look for the tile **Data Models** and choose the **+** icon to add a new entity.
+1. In this application two Data Models 'Risks' and 'Mitigations', to hold the data are needed. To create a Data Model open SAP Business Application Studio under tab **Home**, look for the tile **[Data Models](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/759ecc54523141d1af2b56f7b27c110a.html?locale=en-US)** and choose the **+** icon to add a new entity.
 
-   <img src="./images/add_data_model_1.png" width="40%">
+   <img src="./images/add_data_model_1.png" width="30%">
 
 2. Enter the **Entity Name** _Risks_ and choose the **+** icon in the table to add the following properties:
 
@@ -61,7 +69,7 @@ First you will model your application and define the database table and the rela
 
    <img src="./images/add_data_model_2.png" width="70%">
 
-4. Back in the **Data Model Editor**, choose the **+** icon in the menu on the top to **add** another entity. Enter the Entity name _Mitigations_ and choose the **+** icon in the table to add following properties:
+4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_ and choose the **+** icon in the table to add following properties:
 
    | Property Name | Property Type | Max Length |
    |---------------|---------------|------------|
@@ -75,7 +83,7 @@ First you will model your application and define the database table and the rela
 
 5. Choose **Create** to finish.
 
-6. Now, you can see two properties in the **Data Model Editor**. Find the entry of **Risks** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Mitigations entity, by clicking on table and configure the relationship in pop-up.
+6. Now, you can see two properties in the **Data Model Editor** In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Risks** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Mitigations entity, by clicking on table and configure the relationship in pop-up.
 
    <img src="./images/add_data_model_5.png" width="60%">
 
@@ -83,19 +91,17 @@ First you will model your application and define the database table and the rela
    - Select **Relationship:** _Association_
    - Select **Relationship Type:** _To-one_
    - Enter **Property name:** _miti_
-   - Select **Target entity type:** _Riskmanagement.Mitigations_
 
 8. Choose **Create**.
 
-   <img src="./images/add_data_model_6.png" width="60%">
+   <img src="./images/add_data_model_6.png" width="50%">
 
 9. Repeat the step for **Mitigations** and click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
 10. In the pop-up screen select all the required details:
-    - **Relationship:** Association
+   - **Relationship:** Association
    - **Relationship type:** To-many
    - **Property Name:** risks
-   - **Target Entity Type:** Riskmanagement.Risks
    - **Backlink Property:** miti
 
 11. Choose **Create**.
@@ -112,11 +118,12 @@ First you will model your application and define the database table and the rela
 
     <img src="./images/add_data_model_9.png" width="30%">
 
-15. Navigate back to the **Data Model Editor** and click on the header of the **Risks** entry and then choose the **Include Aspects** icon in the appeared menu.
+15. Back in the **Data Model Editor** click on the header of the **Risks** entry and then choose the **Include Aspects** icon in the appeared menu. This allows to flexible extend definitions by new elements as well as overriding properties and annotations.
 
     <img src="./images/add_data_model_10.png" width="50%">
 
-16. In the pop-up, choose **global.managed** from the list and choose **Select**.
+
+16. In the pop-up, choose **global.managed** from the list and choose **Select**. The global.managed aspect allows to track changes made in the data.
 
     <img src="./images/add_data_model_11.png" width="30%">
 
@@ -126,25 +133,27 @@ First you will model your application and define the database table and the rela
 
 #### Create Services
 
-1. Go back to the home page of the application. Find the **Services** tile and choose the **+** icon to add a new service entity.
+Now you will create service entities for Risks and Mitigations to define which parts of the data models you just have created should be exposed to the application.
 
-   <img src="./images/add_services_1.png" width="40%">
+1. Go back to the home page of the application. Find the **[Services](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/af4df4c8fcd94152bb7bf6a4e205709b.html?locale=en-US)** tile and choose the **+** icon to add a new service entity.
+
+   <img src="./images/add_services_1.png" width="30%">
 
 2. On the next screen, enter the following and choose **Create** to finish:
    - Enter **Name:** _risks_
    - Select **Namespace:** _riskmanagementService_
-   - Select **Type:** _Riskmanagement.Risks_
+   - Select **Type:** _riskmanagement.Risks_
 
    <img src="./images/add_services_2.png" width="60%">
 
 3. In the screen **Service Editor**, find the risks entity and choose header of entry. A menu will appear on the right side of the screen. in section **Property Sheet** check the checkbox for _draft editing_.
 
-   <img src="./images/add_services_3.png" width="60%">
+   <img src="./images/add_services_3.png" width="40%">
 
 4. Back in **Service Editor** choose **Add Entity**. Repeat the previous steps and configure the new entity and choose **Create** to finish:
    - Enter **Name:** _mitigation_
    - Select **Namespace:** _'riskmanagementService_
-   - Select **Type:** _Riskmanagement.Mitigation_
+   - Select **Type:** _riskmanagement.Mitigation_
 
      <img src="./images/add_services_5.png" width="60%">
 
@@ -154,9 +163,9 @@ First you will model your application and define the database table and the rela
 
 Once the structure of your application is finished, you can add sample data to the application. You either can use the visual data editor or insert data using a CSV file.
 
-1. Go back to the home page of the application. Find the **Sample Data** tile and choose **+** icon to add a new data entity.
+1. Go back to the home page of the application. Find the **[Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)** tile and choose **+** icon to add a new data entity.
 
-   <img src="./images/add_data_1.png" width="40%">
+   <img src="./images/add_data_1.png" width="30%">
 
 2. In the pop-up choose **Import** and select _Risks_ in the **Import for Entity** field. Then choose **Import**.
 
@@ -172,9 +181,7 @@ Once the structure of your application is finished, you can add sample data to t
 
 After defining the foundation of your application, we will add an SAP Fiori elements based User Interface to the application.
 
-Last step in development is creating a user interface for the application.
-
-1. Go back to the home page and find the **User Interface** tile and choose the **+** icon to add a new user interface.
+1. Go back to the home page and find the **[User Interface](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/efab3e5b3c6b4647a6928d68372a67ac.html?locale=en-US)** tile and choose the **+** icon to add a new user interface.
 
    <img src="./images/create_UI_1.png" width="40%">
 
@@ -202,9 +209,9 @@ Last step in development is creating a user interface for the application.
 
 Now, you can create roles to define different authorization for your application. For example you might want to ensure that some people can view data, but are not able to edit them.
 
-1. Go back to the home page of the application. Find the **User Roles** tile and choose the **+** icon to add a new role.
+1. Go back to the home page of the application. Find the **[User Roles](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/369ed9cc7a724cfcb2bdbe20f8b6e7d6.html?locale=en-US)** tile and choose the **+** icon to add a new role.
 
-   <img src="./images/user_roles_1.png" width="40%">
+   <img src="./images/user_roles_1.png" width="30%">
 
 2. Choose the **+** icon to add new user role and enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
 

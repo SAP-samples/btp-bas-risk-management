@@ -6,7 +6,6 @@ In this section, you will use SAP Connectivity service to establish a connection
 
  <img src="././images/SolutionDiagram_4.png" width="80%">
 
-**Persona:** SAP BTP Admin
 
 
 ### Configure Systems in Cloud Connector for Access with Technical User
@@ -121,7 +120,7 @@ In this section, you will use SAP Connectivity service to establish a connection
 
 ## Summary
 
-In this section, you have used SAP Connectivity service to establish a connection between your created cloud application and the SAP S/4HANA backend system. First you have created a system mapping in Cloud Connector, then you have used SAP Destination service to retrieve technical information about destinations that are required to consume the SAP Connectivity service.
+In this section, you have configured the Cloud Connector for connecting the SAP S/4HANA on-premise backend system with SAP BTP.
 
 In the next section, you will add an API to your application to use the established connection to the backend system.
 
