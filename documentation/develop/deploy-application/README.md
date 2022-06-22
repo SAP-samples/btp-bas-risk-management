@@ -20,15 +20,15 @@ In this section, you will deploy the application to Cloud Foundry environment.
    - Select org
    - Select space
 
-4. Choose **Deploy**.
-
    <img src="././images/deploy_2.png" width="80%">
+
+4. Choose **Enter**.
 
 5. Your application will be deployed. This can take a few minutes.
 
 ### Assign Role Collection
 
-Before you can use the application you need to assign yourself to the roles you have created in the section before. This needs to be done so you are able to edit and view the data from the application.
+Before you can use the application, you need to assign yourself to the roles you have created in the section before. This needs to be done so you are able to edit and view the data from the application.
 
 1. Go back to [SAP BTP Cockpit](https://account.hana.ondemand.com/).
 
