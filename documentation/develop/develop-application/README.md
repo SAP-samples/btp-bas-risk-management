@@ -35,7 +35,7 @@ In this section you will first create your development environment in SAP Busine
 
    <img src="./images/create_dev_space_3.png" width="60%">
 
-7. In SAP Business Application Studio, choose **gear icon** on the top right and choose **Create Project** in dropdown
+7. In SAP Business Application Studio, choose **Project** on the top right and choose **Create** in dropdown
 
    <img src="./images/create_dev_space_4.png" width="60%">
 
