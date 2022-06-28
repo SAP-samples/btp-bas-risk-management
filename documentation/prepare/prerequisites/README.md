@@ -26,8 +26,3 @@ The application requires the following set of SAP BTP [Entitlements and Quotas](
 | SAP HANA Cloud                    | hana       |
 | SAP HANA Schemas & HDI Containers | hdi-shared |
 
-
-
-## Prerequisites for SAP HANA Cloud
-
-Make sure that you have an instance of SAP HANA Cloud database in your space. See section [Create an SAP HANA Database Instance Using SAP HANA Cloud Central](https://help.sap.com/viewer/9ae9104a46f74a6583ce5182e7fb20cb/hanacloud/en-US/f7febb16072b41f7ac90abf5ea1d4b86.html) for more details.
