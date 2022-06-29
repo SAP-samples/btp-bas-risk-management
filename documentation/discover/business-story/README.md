@@ -9,7 +9,7 @@ This scenario covers:
 * Deploying the application on SAP BTP Cloud Foundry environment
 * On-premise connectivity
 
-![Business Scenario](././images/SolutionDiagramBAS.png)
+![Business Scenario](././images/SolutionDiagramBas1.jpg)
 
 
 
