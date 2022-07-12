@@ -197,13 +197,13 @@ After defining the foundation of your application, we will add an SAP Fiori elem
 
    <img src="./images/create_UI_4.png" width="40%">
 
-5. Select main entity _risks_ in main entity, to show risks entity in UI. Choose **Finish**.
+5. Select main entity _risks_ in as main entity in Data Objects, to show risks entity in UI. Choose **Finish**.
 
    <img src="./images/create_UI_5.png" width="40%">
 
 6. Repeat the steps 1–4 for _Mitigations_.
 
-7. Select main entity _mitigation_ in main entity, to show mitigations entity in the UI and choose _risks_ as navigation entity. Choose **Finish**.
+7. Select main entity _mitigation_ in as main entity in Data Objects, to show mitigations entity in the UI and choose _risks_ as navigation entity. Choose **Finish**.
 
 #### Create User Roles
 
