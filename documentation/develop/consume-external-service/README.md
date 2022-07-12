@@ -103,7 +103,9 @@ In this section you will expand your application with an API, which allows to ge
 
 14. Repeat step 12 and 13 with _SupplierIsBlocked_.
 
-15. Choose **Apply**.
+15. Disable the **Display as Dropdown** toggle button
+
+16. Choose **Apply**.
 
     <img src="././images/update_UI_8.png" width="40%">
 
