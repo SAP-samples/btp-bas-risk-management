@@ -20,7 +20,7 @@ In this section you will configure an SAP BTP account with all the required enti
 
 > [Subaccounts](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/8ed4a705efa0431b910056c0acdbf377.html?locale=en-US#subaccounts) let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and [entitlements](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/00aa2c23479d42568b18882b1ca90d79.html?locale=en-US#entitlements).
 
-4. In the pop-up a check is running to verify that your account fulfills all the necessary requirements. After all checks are successfull, choose **Next**.
+4. In the pop-up a check is running to verify that your account fulfills all the necessary requirements. After all checks are successful, choose **Next**.
 
    <img src="././images/booster_2.png" width="70%">
 
