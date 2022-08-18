@@ -48,6 +48,8 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 8: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
 
+### Step 9 (Optional): [Set up Mock Server](/documentation/develop/set-up-mock-server#set-up-mock-server) 
+
 
 ## Known Issues
 
