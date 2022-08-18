@@ -16,3 +16,5 @@
 ### Step 7: [Deploy Application to Cloud Foundry Environment](../documentation/develop/deploy-application/)
 
 ### Step 8: [Integrate the Application with SAP Launchpad Service](../documentation/develop/integrate-with-launchpad/)
+
+### Step 9 (Optional): [Set up Mock Server](../documentation/develop/set-up-mock-server/)
