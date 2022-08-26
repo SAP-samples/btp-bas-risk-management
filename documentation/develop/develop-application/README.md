@@ -38,12 +38,22 @@ In this section you will first create your development environment in SAP Busine
 7. In SAP Business Application Studio, choose **gear icon** on the top right and choose **Create Project** in dropdown
 
    <img src="./images/create_dev_space_4.png" width="60%">
+   
+<!-- TODO: Replace after workshop
 
 8.  In the pop-up enter a **Project Name**, for example, _riskmanagement_ and provide a **Short Description**.
 
+-->
+
+8.  In the pop-up enter a unique **Project Name**, for example, _Riskmanagement_sap_ (replace `sap` with unique identifier) and provide a **Short Description**.
+
 9. Finish by choosing **Create**.
 
+<!-- TODO: Replace after workshop
    <img src="./images/create_dev_space_5.png" width="40%">
+-->
+   
+   <img src="./images/create_dev_space_5_suffix.png" width="40%">
 
    > Loading SAP Business Application Studio for low-code development can take some time, especially if it’s the first time you use it.
 
