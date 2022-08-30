@@ -35,10 +35,11 @@ In this section you will first create your development environment in SAP Busine
 
    <img src="./images/create_dev_space_3.png" width="60%">
 
+<!--
 7. In SAP Business Application Studio, choose **gear icon** on the top right and choose **Create Project** in dropdown
 
    <img src="./images/create_dev_space_4.png" width="60%">
-   
+   -->
 <!-- TODO: Replace after workshop
 
 8.  In the pop-up enter a **Project Name**, for example, _riskmanagement_ and provide a **Short Description**.
@@ -124,9 +125,9 @@ Now you can start the development of your application. First you will model your
 
     <img src="./images/add_data_model_8.png" width="60%">
 
-14. In the pop-up, select **managed** from the list and choose **Select** to finish.
+14. In the pop-up, select **sap.common** from the list and choose **Select** to finish.
 
-    <img src="./images/add_data_model_9.png" width="30%">
+    <img src="./images/add_data_model_12.png" width="30%">
 
 15. Back in the **Data Model Editor** click on the header of the **Risks** entry and then choose the **Include Aspects** icon in the appeared menu. This allows to flexible extend definitions by new elements as well as overriding properties and annotations.
 
@@ -151,8 +152,8 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 2. On the next screen, enter the following and choose **Create** to finish:
    - Enter **Name:** _risks_
-   - Select **Namespace:** _riskmanagementService_
-   - Select **Type:** _riskmanagement.Risks_
+   - Select **Namespace:** "riskmanagement_<UniqueName>Service"
+   - Select **Type:** "riskmanagement_<UniqueName>.Risks"
 
    <img src="./images/add_services_2.png" width="60%">
 
@@ -162,8 +163,8 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 4. Back in **Service Editor** choose **Add Entity**. Repeat the previous steps and configure the new entity and choose **Create** to finish:
    - Enter **Name:** _mitigation_
-   - Select **Namespace:** _'riskmanagementService_
-   - Select **Type:** _riskmanagement.Mitigation_
+   - Select **Namespace:** "riskmanagement_<UniqueName>Service"
+   - Select **Type:** "riskmanagement_<UniqueName>.Mitigation"
 
      <img src="./images/add_services_5.png" width="60%">
 

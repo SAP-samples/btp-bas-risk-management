@@ -16,7 +16,7 @@ In this section you will expand your application with an API, which allows to ge
 
 4. Then open the destination that you created in section earlier, for example, **bupa**.
 
-5. On the bupa page, choose **A_Business_Partner** in the list **Entity**.
+5. On the bupa page, choose **A_BusinessPartner** in the list **Entity**.
 
 6. Choose **Add Data Model**.
 
