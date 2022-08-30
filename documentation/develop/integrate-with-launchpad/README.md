@@ -64,9 +64,24 @@ In this section, the application will be connected with SAP Launchpad service. T
 
     <img src="././images/integrate_launchpad_8.png" width="40%">
 
-21. Congratulations! You now can use your previously created application.
+21. Test the Application
+    - Open the Risks Application
 
-    <img src="././images/integrate_launchpad_9.png" width="50%">
+     <img src="././images/integrate_launchpad_9.png" width="50%">
+
+    - Click on 'Go' to view the Entries
+
+    <img src="././images/risk_1.png" width="50%">
+
+    Create New Risk
+    - Choose Create button
+    - Provide values in title, impact, prio, descr.
+
+    <img src="././images/risk_2.png" width="50%">
+
+    - Choose value help icon to select supplier_BusinessPartner
+    - Choose create button to generate new Risk  
+
 
  ## Summary
 
