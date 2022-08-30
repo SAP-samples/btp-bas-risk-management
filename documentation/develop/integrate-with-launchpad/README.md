@@ -54,7 +54,7 @@ In this section, the application will be connected with SAP Launchpad service. T
 
     <img src="././images/integrate_launchpad_7.png" width="40%">
 
-17. Enter the site name as 'RiskManagement Site' and choose **Create**.
+17. Enter the site name as 'RiskManagement Site < uniqueName >' and choose **Create**.
 
 18. Now, you are forwarded to your created site. Choose **Edit**.
 

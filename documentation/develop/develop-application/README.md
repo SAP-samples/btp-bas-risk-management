@@ -152,8 +152,8 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 2. On the next screen, enter the following and choose **Create** to finish:
    - Enter **Name:** _risks_
-   - Select **Namespace:** "riskmanagement_<UniqueName>Service"
-   - Select **Type:** "riskmanagement_<UniqueName>.Risks"
+   - Select **Namespace:** "riskmanagement_< UniqueName >Service"
+   - Select **Type:** "riskmanagement_< UniqueName >.Risks"
 
    <img src="./images/add_services_2.png" width="60%">
 
