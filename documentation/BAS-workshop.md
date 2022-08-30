@@ -4,7 +4,7 @@
 
 ### Step 2: [Test Application with Sample Data](../documentation/develop/test-application/)
 
-### Step 2: [Implement custom logic](../documentation/develop/implement-custom-logic/)
+### Step 3: [Implement custom logic](../documentation/develop/implement-custom-logic/)
 
 ### Step 4: [Consume External Service from SAP S/4HANA](../documentation/develop/consume-external-service)
 
