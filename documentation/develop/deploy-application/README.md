@@ -16,13 +16,17 @@ In this section, you will deploy the application to Cloud Foundry environment.
 
 3. Log in to your account:
    - Provide API endpoint to your account
-   - Enter your e-mail
-   - Select org
-   - Select space
+   - Select authentication method 'SSO Passcode'
+   - Click on the link 'open a new browser page to generate your SSO passcode'
+   - Enter SSO passcode 
+   - Click on Sign in
 
-   <img src="././images/deploy_2.png" width="80%">
-
-4. Choose **Enter**.
+   <img src="././images/deploy_3.png" width="80%">
+   
+   - Select org and space
+   - Click on Apply
+   
+   <img src="././images/deploy_4.png" width="80%">
 
 5. Your application will be deployed. This can take a few minutes.
 

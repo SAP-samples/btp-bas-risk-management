@@ -28,32 +28,34 @@ In this section you will expand your application with an API, which allows to ge
    - **Name:** _A_Supplier_
    - **Type:** _bupa.A_BusinessPartner_
    - **Properties:** _BusinessPartner_, _BusinessPartnerFullName_, _BusinessPartnerIsBlocked_
+<!--
 
 9. In a next step, we individualize the name of properties. Choose the pencil icon behind your selected property and change the names:
     - _BusinessPartner_ &rarr; _Supplier_
     - _BusinessPartnerFullName_ &rarr; _SupplierFullName_
     - _BusinessPartnerIsBlocked_ &rarr;  _SupplierIsBlocked_
+    -->
 
-10. Choose **Create**.
+9. Choose **Create**.
 
-   <img src="././images/consume_external_service _A2.png" width="60%">
+   <img src="././images/consume_external_service_A6.png" width="60%">
 
-11. Go back to the **Home** page and find tile **Data Models**. Choose the entry **Risks**.
+10. Go back to the **Home** page and find tile **Data Models**. Choose the entry **Risks**.
 
-12. Choose the icon to **Add Relationship** of the risk entity. Click on anywhere on screen to configure relationship.
+11. Choose the icon to **Add Relationship** of the risk entity. Click on anywhere on screen to configure relationship.
 
     <img src="././images/consume_external_service _3.png" width="60%">
 
-13. In the pop-up configure the relationship like:
+12. In the pop-up configure the relationship like:
 
     - **Relationship:** _Association_
     - **Relationship Type:** _to-one_
     - **Property Name:** _supplier_
     - **Target Entity Type:** _bupa.A_BusinessPartner_
 
-14. Choose **Create**.
+13. Choose **Create**.
 
-    <img src="././images/consume_external_service _A3.png" width="60%">
+    <img src="././images/consume_external_service_A3.png" width="60%">
 
 ### Update UI Components
 
@@ -84,14 +86,14 @@ In this section you will expand your application with an API, which allows to ge
 8. Add the following fields using the dropdown:
     - _miti_ID_
     - _supplier_BusinessPartner_
-    - _SupplierFullName_
-    - _SupplierIsBlocked_
+    - _BusinessPartnerFullName_
+    - _BusinessPartnerIsBlocked_
 
 9. Choose **Add**.
 
-    <img src="././images/update_UI_6.png" width="60%">
+    <img src="././images/update_UI_9.png" width="60%">
 
-10. Navigate back to the **risks** page and choose **supplier_BusinessPartner**.
+10. Navigate back to the **risks object page** page and choose **supplier_BusinessPartner**.
 
 11. Find entry **Display Type** and choose **Value Help** in the dropdown.
 
@@ -99,9 +101,9 @@ In this section you will expand your application with an API, which allows to ge
 
 12. In screen **Value Help** choose **Add column** button.
 
-13. In the dropdown, select _SupplierFullName_.
+13. In the dropdown, select _BusinessPartnerFullName_.
 
-14. Repeat step 12 and 13 with _SupplierIsBlocked_.
+14. Repeat step 12 and 13 with _BusinessPartnerIsBlocked_.
 
 15. Disable the **Display as Dropdown** toggle button
 

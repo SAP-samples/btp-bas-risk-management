@@ -15,7 +15,7 @@ In this section you will first create your development environment in SAP Busine
 
 ### Open Low-Code Development Tools and Create Development Project
 
-1. Go back to your subaccount in [SAP BTP Cockpit](https://account.hana.ondemand.com/) and navigate to **Instances and Subscriptions** in the menu on the left side of the screen.
+1. Go back to your subaccount in SAP BTP Cockpit and navigate to **Instances and Subscriptions** in the menu on the left side of the screen.
 
 2. Find **SAP Business Application Studio** in the application section and choose the browser icon to open the app.
 
