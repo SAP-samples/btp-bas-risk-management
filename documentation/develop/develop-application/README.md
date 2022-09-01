@@ -224,7 +224,7 @@ Now, you can create roles to define different authorization for your application
 
    <img src="./images/user_roles_1.png" width="30%">
 
-2. Choose the **+** icon to add new user role and enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
+2. Enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
 
    <img src="./images/user_roles_2.png" width="50%">
 
