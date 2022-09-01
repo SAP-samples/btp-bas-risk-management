@@ -174,19 +174,21 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 Once the structure of your application is finished, you can add sample data to the application. You either can use the visual data editor or insert data using a CSV file.
 
-1. Go back to the home page of the application. Find the **[Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)** tile and choose **+** icon to add a new data entity.
+1. Download the [archive](../../../data.zip) containing the sample data in CSV format and extract the files.
+
+2. Go back to the home page of the application. Find the **[Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)** tile and choose **+** icon to add a new data entity.
 
    <img src="./images/add_data_1.png" width="30%">
 
-2. In the pop-up choose **Import** and select _Risks_ in the **Import for Entity** field. Then choose **Import**.
+3. In the pop-up choose **Import** and select _Risks_ in the **Import for Entity** field. Then choose **Import**.
 
    <img src="./images/add_data_2.png" width="60%">
 
-3. Import a CSV file with the required data for risks. You can download the `Riskmanagement-Risks.csv` file in [sample GitHub](../../../db/data/Riskmanagement-Risks.csv)
+4. Import `Riskmanagement-Risks.csv` CSV file with the required data for risks.
 
    <img src="./images/add_data_3.png" width="60%">
 
-4. Repeat the steps 1–3 with _Mitigations_. Find the example `Riskmanagement-Mitigations.csv` file in [sample GitHub](../../../db/data/Riskmanagement-Mitigations.csv)
+5. Import `Riskmanagement-Mitigations.csv` CSV file with the required data for mitigations.
 
 #### Add User Interface
 
@@ -224,7 +226,7 @@ Now, you can create roles to define different authorization for your application
 
    <img src="./images/user_roles_1.png" width="30%">
 
-2. Choose the **+** icon to add new user role and enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
+2. Enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
 
    <img src="./images/user_roles_2.png" width="50%">
 
