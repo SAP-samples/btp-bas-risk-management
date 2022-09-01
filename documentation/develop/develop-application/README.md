@@ -94,7 +94,7 @@ Now you can start the development of your application. First you will model your
 
 5. Choose **Create** to finish.
 
-6. Now, you can see two properties in the **Data Model Editor** In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Risks** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Mitigations entity, by clicking on table and configure the relationship in pop-up.
+6. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Risks** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Mitigations entity, by clicking on table and configure the relationship in pop-up.
 
    <img src="./images/add_data_model_5.png" width="60%">
 
@@ -107,7 +107,7 @@ Now you can start the development of your application. First you will model your
 
    <img src="./images/add_data_model_6.png" width="50%">
 
-9. Repeat the step for **Mitigations** and click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
+9. Repeat the previous step for **Mitigations**. Click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
 10. In the pop-up screen select all the required details:
    - **Relationship:** Association
