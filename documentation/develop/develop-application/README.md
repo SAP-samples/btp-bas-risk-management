@@ -76,9 +76,10 @@ Now you can start the development of your application. First you will model your
     | impact        | integer       |            |
     | criticality   | integer       |            |
 
+      <img src="./images/add_data_model_2.png" width="70%">
+
 3. Choose **Create**.
 
-   <img src="./images/add_data_model_2.png" width="70%">
 
 4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_ and choose the **+** icon in the table to add following properties:
 
@@ -103,9 +104,9 @@ Now you can start the development of your application. First you will model your
    - Select **Relationship Type:** _To-one_
    - Enter **Property name:** _miti_
 
-8. Choose **Create**.
+      <img src="./images/add_data_model_6.png" width="50%">
 
-   <img src="./images/add_data_model_6.png" width="50%">
+8. Choose **Create**.
 
 9. Repeat the previous step for **Mitigations**. Click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
@@ -115,9 +116,11 @@ Now you can start the development of your application. First you will model your
    - **Property Name:** risks
    - **Backlink Property:** miti
 
+   
+      <img src="./images/add_data_model_7.png" width="50%">
+
 11. Choose **Create**.
 
-    <img src="./images/add_data_model_7.png" width="50%">
 
 12. Back in the **Data Model Editor**, choose **Import** at the top bar.
 
