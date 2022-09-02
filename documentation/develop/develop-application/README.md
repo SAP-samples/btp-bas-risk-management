@@ -85,9 +85,9 @@ Now you can start the development of your application. First you will model your
 
    | Property Name | Property Type | Max Length |
    |---------------|---------------|------------|
-   | description   | string        |            |
-   | owner         | string        |            |
-   | timeline      | string        |            |
+   | description   | string        | 100        |
+   | owner         | string        | 100        |
+   | timeline      | string        | 100        |
 
    <img src="./images/add_data_model_3.png" width="60%">
 
