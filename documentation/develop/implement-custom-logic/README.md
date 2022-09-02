@@ -80,4 +80,5 @@ module.exports = async (srv) => {
 
 You now have added the custom logic and handler to the developed application.
 
-You will perform a quick test run using the [preview](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/d0d7f68abdcb4c4bb9df427c9f925dba.html?locale=en-US) in SAP Business Application Studio with sample data to try out the application.
+You can now perform a quick test run using the [preview](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/d0d7f68abdcb4c4bb9df427c9f925dba.html?locale=en-US) in SAP Business Application Studio with sample data to try out the application.
+> Hint: In case there is no Preview button in Home screen, select the **...** button and then choose **Preview** in the dropdown
