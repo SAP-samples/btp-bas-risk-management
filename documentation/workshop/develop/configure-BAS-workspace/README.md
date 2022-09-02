@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this section you will first create your development environment in SAP Business Application Studio. Then you will use the created environment to develop the sample application in next chapter.
+In this section you will first create your development environment in SAP Business Application Studio. Then you will use the created environment to develop the sample application in the workshop.
 
 ### Configure Business Application Studio Workspace
 
@@ -26,4 +26,4 @@ In this section you will first create your development environment in SAP Busine
 
 ## Summary
 
-You now have created the dev space in SAP Business Application Studio. In the next chapter you will develop the sample application using SAP Business Application studio visual tools.
+You now have created the dev space in SAP Business Application Studio. In the workshop, you will develop the sample application using SAP Business Application studio visual tools.
