@@ -66,7 +66,7 @@ Now you can start the development of your application. First you will model your
 
    <img src="./images/add_data_model_1.png" width="30%">
 
-2. Enter the **Entity Name** _Risks_ and choose the **+** icon in the table to add the following properties:
+2. Enter the **Entity Name** _Risks_. Retain the property `ID` and choose the **+** icon in the table to add the following properties:
 
     | Property Name | Property Type | Max Length |
     |---------------|---------------|------------|
@@ -81,7 +81,7 @@ Now you can start the development of your application. First you will model your
 3. Choose **Create**.
 
 
-4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_ and choose the **+** icon in the table to add following properties:
+4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_. Retain the property `ID` and choose the **+** icon in the table to add following properties:
 
    | Property Name | Property Type | Max Length |
    |---------------|---------------|------------|
@@ -128,22 +128,32 @@ Now you can start the development of your application. First you will model your
 
     <img src="./images/add_data_model_8.png" width="60%">
 
+   `sap.common` provides predefined easy-to-use `Types`, `Aspects` and `Code Lists` that can be used in the application to foster interoperability.
+
 14. In the pop-up, select **sap.common** from the list and choose **Select** to finish.
 
     <img src="./images/add_data_model_12.png" width="30%">
 
-15. Back in the **Data Model Editor** click on the header of the **Risks** entry and then choose the **Include Aspects** icon in the appeared menu. This allows to flexible extend definitions by new elements as well as overriding properties and annotations.
+15. Go Back in the **Data Model Editor** on clicking home icon
+
+      <img src="./images/add_data_model_13.png" width="80%">
+
+16. Click on the header of the **Risks** entry and then choose the **Include Aspects** icon in the appeared menu. This allows to flexible extend definitions by new elements as well as overriding properties and annotations.
 
     <img src="./images/add_data_model_10.png" width="50%">
 
 
-16. In the pop-up, choose **global.managed** from the list and choose **Select**. The global.managed aspect allows to track changes made in the data.
+17. In the pop-up, choose **global.managed** from the list
 
     <img src="./images/add_data_model_11.png" width="30%">
 
-17. Repeat the steps for _Mitigations_. Click on the header of the **Mitigations** entry and choose the **Include Aspects** icon in the appeared menu.
+18. Choose **Select**. The global.managed aspect allows to track changes made in the data.
 
-18. In the pop-up, choose **global.managed** from the list and choose **Select**.
+19. Repeat the steps for _Mitigations_. Click on the header of the **Mitigations** entry and choose the **Include Aspects** icon in the appeared menu.
+
+20. In the pop-up, choose **global.managed** from the list and choose **Select**.
+
+      <img src="./images/add_data_model_11.png" width="30%">
 
 #### Create Services
 
@@ -163,6 +173,8 @@ Now you will create service entities for Risks and Mitigations to define which p
 3. In the screen **Service Editor**, find the risks entity and choose header of entry. A menu will appear on the right side of the screen. in section **Property Sheet** check the checkbox for _draft editing_.
 
    <img src="./images/add_services_3.png" width="40%">
+
+   `Draft Editing` allows to create new data for `Risks` in the draft mode with pre-defined handlers.
 
 4. Back in **Service Editor** choose **Add Entity**. Repeat the previous steps and configure the new entity and choose **Create** to finish:
    - Enter **Name:** _mitigation_
@@ -191,7 +203,7 @@ Once the structure of your application is finished, you can add sample data to t
 
    <img src="./images/add_data_3.png" width="60%">
 
-5. Import `Riskmanagement-Mitigations.csv` CSV file with the required data for mitigations.
+5. Similarly, import `Riskmanagement-Mitigations.csv` CSV file with the required data for mitigations.
 
 #### Add User Interface
 
