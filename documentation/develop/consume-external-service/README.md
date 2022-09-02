@@ -111,6 +111,15 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/update_UI_8.png" width="40%">
 
+17. Similary, configure value help for mitigation. select the property `miti_ID`
+
+18. Find entry **Display Type** and choose **Value Help** in the dropdown.
+
+19. In screen **Value Help** choose the following
+
+    <img src="././images/update_UI_10.png" width="50%">
+
+20. Choose **Apply**.
 ## Summary
 
  In this section, you have integrated an external service API from an SAP S/4HANA system to your application. In the next step, you will deploy your application.
