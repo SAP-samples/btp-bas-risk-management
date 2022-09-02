@@ -6,7 +6,7 @@
 
 ### Step 3: [Implement custom logic](../documentation/develop/implement-custom-logic/)
 
-### Step 4: [Consume External Service from SAP S/4HANA](../documentation/develop/consume-external-service)
+### Step 4: [Consume External Service from SAP S/4HANA](../documentation/workshop/develop/consume-external-service)
 
 ### Step 5: [Deploy Application to Cloud Foundry Environment](../documentation/develop/deploy-application/)
 
