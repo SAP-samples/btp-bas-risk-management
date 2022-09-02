@@ -6,9 +6,7 @@ In this section you will first create your development environment in SAP Busine
 
 ### Configure Business Application Studio Workspace
 
-1. Go to your subaccount in SAP BTP Cockpit and navigate to **Instances and Subscriptions** in the menu on the left side of the screen.
-
-2. Find **SAP Business Application Studio** in the application section and choose the browser icon to open the app.
+1. Open [SAP Business Application Studio](https://bas-workshop.eu10cf.applicationstudio.cloud.sap/index.html) and login with the provided user-id and password.
 
 3. In home page of SAP Business Application Studio choose button **Create Dev Space** to start
 
