@@ -10,11 +10,9 @@ In this section, you will deploy the application to Cloud Foundry environment.
 
 1. Open SAP Business Application Studio.
 
-2. Find the **Deploy** button in the top right of your screen.
-
-   <img src="././images/deploy_1.png" width="80%">
-
-3. Log in to your account:
+2. Log in to your account:
+   - Click the Hamburger icon and choose **View** then **Find Command**
+   - Select `CF: Login to Cloud Foundary`
    - Provide API endpoint to your account
    - Select authentication method 'SSO Passcode'
    - Click on the link 'open a new browser page to generate your SSO passcode'
@@ -28,7 +26,11 @@ In this section, you will deploy the application to Cloud Foundry environment.
    
    <img src="././images/deploy_4.png" width="80%">
 
-5. Your application will be deployed. This can take a few minutes.
+3. Find the **Deploy** button in the top right of Home Page.
+
+   <img src="././images/deploy_1.png" width="80%">   
+
+4. Your application will be deployed. This can take a few minutes.
 
 ### Assign Role Collection
 
