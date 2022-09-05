@@ -14,6 +14,10 @@ Congratulations! You now have finished a first version of your application. In t
 
    <img src="./images/test_app_1.png" width="80%">
 
+4. If the new tab doesn't automatically open, and the below popup appears on the screen, click the open button.
+
+   <img src="./images/test_app_4.png" width="80%">
+
 4. If the new tab doesn't automatically open, find the link to your test application in the terminal and click to open.
 
    <img src="./images/test_app_2.png" width="80%">
