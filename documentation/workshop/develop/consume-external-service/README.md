@@ -77,59 +77,59 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/update_UI_12.png" width="40%">
 
-4. In the Page Editor, expand the **Columns** section and choose the **+** icon and select ***Add basic columns** from the dropdown.
+6. In the Page Editor, expand the **Columns** section and choose the **+** icon and select ***Add basic columns** from the dropdown.
 
     <img src="././images/update_UI_2.png" width="40%">
 
-5. In the pop-up, choose **supplier_BusinessPartner** for **Columns**. Then choose **Add**.
+7. In the pop-up, choose **supplier_BusinessPartner** for **Columns**. Then choose **Add**.
 
     <img src="././images/update_UI_3.png" width="40%">
 
-6. Click on the arrow to navigate back and choose **risks** to open the **Object Page** entry and choose the edit icon.
+8. Click on the arrow to navigate back and choose **risks** to open the **Object Page** entry and choose the edit icon.
 
     <img src="././images/update_UI_4.png" width="40%">
 
-7. In the entry **Section** open **General Information** &rarr; **Form** &rarr; **Fields**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Fields_.
+9. In the entry **Section** open **General Information** &rarr; **Form** &rarr; **Fields**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Fields_.
 
     <img src="././images/update_UI_5.png" width="40%">
 
-8. Add the following fields using the dropdown:
+10. Add the following fields using the dropdown:
     - _miti_ID_
     - _supplier_BusinessPartner_
     - _BusinessPartnerFullName_
     - _BusinessPartnerIsBlocked_
 
-9. Choose **Add**.
+11. Choose **Add**.
 
     <img src="././images/update_UI_9.png" width="60%">
 
-10. Navigate back to the **risks object page** page and choose **supplier_BusinessPartner**.
+12. Navigate back to the **risks object page** page and choose **supplier_BusinessPartner**.
 
-11. Find entry **Display Type** and choose **Value Help** in the dropdown.
+13. Find entry **Display Type** and choose **Value Help** in the dropdown.
 
     <img src="././images/update_UI_7.png" width="40%">
 
-12. In screen **Value Help** choose **Add column** button.
+14. In screen **Value Help** choose **Add column** button.
 
-13. In the dropdown, select _BusinessPartnerFullName_.
+15. In the dropdown, select _BusinessPartnerFullName_.
 
-14. Repeat step 12 and 13 with _BusinessPartnerIsBlocked_.
+16. Repeat step 12 and 13 with _BusinessPartnerIsBlocked_.
 
-15. Disable the **Display as Dropdown** toggle button
+17. Disable the **Display as Dropdown** toggle button
 
-16. Choose **Apply**.
+18. Choose **Apply**.
 
     <img src="././images/update_UI_8.png" width="40%">
 
-17. Similary, configure value help for mitigation. select the property `miti_ID`
+19. Similary, configure value help for mitigation. select the property `miti_ID`
 
-18. Find entry **Display Type** and choose **Value Help** in the dropdown.
+20. Find entry **Display Type** and choose **Value Help** in the dropdown.
 
-19. In screen **Value Help** choose the following
+21. In screen **Value Help** choose the following
 
     <img src="././images/update_UI_10.png" width="50%">
 
-20. Choose **Apply**.
+22. Choose **Apply**.
 ## Summary
 
  In this section, you have integrated an external service API from an SAP S/4HANA system to your application. In the next step, you will deploy your application.
