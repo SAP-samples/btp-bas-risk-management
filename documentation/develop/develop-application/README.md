@@ -178,8 +178,8 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 4. Back in **Service Editor** choose **Add Entity**. Repeat the previous steps and configure the new entity and choose **Create** to finish:
    - Enter **Name:** _mitigation_
-   - Select **Namespace:** "riskmanagement_<UniqueName>Service"
-   - Select **Type:** "riskmanagement_<UniqueName>.Mitigation"
+   - Select **Namespace:** "riskmanagement_< UniqueName >Service"
+   - Select **Type:** "riskmanagement_< UniqueName >.Mitigation"
 
      <img src="./images/add_services_5.png" width="60%">
 
