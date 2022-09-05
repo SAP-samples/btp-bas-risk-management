@@ -69,6 +69,14 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/update_UI_1.png" width="40%">
 
+4. Choose the table element
+
+    <img src="././images/update_UI_11.png" width="40%">
+
+5. For the **Initial Load** property, choose **Enabled** in the drop-down.
+
+    <img src="././images/update_UI_12.png" width="40%">
+
 4. In the Page Editor, expand the **Columns** section and choose the **+** icon and select ***Add basic columns** from the dropdown.
 
     <img src="././images/update_UI_2.png" width="40%">
