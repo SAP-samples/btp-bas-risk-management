@@ -72,7 +72,7 @@ Now you can start the development of your application. First you will model your
     |---------------|---------------|------------|
     | title         | string        | 100        |
     | prio          | string        | 5          |
-    | descr         | string        | 100        |
+    | description   | string        | 100        |
     | impact        | integer       |            |
     | criticality   | integer       |            |
 
@@ -138,7 +138,7 @@ Now you can start the development of your application. First you will model your
 
       <img src="./images/add_data_model_13.png" width="80%">
 
-16. Click on the header of the **Risks** entry and then choose the **Include Aspects** icon in the appeared menu. This allows to flexible extend definitions by new elements as well as overriding properties and annotations.
+16. Click on the header of the **Risks** entry and then choose the **Include Aspects** icon in the appeared menu. This allows to flexibly extend definitions by new elements as well as overriding properties and annotations.
 
     <img src="./images/add_data_model_10.png" width="50%">
 
