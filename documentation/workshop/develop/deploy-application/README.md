@@ -53,10 +53,10 @@ Before you can use the application, you need to assign yourself to the roles you
 5. Under `users` add your user information
 
 - Identity Provider: **academy**
-- UserId: pa09248uXXX@sapexperienceacademy.com
-- E-Mail: pa09248uXXX@sapexperienceacademy.com
+- UserId: paXXX@sapexperienceacademy.com
+- E-Mail: paXXX@sapexperienceacademy.com
 
->Hint: Replace XXX with provided userId. For example, pa09248u100@sapexperienceacademy.com in lowercase
+>Hint: Replace XXX with provided userId. For example, pa123456789@sapexperienceacademy.com in lowercase
 
    <img src="././images/role_4.png" width="80%">
 
@@ -70,10 +70,10 @@ Before you can use the application, you need to assign yourself to the roles you
 9. Under `users` add your user information
 
 - Identity Provider: **academy**
-- UserId: pa09248uXXX@sapexperienceacademy.com
-- E-Mail: pa09248uXXX@sapexperienceacademy.com
+- UserId: paXXX@sapexperienceacademy.com
+- E-Mail: paXXX@sapexperienceacademy.com
 
->Hint: Replace XXX with provided userId. For example, pa09248u100@sapexperienceacademy.com in lowercase
+>Hint: Replace XXX with provided userId. For example, pa123456789@sapexperienceacademy.com in lowercase
 
    <img src="././images/role_5.png" width="80%">
 
