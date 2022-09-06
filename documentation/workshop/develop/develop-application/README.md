@@ -235,7 +235,7 @@ Now, you can create roles to define different authorization for your application
 
    <img src="./images/user_roles_6.png" width="60%">
 
-#### Define authentication strategy for development profile
+#### Define auth strategy for development profile
 
 1. Enable explorer if not already done. Click the hamburger icon in the top left corner and choose View -> Explorer
 
