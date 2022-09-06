@@ -31,7 +31,11 @@ In this section, you will deploy the application to Cloud Foundry environment.
 
 3. Find the **Deploy** button in the top right of Home Page.
 
-   <img src="././images/deploy_1.png" width="80%">   
+   <img src="././images/deploy_1.png" width="80%"> 
+
+>Hint: In case there is no Deploy button in Home screen, select the ... button and then choose Deploy in the dropdown
+
+   <img src="././images/deploy_5.png" width="50%"> 
 
 4. Your application will be deployed. This can take a few minutes.
 
