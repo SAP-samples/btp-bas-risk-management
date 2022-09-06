@@ -131,6 +131,8 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 1. Go back to the home page of the application. Find the **[Services](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/af4df4c8fcd94152bb7bf6a4e205709b.html?locale=en-US)** tile and choose the **+** icon to add a new service entity.
 
+   <img src="./images/add_services_8.png" width="30%">
+
    <img src="./images/add_services_1.png" width="30%">
 
 2. On the next screen, enter the following and choose **Create** to finish:
@@ -159,7 +161,7 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 Once the structure of your application is finished, you can add sample data to the application. You either can use the visual data editor or insert data using a CSV file.
 
-1. Download the [archive](../../../data.zip) containing the sample data in CSV format and extract the files.
+1. Download the [archive](../../../../data.zip) containing the sample data in CSV format and extract the files.
 
 2. Go back to the home page of the application. Find the **[Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)** tile and choose **+** icon to add a new data entity.
 

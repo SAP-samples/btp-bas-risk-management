@@ -61,7 +61,7 @@ In this section you will expand your application with an API, which allows to ge
 
 ### Update UI Components
 
-1. Navigate to the **Home** page of SAP Business Application Studio.
+1. Navigate to the **Home** page of the project.
 
 2. Find the tile **User Interfaces** and choose the entry **Risks**.
 
@@ -85,7 +85,7 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/update_UI_3.png" width="40%">
 
-8. Click on the arrow to navigate back and choose **risks** to open the **Object Page** entry and choose the edit icon.
+8. Click on the Page Map arrow to navigate back and choose the edit icon of the **Object Page** entry
 
     <img src="././images/update_UI_4.png" width="40%">
 
