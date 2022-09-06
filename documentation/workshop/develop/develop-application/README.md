@@ -15,11 +15,14 @@ In this section you will first create your development environment in SAP Busine
 
 ### Open Low-Code Development Tools and Create Development Project
 
+
+>Hint: Verify [dev space](https://bas-workshop.eu10cf.applicationstudio.cloud.sap/index.html) is in `RUNNING` status before proceeding.
+
 1. In **SAP Business Application Studio**, choose **gear icon** on the top right and choose **Create Project** in dropdown
 
    <img src="./images/create_dev_space_4.png" width="60%">
 
-2.  In the pop-up enter a unique **Project Name**, for example, _Riskmanagement_sap_ (replace `sap` with unique identifier) and provide a **Short Description**.
+2.  In the pop-up enter a unique **Project Name**, for example, _Riskmanagement_sap_ (replace `sap` with unique identifier. For example last 3 digits of your workshop user) and provide a **Short Description**.
 
 3. Finish by choosing **Create**.
    
@@ -42,7 +45,7 @@ Now you can start the development of your application. First you will model your
     |---------------|---------------|------------|
     | title         | string        | 100        |
     | prio          | string        | 5          |
-    | descr         | string        | 100        |
+    | description   | string        | 100        |
     | impact        | integer       |            |
     | criticality   | integer       |            |
 
@@ -51,7 +54,7 @@ Now you can start the development of your application. First you will model your
 3. Choose **Create**.
 
 
-4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_. Retain the property `ID` and choose the **+** icon in the table to add following properties:
+4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Place it on the canvas and enter the Entity name _Mitigations_. Retain the property `ID` and choose the **+** icon in the table to add following properties:
 
    | Property Name | Property Type | Max Length |
    |---------------|---------------|------------|

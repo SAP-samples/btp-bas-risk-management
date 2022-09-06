@@ -16,7 +16,7 @@ In this section you will first create your development environment in SAP Busine
 
 4. Enter a name for your Dev Space for example, _Riskmanagement_  and select **[Low-Code-Based Full-Stack Cloud Application](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/00ad0484344c461caf80a7c695fd38af.html?locale=en-US)** in menu.
 
-5. Choose **Create Dev Space**
+5. Choose **Create Dev Space** with name `BASPartnersWorkshop`
 
    <img src="./images/create_dev_space_2.png" width="80%">
 
