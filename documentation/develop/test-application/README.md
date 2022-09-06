@@ -26,4 +26,18 @@ Congratulations! You now have finished a first version of your application. In t
 
    <img src="./images/test_app_3.png" width="80%">
 
-6. Make sure you exit the preview mode after your test is finished by clicking **Stop Preview** in SAP BAS.
+6. Click on `Risk` app
+
+7. Click `Go` button to display the sample data
+
+   <img src="./images/test_app_5.png" width="80%">
+
+8. Click on `create` button to create a new Risk
+
+9. Enter the details for title, description, prio and impact
+
+      <img src="./images/test_app_6.png" width="80%">
+
+10. Click on `create` button
+
+11. Make sure you exit the preview mode after your test is finished by clicking **Stop Preview** in SAP BAS.
