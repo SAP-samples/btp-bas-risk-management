@@ -30,7 +30,7 @@ In this section, the application will be connected with SAP Launchpad service. T
 
     <img src="././images/integrate_launchpad_4.png" width="80%">
 
-8. Add the title _Risk Management_.
+8. Add the title _RiskManagement_sap_ (replace `sap` with unique identifier)
 
 9. Assign items on the right section of your screen. Search for **Risks** and **Mitigations** and choose the '+' icon to assign the apps.
 

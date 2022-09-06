@@ -39,18 +39,42 @@ In this section, you will deploy the application to Cloud Foundry environment.
 
 Before you can use the application, you need to assign yourself to the roles you have created in the section before. This needs to be done so you are able to edit and view the data from the application.
 
-1. Go back to [SAP BTP Cockpit](https://account.hana.ondemand.com/).
+1. Go back to [SAP BTP Cockpit](https://cockpit.eu10.hana.ondemand.com/cockpit/?idp=academy.accounts.ondemand.com#/globalaccount/3244cb28-faa5-4976-8e20-7bc51609e836/subaccount/ff389d21-d298-447b-8744-5152be1ed0cb/rolecollections).
 
-2. Navigate to **Security** &rarr; **Users**.
+2. Navigate to **Security** &rarr; **Role Collections**.
 
-3. Select your username and choose the tree dots.
+3. Search for Role collection `<project name>_RiskManager-dev_workshop`
+>Hint: Replace project name, For example Riskmanagement_sap_RiskManager-dev_workshop
 
-4. In the dropdown, choose **Assign Role Collections**.
+   <img src="././images/role_3.png" width="80%">
 
-   <img src="././images/role_1.png" width="80%">
+4. Enter the role collection and click on `Edit`
 
-5. In the pop-up, find **RiskManager-dev** and **RiskViewer-dev** and select the checkmark to assign roles.
+5. Under `users` add your user information
 
-6. Choose **Assign Role Collection**.
+- Identity Provider: **academy**
+- UserId: pa09248uXXX@sapexperienceacademy.com
+- E-Mail: pa09248uXXX@sapexperienceacademy.com
 
-   <img src="././images/role_2.png" width="80%">
+>Hint: Replace XXX with provided userId. For example, pa09248u100@sapexperienceacademy.com in lowercase
+
+   <img src="././images/role_4.png" width="80%">
+
+6. Click on save
+
+7. Similarly, search for Role Collection `<project name>_RiskViewer-dev_workshop`
+>Hint: Replace project name, For example Riskmanagement_sap_RiskViewer-dev_workshop
+
+8. Enter the role collection and click on `Edit`
+
+9. Under `users` add your user information
+
+- Identity Provider: **academy**
+- UserId: pa09248uXXX@sapexperienceacademy.com
+- E-Mail: pa09248uXXX@sapexperienceacademy.com
+
+>Hint: Replace XXX with provided userId. For example, pa09248u100@sapexperienceacademy.com in lowercase
+
+   <img src="././images/role_5.png" width="80%">
+
+10. Click on save
