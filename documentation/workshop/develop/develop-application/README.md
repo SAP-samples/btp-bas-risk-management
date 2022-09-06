@@ -15,11 +15,14 @@ In this section you will first create your development environment in SAP Busine
 
 ### Open Low-Code Development Tools and Create Development Project
 
+
+>Hint: Verify [dev space](https://bas-workshop.eu10cf.applicationstudio.cloud.sap/index.html) is in `RUNNING` status before proceeding.
+
 1. In **SAP Business Application Studio**, choose **gear icon** on the top right and choose **Create Project** in dropdown
 
    <img src="./images/create_dev_space_4.png" width="60%">
 
-2.  In the pop-up enter a unique **Project Name**, for example, _Riskmanagement_sap_ (replace `sap` with unique identifier) and provide a **Short Description**.
+2.  In the pop-up enter a unique **Project Name**, for example, _Riskmanagement_sap_ (replace `sap` with unique identifier. For example last 3 digits of your workshop user) and provide a **Short Description**.
 
 3. Finish by choosing **Create**.
    
@@ -42,7 +45,7 @@ Now you can start the development of your application. First you will model your
     |---------------|---------------|------------|
     | title         | string        | 100        |
     | prio          | string        | 5          |
-    | descr         | string        | 100        |
+    | description   | string        | 100        |
     | impact        | integer       |            |
     | criticality   | integer       |            |
 
@@ -51,7 +54,7 @@ Now you can start the development of your application. First you will model your
 3. Choose **Create**.
 
 
-4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_. Retain the property `ID` and choose the **+** icon in the table to add following properties:
+4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Place it on the canvas and enter the Entity name _Mitigations_. Retain the property `ID` and choose the **+** icon in the table to add following properties:
 
    | Property Name | Property Type | Max Length |
    |---------------|---------------|------------|
@@ -131,6 +134,8 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 1. Go back to the home page of the application. Find the **[Services](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/af4df4c8fcd94152bb7bf6a4e205709b.html?locale=en-US)** tile and choose the **+** icon to add a new service entity.
 
+   <img src="./images/add_services_8.png" width="30%">
+
    <img src="./images/add_services_1.png" width="30%">
 
 2. On the next screen, enter the following and choose **Create** to finish:
@@ -159,7 +164,7 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 Once the structure of your application is finished, you can add sample data to the application. You either can use the visual data editor or insert data using a CSV file.
 
-1. Download the [archive](../../../data.zip) containing the sample data in CSV format and extract the files.
+1. Download the [archive](../../../../data.zip) containing the sample data in CSV format and extract the files.
 
 2. Go back to the home page of the application. Find the **[Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)** tile and choose **+** icon to add a new data entity.
 
