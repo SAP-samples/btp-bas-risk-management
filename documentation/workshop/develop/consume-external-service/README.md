@@ -113,7 +113,7 @@ In this section you will expand your application with an API, which allows to ge
 
 15. In the dropdown, select _BusinessPartnerFullName_.
 
-16. Repeat step 12 and 13 with _BusinessPartnerIsBlocked_.
+16. Repeat step 14 and 15 with _BusinessPartnerIsBlocked_.
 
 17. Disable the **Display as Dropdown** toggle button
 
@@ -127,9 +127,16 @@ In this section you will expand your application with an API, which allows to ge
 
 21. In screen **Value Help** choose the following
 
+    - Value Description Property - description
+    - Text Arrangement           - Text Only
+    - Add Column                 - owner
+    - Add Column                 - timeline
+
     <img src="././images/update_UI_10.png" width="50%">
 
-22. Choose **Apply**.
+22. Also for `miti_ID`, find the entry `Text` and choose the value `miti/description`
+
+23. Choose **Apply**.
 ## Summary
 
  In this section, you have integrated an external service API from an SAP S/4HANA system to your application. In the next step, you will deploy your application.
