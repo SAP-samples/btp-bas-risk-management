@@ -20,6 +20,8 @@ In this section you will expand your application with an API, which allows to ge
 
 5. On the bupa page, choose **A_BusinessPartner** in the list **Entity**.
 
+>Hint: You can use `PREVIEW DATA` tab to see the live preview of data coming from the destination
+
 6. Choose **Add Data Model**.
 
     <img src="././images/consume_external_service _A1.png" width="100%">
