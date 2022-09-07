@@ -77,7 +77,7 @@ In this section, the application will be connected with SAP Launchpad service. T
 
     <img src="././images/risk_2.png" width="50%">
 
-- Choose value help icon to select supplier_BusinessPartner
+- Choose value help icon to select supplier_BusinessPartner, miti_ID
 
 - Choose mitigation
 
