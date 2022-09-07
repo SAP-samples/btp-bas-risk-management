@@ -54,9 +54,9 @@ In this section, the application will be connected with SAP Launchpad service. T
 
 16. Enter the site name as 'RiskManagement Site < uniqueName >' and choose **Create**.
 
-17. Now, you are forwarded to your created site. Choose **Edit**.
+17. Now, you are forwarded to your created site.
 
-18. Navigate to **Site Directory**.
+18. Navigate back to **Site Directory**.
 
 19. Find your created site and open it by choosing **Go to site**.
 
