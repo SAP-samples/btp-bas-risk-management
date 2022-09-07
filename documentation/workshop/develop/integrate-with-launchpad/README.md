@@ -22,7 +22,7 @@ In this section, the application will be connected with SAP Launchpad service. T
 
     <img src="././images/integrate_launchpad_2.png" width="70%">
 
-6. In the items table, set checkmark for the apps **Risks** and **Mitigations** and choose the button **Add to My Content**.
+6. In the items table, set checkmark for the apps **Risks** and choose the button **Add to My Content**.
 
     <img src="././images/integrate_launchpad_3.png" width="80%">
 
@@ -32,7 +32,7 @@ In this section, the application will be connected with SAP Launchpad service. T
 
 8. Add the title _RiskManagement_sap_ (replace `sap` with unique identifier)
 
-9. Assign items on the right section of your screen. Search for **Risks** and **Mitigations** and choose the '+' icon to assign the apps.
+9. Assign items on the right section of your screen. Search for **Risks** and choose the '+' icon to assign the apps.
 
 10. Choose **Save**.
 
@@ -40,7 +40,7 @@ In this section, the application will be connected with SAP Launchpad service. T
 
 11. Back in the **Content Manager**, choose role **Everyone** and **Edit**.
 
-12. Assign items on the right section of your screen. Search for **Risks** and **Mitigations** and choose the '+' icon to assign the apps.
+12. Assign items on the right section of your screen. Search for **Risks** and choose the '+' icon to assign the apps.
 
 13. Choose **Save**.
 
