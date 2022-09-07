@@ -11,4 +11,4 @@
 
 ### Chapter 5: [Deploy Application to Cloud Foundry Environment](../documentation/workshop/develop/deploy-application/)
 
-### Chapter 6: [Integrate the Application with SAP Launchpad Service](../documentation/workshop/develop/integrate-with-launchpad/)
+### Chapter 6 (Optional): [Integrate the Application with SAP Launchpad Service](../documentation/workshop/develop/integrate-with-launchpad/)
