@@ -136,9 +136,10 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/update_UI_10.png" width="50%">
 
-22. Also for `miti_ID`, find the entry `Text` and choose the value `miti/description`
+22. Choose **Apply**.
 
-23. Choose **Apply**.
+23. Also for `miti_ID`, find the entry `Text` and choose the value `miti/description`
+
 
 
 ### Test Application with Live Data(Optional)
