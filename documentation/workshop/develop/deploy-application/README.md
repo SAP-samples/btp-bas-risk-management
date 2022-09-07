@@ -21,6 +21,14 @@ In this section, you will deploy the application to Cloud Foundry environment.
 
    <img src="././images/deploy_3.png" width="80%">
    
+   - If the Below page appers on the screen:
+      - Enter `academy-platform` in origin key textbox.
+      - Click the `Sign in with alternative identity provider` button 
+      
+   <img src="././images/deploy_6.png" width="80%">
+
+
+
    - Select org and space
 
       - Organization: `SE Technical Academy - PROD par_bas-workshop`
