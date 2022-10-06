@@ -17,7 +17,6 @@ The application requires the following set of SAP BTP [Entitlements and Quotas](
 |-----------------------------------|------------|
 | Cloud Foundry Runtime             | MEMORY     |
 | Launchpad Service                 | standard   |
-| SAP AppGyver                      | standard   |
 | SAP Business Application Studio   | standard-edition  |
 | SAP HANA Cloud                    | hana       |
 | SAP HANA Schemas & HDI Containers | hdi-shared |
