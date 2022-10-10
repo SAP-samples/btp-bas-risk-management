@@ -30,7 +30,7 @@ The Risk Management application is developed using the SAP Business Application 
 You can find all requirements to execute the tutorial in this [section](/documentation/prepare/prerequisites).
 
 
-## Configuration
+## Tutorial using SAP BTP and SAP S/4HANA on-premise
 
 ### Step 1: [Configure Your SAP BTP Environment with the Help of Boosters](/documentation/develop/configure-BTP-account/)
 
@@ -42,13 +42,37 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 5: [Configure Systems in Cloud Connector](/documentation/develop/configure-cloud-connector)
 
+### Step 6: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
+
+### Step 7: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
+
+### Step 8: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
+
+### Step 9: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
+
+
+
+
+
+## Tutorial using SAP BTP and Mock Server
+
+### Step 1: [Configure Your SAP BTP Environment with the Help of Boosters](/documentation/develop/configure-BTP-account/)
+
+### Step 2: [Develop Risk Management Application Using SAP Business Application Studio Visual Tools](/documentation/develop/develop-application/)
+
+### Step 3: [Test Application with Sample Data](/documentation/develop/test-application/)
+
+### Step 4: [Set up Mock Server](/documentation/develop/set-up-mock-server#set-up-mock-server) 
+
+### Step 5: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
+
 ### Step 6: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
 
 ### Step 7: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
 
 ### Step 8: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
 
-### Step 9 (Optional): [Set up Mock Server](/documentation/develop/set-up-mock-server#set-up-mock-server) 
+
 
 
 ## Known Issues
