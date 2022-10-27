@@ -1,16 +1,50 @@
-using { Riskmanagement as my } from '../db/schema';
-@path : 'service/Riskmanagement'
-@requires : 'RiskmanagementManager'
-service RiskmanagementService
+using { bupa } from './external/bupa.cds';
+
+using { Riskmanagement_sap as my } from '../db/schema';
+
+using Riskmanagement_sap from '../db/schema';
+
+@path : 'service/Riskmanagement_sap'
+service Riskmanagement_sapService
 {
     @odata.draft.enabled
-    entity Risks as
-        projection on my.Risks;
+    entity risks as
+        projection on my.Risks
+        {
+            *
+        };
+
+    annotate risks with @restrict :
+    [
+        { grant : [ 'READ' ], to : [ 'RiskViewer' ] },
+        { grant : [ '*' ], to : [ 'RiskManager' ] }
+    ];
 
     @odata.draft.enabled
-    entity Mitigations as
-        projection on my.Mitigations;
+    entity mitigation as
+        projection on my.Mitigations
+        {
+            *
+        };
 
-      entity BusinessPartners as projection on my.BusinessPartners; 
+    annotate mitigation with @restrict :
+    [
+        { grant : [ 'READ' ], to : [ 'RiskViewer' ] },
+        { grant : [ '*' ], to : [ 'RiskManager' ] }
+    ];
 
+    entity A_Supplier as
+        projection on bupa.A_BusinessPartner
+        {
+            BusinessPartner,
+            BusinessPartnerFullName,
+            BusinessPartnerIsBlocked
+        };
 }
+
+annotate Riskmanagement_sapService with @requires :
+[
+    'authenticated-user',
+    'RiskViewer',
+    'RiskManager'
+];

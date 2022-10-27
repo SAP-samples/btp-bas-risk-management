@@ -1,37 +1,41 @@
-namespace Riskmanagement;
+namespace Riskmanagement_sap;
 
-using sap.workflow from './WorkflowObject';
+using { bupa } from '../srv/external/bupa.cds';
 
-using { managed } from '@sap/cds/common';
+using
+{
+    Country,
+    Currency,
+    Language,
+    User,
+    cuid,
+    extensible,
+    managed,
+    temporal
+}
+from '@sap/cds/common';
 
+using { sap.common } from '@sap/cds/common';
 
-@assert.integrity: false
 entity Risks : managed
 {
     key ID : UUID
         @Core.Computed;
+    miti : Association to one Mitigations;
     title : String(100);
     prio : String(5);
-    descr : String;
+    description : String(100);
     impact : Integer;
-    bp : Association to BusinessPartners ;
     criticality : Integer;
-    miti : Association to one Mitigations;
-    
+    supplier : Association to one bupa.A_BusinessPartner;
 }
 
 entity Mitigations : managed
 {
     key ID : UUID
         @Core.Computed;
-    description : String;
-    owner : String;
-    timeline : String;
     risks : Association to many Risks on risks.miti = $self;
+    description : String(100);
+    owner : String(100);
+    timeline : String(100);
 }
-using { API_BUSINESS_PARTNER as bupa } from '../srv/external/API_BUSINESS_PARTNER';
-entity BusinessPartners as projection on bupa.A_BusinessPartner {
-     key BusinessPartner,
-     BusinessPartnerFullName,
-     BusinessPartnerIsBlocked
-   }

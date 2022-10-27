@@ -1,25 +1,32 @@
 {
-  "name": "riskmanagement",
+  "name": "Riskmanagement_sap",
   "version": "1.0.0",
   "description": "A simple CAP project.",
   "repository": "<Add your repository here>",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@sap/cds": "5.5.0",
-    "@sap/xsenv": "^3.1.1",
-    "@sap/xssec": "^3.2.8",
+    "@sap-cloud-sdk/http-client": "^2.9.0",
+    "@sap-cloud-sdk/util": "^2.9.0",
+    "@sap/cds": "^6",
+    "@sap/low-code-event-handler": "^1.1.1",
+    "@sap/xsenv": "^3.3.2",
+    "@sap/xssec": "^3.2.13",
     "express": "^4",
-    "hdb": "^0.18.3",
-    "passport": "^0.5.0"
+    "hdb": "^0.19.5",
+    "passport": "^0.6.0"
   },
   "devDependencies": {
-    "@sap/hdi-deploy": "^4.2.0",
-    "@sap/ux-specification": "^1.90.12",
-    "sqlite3": "^5.0.2"
+    "@sap/ux-specification": "^1.102.9",
+    "sqlite3": "^5.0.4"
   },
   "scripts": {
-    "start": "cds run"
+    "start": "cds run",
+    "watch-Riskmanagement_sap.Risks": "cds watch --open Riskmanagement_sap.Risks/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-Riskmanagement_sap.mitigation": "cds watch --open Riskmanagement_sap.mitigation/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "engines": {
+    "node": "^14"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -48,34 +55,34 @@
   },
   "cds": {
     "requires": {
+      "[production]": {
+        "db": {
+          "kind": "hana-cloud"
+        }
+      },
       "db": {
         "kind": "sql"
       },
       "app-service": {
-        "impl": "srv/LCAPApplicationService.js"
+        "impl": "@sap/low-code-event-handler"
       },
-      "uaa": {
-        "kind": "xsuaa",
-        "credentials": {}
+      "auth": {
+        "kind": "xsuaa"
       },
-      "API_BUSINESS_PARTNER": {
-        "kind": "odata",
-        "model": "srv/external/API_BUSINESS_PARTNER",
-        "credentials": {
-          "destination": "bupa",
-          "requestTimeout": 180000
+      "bupa": {
+        "kind": "odata-v2",
+        "model": "srv/external/bupa",
+        "[production]": {
+          "credentials": {
+            "destination": "bupa"
+          }
         }
       }
-    },
-    "hana": {
-      "deploy-format": "hdbtable"
     }
   },
   "lcap": true,
   "sapux": [
-    "app/Riskmanagement_MyApp",
-    "app/Riskmanagement_Risks",
-    "app/Riskmanagement_Mitigations",
-    "app/Riskmanagement_Risks"
+    "app/Riskmanagement_sap.Risks",
+    "app/Riskmanagement_sap.mitigation"
   ]
 }

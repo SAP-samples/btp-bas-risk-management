@@ -1,14 +1,14 @@
 {
   "_version": "1.21.0",
   "sap.app": {
-    "id": "riskmanagement-Launchpad",
+    "id": "Riskmanagement_sap-Launchpad",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
       "version": "1.0.0"
     },
-    "title": "riskmanagement",
-    "description": "Launchpad for riskmanagement"
+    "title": "Riskmanagement_sap",
+    "description": "Launchpad for Riskmanagement_sap"
   },
   "sap.ui": {
     "technology": "UI5",
@@ -68,9 +68,7 @@
         {
           "name": "RouteMainView",
           "pattern": "RouteMainView",
-          "target": [
-            "TargetMainView"
-          ]
+          "target": ["TargetMainView"]
         }
       ],
       "targets": {
