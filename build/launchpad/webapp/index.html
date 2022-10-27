@@ -1,49 +1,52 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{appTitle}}</title>
 
-        <script>
-            window["sap-ushell-config"] = {
-  "defaultRenderer": "fiori2",
-  "applications": {
-    "RiskmanagementMitigations-display": {
-      "title": "Risksmanagement_Mitigations",
-      "description": "My SAP application",
-      "applicationType": "URL",
-      "navigationMode": "embedded",
-      "url": "../lcapriskmanagement.RiskmanagementMitigations-1.0.0",
-      "additionalInformation": "SAPUI5.Component=RiskmanagementMitigations"
-    },
-    "RiskmanagementRisks-display": {
-      "title": "Riskmanagement_Risks",
-      "description": "My SAP application",
-      "applicationType": "URL",
-      "navigationMode": "embedded",
-      "url": "../lcapriskmanagement.RiskmanagementRisks-1.0.0",
-      "additionalInformation": "SAPUI5.Component=RiskmanagementRisks"
-    }
-  }
-};
-        </script>
+<head>
+    <title> Application Overview </title>
+    <script src="shared-config.js"></script>
+    <script src="https://ui5.sap.com/1.102.1/resources/sap-ui-core.js" 
+            id="sap-ui-bootstrap"
+            data-sap-ui-theme='sap_fiori_3' 
+            data-sap-ui-bindingSyntax="complex" 
+            data-sap-ui-xx-bindingSyntax="complex"
+            data-sap-ui-resourceroots='{"assets": "assets"}' 
+            data-sap-ui-libs="sap.m,sap.uxap,sap.ui.layout,sap.f">
+    </script>
+    <link rel="stylesheet" href="assets/preview.css">
+</head>
 
-        <script src="https://ui5.sap.com//test-resources/sap/ushell/bootstrap/sandbox.js"></script>
-        <script
-            src="https://ui5.sap.com//resources/sap-ui-core.js"
-            data-sap-ui-libs="sap.m, sap.ushell, sap.fe.templates"
-            data-sap-ui-compatVersion="edge"
-            data-sap-ui-theme="sap_fiori_3"
-            data-sap-ui-frameOptions="deny"
-            data-sap-ui-bindingSyntax="complex"
-        ></script>
-        <script>
-            sap.ui.getCore().attachInit(function() {
-                sap.ushell.Container.createRenderer().placeAt('content');
+<body id="body" class="sapUiBody">
+    <script>
+        "use strict";
+        sap.ui.localResources("assets");
+        (function (jQuery, App, Page) {
+            sap.ui.getCore().attachInit(function () {
+                sap.ui.define([
+                    "sap/ui/core/mvc/Controller",
+                    "sap/ui/model/json/JSONModel"
+                ], function (Controller, JSONModel) {
+                    return Controller.extend("PreviewController", {
+                        onInit: function () {
+
+                            const data = {"Services":[{"ServiceName":"Riskmanagement_sapService","DetailsURL":"./service/Riskmanagement_sap/","Metadata":"./service/Riskmanagement_sap/$metadata","Entities":[{"Name":"risks","URL":"./service/Riskmanagement_sap/risks","FioriURL":""},{"Name":"mitigation","URL":"./service/Riskmanagement_sap/mitigation","FioriURL":""},{"Name":"A_Supplier","URL":"./service/Riskmanagement_sap/A_Supplier","FioriURL":""}],"EntitiesCount":3}],"WorkflowAppsData":[{"Header":"Experience User Inbox","SubHeader":"View and perform actions (search, filter, sort and group) on your <strong>workflow tasks.</strong>","Info":"Process tasks using custom actions to release and share the tasks via e-mail.","Icon":"sap-icon://inbox","WorkflowItemURL":"../comsapbpmworkflow.crossfndfioriinbox/inbox.html"},{"Header":"Monitor Workflow Instances","SubHeader":"View the list of workflow instances and perform actions (search and filter) on your <strong>workflow instances.</strong>","Info":"Manage the current context and executed activities in the workflow instances.","Icon":"sap-icon://instance","WorkflowItemURL":"../comsapbpmworkflow.comsapbpmmonitorworkflow/index_mw.html#/workflowInstances"},{"Header":"Monitor Workflow Definitions","SubHeader":"View and perform actions (search, filter and start) on deployed <strong>workflow definitions.</strong>","Info":"Download and configure workflow models for the latest deployed version of the workflow definitions.","Icon":"sap-icon://workflow-tasks","WorkflowItemURL":"../comsapbpmworkflow.comsapbpmmonitorworkflow/index_mw.html#/workflowDefinitions"}]}
+                            this.getView().setModel(new JSONModel(data));
+                        }
+                    });
+                });
+                var oApp = new App()
+                var previewView = sap.ui.view({
+                    viewName: "assets.Preview",
+                    type: sap.ui.core.mvc.ViewType.XML
+                });
+                oApp.addPage(new Page({
+                    content: [previewView],
+                    showHeader: false
+                })).placeAt("content");
             });
-        </script>
-    </head>
-    <body class="sapUiBody" id="content"></body>
+
+        }(jQuery, sap.m.App, sap.m.Page));
+    </script>
+    <div id="content"></div>
+</body>
+
 </html>

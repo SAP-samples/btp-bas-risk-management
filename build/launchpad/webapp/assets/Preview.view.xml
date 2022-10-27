@@ -1,0 +1,139 @@
+<mvc:View controllerName="PreviewController"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:uxap="sap.uxap"
+    xmlns:m="sap.ui.core.m"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.f"
+    xmlns:table="sap.ui.table"
+    core:require="{ sapMLib: 'sap/m/library' }">
+    <f:ShellBar
+            title="Application Development"
+            secondTitle="Application Overview"
+            homeIcon="assets/SAP_R_grad.svg">
+    </f:ShellBar>
+    <l:BlockLayout>
+        <l:BlockLayoutRow>
+            <l:BlockLayoutCell
+                title="Riskmanagement_nk"
+                titleAlignment="Left"
+                class="customCellImageBackground">
+                <VBox>
+                    <Text text="1.0.0" />
+                    <Link class="titleLink" text="View Log" target="_blank" href="https://logs.cf.ap11.hana.ondemand.com/app/dashboards#/view/Overview?_g=(filters:!((query:(match_phrase:(component_name:Riskmanagement_nk-srv)))))" visible="true" />
+                </VBox>
+            </l:BlockLayoutCell>
+        </l:BlockLayoutRow>
+        <l:BlockLayoutRow class="blockLayoutContentRow">
+            <l:BlockLayoutCell id="webApplications" width='2'>
+                <Title titleStyle="H3" text="Web Applications (2)"/>
+                <core:HTML 
+                    content='&lt;hr class=&quot;webAppSeparator&quot;&gt;'>
+                </core:HTML>
+                <core:HTML
+                    content='&lt;p&gt;The user will have the following applications. Click to explore them live.&lt;/p&gt;'>
+                </core:HTML>
+                <core:HTML
+                    content='&lt;iframe class=&quot;launchpad sectionContentMargin&quot; src=&quot;./launchpadPage.html&quot; frameBorder=0 &gt;&lt;/iframe&gt;'>
+                </core:HTML>
+            </l:BlockLayoutCell>
+            <l:BlockLayoutCell>
+                <Title titleStyle="H3" text="Services (1)"/>
+                <core:HTML 
+                    content='&lt;hr class=&quot;servicesSeparator&quot;&gt;'>
+                </core:HTML>
+                <table:Table
+                    rows="{path: '/Services'}"
+                    enableSelectAll="false"
+                    selectionMode="None"
+                    enableColumnReordering="false"
+                    columnHeaderVisible="false"
+                    ariaLabelledBy="title"
+                    visibleRowCount="1"
+                    class="transparentTable parentTable">
+                    <table:columns>
+                        <table:Column>
+                            <Label text="Service Entity" />
+                            <table:template>
+                                <table:Table
+                                    rows="{path: 'Entities'}"
+                                    enableSelectAll="false"
+                                    selectionMode="None"
+                                    enableColumnReordering="false"
+                                    columnHeaderVisible="false"
+                                    ariaLabelledBy="title"
+                                    visibleRowCount="{EntitiesCount}"
+                                    class="transparentTable childTable">
+                                    <table:extension>
+                                        <OverflowToolbar style="Clear">
+                                            <Title id="title" text="{ServiceName}"/>
+                                        </OverflowToolbar>
+                                        <Title class="tableDescription">
+                                            <FormattedText htmlText="&lt;p&gt;{EntitiesCount} tables are included in this service. View &lt;a href=&quot;{DetailsURL}&quot; &gt; service details&lt;/a&gt; and &lt;a href=&quot;{Metadata}&quot; &gt; metadata&lt;/a&gt; for more info.&lt;/p&gt;"/>
+                                        </Title>
+                                    </table:extension>
+                                    <table:columns>
+                                        <table:Column width="12rem">
+                                            <Label text="Service Entity" />
+                                            <table:template>
+                                                <Text text="{Name}" wrapping="false" />
+                                            </table:template>
+                                        </table:Column>
+                                        <table:Column width="4rem">
+                                            <Label text="Metadata Fiori" />
+                                            <table:template>
+                                                <Button tooltip="View as table"
+                                                    icon="sap-icon://table-view"
+                                                    press="sapMLib.URLHelper.redirect(${FioriURL}, true)" visible="{= ${FioriURL} !== ''}"/>
+                                            </table:template>
+                                        </table:Column>
+                                        <table:Column width="4rem">
+                                            <Label text="Json Data" />
+                                            <table:template>
+                                                <Button tooltip="View as code"
+                                                    icon="sap-icon://syntax"
+                                                    press="sapMLib.URLHelper.redirect(${URL}, true)"/>
+                                            </table:template>
+                                        </table:Column>
+                                    </table:columns>
+                                </table:Table>
+                            </table:template>
+                        </table:Column>
+                    </table:columns>
+                </table:Table>
+            </l:BlockLayoutCell>
+        </l:BlockLayoutRow>
+        <l:BlockLayoutRow class="blockLayoutContentRow" visible="true">
+            <l:BlockLayoutCell id="workflow" width='2'>
+                <Title titleStyle="H3" text="Workflow"/>
+                <core:HTML 
+                    content='&lt;hr class=&quot;webAppSeparator&quot;&gt;'>
+                </core:HTML>
+                <core:HTML
+                    content='&lt;p&gt;Review your workflow process by performing the following activities.&lt;/p&gt;'>
+                </core:HTML>
+                <List
+                    id="WorkflowItemsList"
+                    headerText=""
+                    backgroundDesign="Transparent"
+                    showSeparators="None"
+                    items="{
+                        path: '/WorkflowAppsData'
+                    }">
+                    <CustomListItem>
+                        <HBox>
+                            <core:Icon size="2.5rem" color="#0854a0" src="{Icon}" class="sapUiIconColorDefault workflowIconMarginTop" />
+                            <VBox class="sapUiMediumMarginBegin workflowItemMarginTopBottom">
+                                <Link text="{Header}" target="_blank" href="{WorkflowItemURL}"/>
+                                <FormattedText class="formattedWorkflowText" htmlText="&lt;span&gt;{SubHeader}&lt;strong&gt;{BoldText}&lt;/strong&gt;&lt;/span&gt;"/>
+                                <FormattedText class="formattedWorkflowText" htmlText="&lt;span&gt;{Info}&lt;/span&gt;"/>
+                            </VBox>
+                        </HBox>
+                    </CustomListItem>
+                </List>
+            </l:BlockLayoutCell>
+            <l:BlockLayoutCell></l:BlockLayoutCell>
+        </l:BlockLayoutRow>
+    </l:BlockLayout>
+</mvc:View>
