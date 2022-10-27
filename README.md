@@ -36,19 +36,21 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 2: [Develop Risk Management Application Using SAP Business Application Studio Visual Tools](/documentation/develop/develop-application/)
 
-### Step 3: [Test Application with Sample Data](/documentation/develop/test-application/)
+### Step 3: [Create User Interface and User Roles](/documentation/develop/create-user-interface/)
 
-### Step 4: [Configure Your SAP S/4HANA System](/documentation/develop/configure-odata-service/)
+### Step 4: [Test Application with Sample Data](/documentation/develop/test-application/)
 
-### Step 5: [Configure Systems in Cloud Connector](/documentation/develop/configure-cloud-connector)
+### Step 5: [Configure Your SAP S/4HANA System](/documentation/develop/configure-odata-service/)
 
-### Step 6: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
+### Step 6: [Configure Systems in Cloud Connector](/documentation/develop/configure-cloud-connector)
 
-### Step 7: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
+### Step 7: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
 
-### Step 8: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
+### Step 8: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
 
-### Step 9: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
+### Step 9: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
+
+### Step 10: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
 
 
 
@@ -60,17 +62,19 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 2: [Develop Risk Management Application Using SAP Business Application Studio Visual Tools](/documentation/develop/develop-application/)
 
-### Step 3: [Test Application with Sample Data](/documentation/develop/test-application/)
+### Step 3: [Create User Interface and User Roles](/documentation/develop/develop-application/)
 
-### Step 4: [Set up Mock Server](/documentation/develop/set-up-mock-server#set-up-mock-server) 
+### Step 4: [Test Application with Sample Data](/documentation/develop/test-application/)
 
-### Step 5: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
+### Step 5: [Set up Mock Server](/documentation/develop/set-up-mock-server#set-up-mock-server) 
 
-### Step 6: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
+### Step 6: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
 
-### Step 7: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
+### Step 7: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
 
-### Step 8: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
+### Step 8: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
+
+### Step 9: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
 
 
 
