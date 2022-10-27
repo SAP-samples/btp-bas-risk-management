@@ -136,9 +136,49 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/update_UI_10.png" width="50%">
 
-22. Also for `miti_ID`, find the entry `Text` and choose the value `miti/description`
+22. Choose **Apply**.
 
-23. Choose **Apply**.
+23. Also for `miti_ID`, find the entry `Text` and choose the value `miti/description`
+
+
+
+### Test Application with Live Data(Optional)
+
+1. Make sure you have opened **SAP Business Application Studio** and navigate to the **Home** tab.
+
+2. Find the **[Preview](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/d0d7f68abdcb4c4bb9df427c9f925dba.html?locale=en-US)** button in the top right of your screen.
+
+3. In the dropdown, choose **With Live Data**.
+
+   <img src="./images/test_app_1.png" width="80%">
+
+4. If the new tab doesn't automatically open, and the below popup appears on the screen, click the open button.
+
+   <img src="./images/test_app_4.png" width="80%">
+
+
+5. Choose a tile to try out your app.
+
+   <img src="./images/test_app_3.png" width="80%">
+
+6. Click on `Risk` app
+
+7. Click on `create` button to create a new Risk
+
+8. Enter the details for title, description, prio and impact
+
+      <img src="./images/test_app_6.png" width="80%">
+
+9. Choose `Value help` icon to select `supplier_BusinessPartner`.
+
+    <img src="./images/test_app_7.png" width="80%">
+
+10. Select BusinessPartner and Click the `Go` Button.  
+
+11. Click on `create` button
+
+12. Make sure you exit the preview mode after your test is finished by clicking **Stop Preview** in SAP BAS.
+
 ## Summary
 
  In this section, you have integrated an external service API from an SAP S/4HANA system to your application. In the next step, you will deploy your application.
