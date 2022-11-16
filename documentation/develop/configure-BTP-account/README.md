@@ -28,7 +28,7 @@ In this section you will configure an SAP BTP account with all the required enti
 
    <img src="././images/booster_3.png" width="70%">
 
-6. (Optional) You can now configure your subaccount to your use case. To save costs, it is recommended to remove the Entitlements for services, which are not needed in this scenario. Find the entitlements for _Application Autoscaler_, _Application Logging service_, and _Continuous Integration & Delivery_ in the table, and delete them by clicking the **bin icon**.
+6. (Optional) You can now configure your subaccount to your use case. To save costs, it is recommended to remove the Entitlements for services, which are not needed in this scenario. Find the entitlements for _Application Autoscaler_, _Application Logging service_, and in the table, and delete them by clicking the **bin icon**.
 
     <img src="././images/booster_4a.png" width="50%">
 
@@ -62,25 +62,15 @@ In this section you will configure an SAP BTP account with all the required enti
 
     <img src="././images/entitlements_3.png" width="70%">
 
-15. In the menu on the left, choose **Service Marketplace** and search for **Launchpad Service**.
-
-16. Choose **Launchpad Service** tile.
-
-    <img src="././images/launchpad_1.png" width="70%">
-
-17. In the menu appeared on the right side of your screen, choose **Create** and confirm creation in the pop-up screen.
-
-    <img src="././images/launchpad_2.png" width="80%">
-
-18. In the menu on the left, navigate to **Security** &rarr; **Role Collections**.
+15. In the menu on the left, navigate to **Security** &rarr; **Role Collections**.
 
      <img src="././images/launchpad_3.png" width="70%">
 
-19. In the role collection list, find _Launchpad_Admin_ and choose it to open.
+17. In the role collection list, find _Launchpad_Admin_ and choose it to open.
 
-20. Choose **Edit** button and scroll down to **User** section. Enter your e-mail address in the section and select _Default Identity Provider_ as **Identity Provider**.
+18. Choose **Edit** button and scroll down to **User** section. Enter your e-mail address in the section and select _Default Identity Provider_ as **Identity Provider**.
 
-21. Choose **Save**.
+19. Choose **Save**.
 
     <img src="././images/launchpad_4.png" width="70%">
 
@@ -100,7 +90,7 @@ Now, you need to create an [SAP HANA Cloud](https://help.sap.com/docs/HANA_CLOUD
 
    <img src="././images/hana_2.png" width="70%">
 
-4. Choose a *name* for your instance and choose an Admin Password* and confirm the password in the corresponding field. Choose **Next Step**.
+4. Choose a *name* for your instance and choose an **Admin Password** and confirm the password in the corresponding field. Choose **Next Step**.
 
    <img src="././images/hana_3.png" width="70%">
 
