@@ -34,27 +34,15 @@ In this section you will first create your development environment in SAP Busine
 6. Your Dev Space is now being created and as soon as status change to _Running_ you can open your Dev Space by clicking on the name
 
    <img src="./images/create_dev_space_3.png" width="60%">
-
-<!--
 7. In SAP Business Application Studio, choose **gear icon** on the top right and choose **Create Project** in dropdown
 
    <img src="./images/create_dev_space_4.png" width="60%">
-   -->
-<!-- TODO: Replace after workshop
 
 8.  In the pop-up enter a **Project Name**, for example, _riskmanagement_ and provide a **Short Description**.
 
--->
-
-8.  In the pop-up enter a unique **Project Name**, for example, _Riskmanagement_sap_ (replace `sap` with unique identifier) and provide a **Short Description**.
-
 9. Finish by choosing **Create**.
 
-<!-- TODO: Replace after workshop
    <img src="./images/create_dev_space_5.png" width="40%">
--->
-   
-   <img src="./images/create_dev_space_5_suffix.png" width="40%">
 
    > Loading SAP Business Application Studio for low-code development can take some time, especially if it’s the first time you use it.
 
@@ -134,7 +122,7 @@ Now you can start the development of your application. First you will model your
 
     <img src="./images/add_data_model_12.png" width="30%">
 
-15. Go Back in the **Data Model Editor** on clicking home icon
+15. Go Back in the **Data Model Editor** by clicking on **home icon**
 
       <img src="./images/add_data_model_13.png" width="80%">
 
@@ -165,8 +153,8 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 2. On the next screen, enter the following and choose **Create** to finish:
    - Enter **Name:** _risks_
-   - Select **Namespace:** "riskmanagement_< UniqueName >Service"
-   - Select **Type:** "riskmanagement_< UniqueName >.Risks"
+   - Select **Namespace:** "riskmanagementService"
+   - Select **Type:** "riskmanagement.Risks"
 
    <img src="./images/add_services_2.png" width="60%">
 
@@ -178,8 +166,8 @@ Now you will create service entities for Risks and Mitigations to define which p
 
 4. Back in **Service Editor** choose **Add Entity**. Repeat the previous steps and configure the new entity and choose **Create** to finish:
    - Enter **Name:** _mitigation_
-   - Select **Namespace:** "riskmanagement_< UniqueName >Service"
-   - Select **Type:** "riskmanagement_< UniqueName >.Mitigation"
+   - Select **Namespace:** "riskmanagementService"
+   - Select **Type:** "riskmanagement.Mitigation"
 
      <img src="./images/add_services_5.png" width="60%">
 
