@@ -23,7 +23,7 @@ After defining the foundation of your application in the previous chapter, we wi
 
    <img src="./images/create_UI_3.png" width="40%">
 
-4. Choose **UI application template** as _list report object page_. Choose **Next**.
+4. Choose **UI application template** as _List Report Page_. Choose **Next**.
 
    <img src="./images/create_UI_4.png" width="40%">
 
@@ -49,7 +49,7 @@ After defining the foundation of your application in the previous chapter, we wi
 
       <img src="././images/update_UI_6.png" width="40%">
 
-12. Click on Add button
+12. Click on **Add** button
 
 13. In the entry **Section** open **Risks** &rarr; **Table** &rarr; **Columns**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Columns_.
 
