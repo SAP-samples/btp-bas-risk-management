@@ -69,13 +69,22 @@ Also you have to create a destination to the mock service in the same subaccount
 
 2. Choose **Connectivity** in the menu on the left then choose **Destinations** &rarr; **New Destination**.
 
-3. Again, choose **Destinations** &rarr; **New Destination** and enter the following information for the second destination and **Save** your input:
+3. Again, choose **Destinations** &rarr; **New Destination** and enter the following information destination:
 
     - Name: `bupa`
     - URL: `https://<mock_srv_url>/v2/api-business-partner`
     - Authentication: `No Authentication`
 
 
-   <img src="././images/mock_server_7.png" width="60%">
+4. Choose **New Property** and enter the following properties and **Save** your input:
+
+      | Key        | Value       |
+      | ----------- | ----------- |
+      | HTML5.DynamicDestination     | true       |
+      | WebIDEAdditionalData | full_url       |
+      | WebIDEEnabled      | true      |
+      | WebIDEUsage     | odata_gen       |
+      
+         <img src="././images/mock_server_7.png" width="40%">
 
 
