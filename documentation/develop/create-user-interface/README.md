@@ -57,7 +57,6 @@ After defining the foundation of your application in the previous chapter, we wi
    - ID
    - title
    - description
-   - supplier_BusinessPartner
    - impact
    - prio
 
