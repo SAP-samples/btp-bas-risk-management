@@ -34,13 +34,10 @@ In this section you will first create your development environment in SAP Busine
 6. Your Dev Space is now being created and as soon as status change to _Running_ you can open your Dev Space by clicking on the name
 
    <img src="./images/create_dev_space_3.png" width="60%">
-7. In SAP Business Application Studio, choose **gear icon** on the top right and choose **Create Project** in dropdown
 
-   <img src="./images/create_dev_space_4.png" width="60%">
+7.  In the pop-up enter a **Project Name**, for example, _riskmanagement_ and provide a **Short Description**.
 
-8.  In the pop-up enter a **Project Name**, for example, _riskmanagement_ and provide a **Short Description**.
-
-9. Finish by choosing **Create**.
+8. Finish by choosing **Create**.
 
    <img src="./images/create_dev_space_5.png" width="40%">
 
@@ -89,7 +86,7 @@ Now you can start the development of your application. First you will model your
 
 7. In the pop-up screen enter all the required details:
    - Select **Relationship:** _Association_
-   - Select **Relationship Type:** _To-one_
+   - Select **Multiplicity:** _To-one_
    - Enter **Property name:** _miti_
 
       <img src="./images/add_data_model_6.png" width="50%">
@@ -100,7 +97,7 @@ Now you can start the development of your application. First you will model your
 
 10. In the pop-up screen select all the required details:
    - **Relationship:** Association
-   - **Relationship type:** To-many
+   - **Multiplicity:** To-many
    - **Property Name:** risks
    - **Backlink Property:** miti
 
