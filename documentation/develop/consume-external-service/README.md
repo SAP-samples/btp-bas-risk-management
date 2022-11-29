@@ -49,7 +49,7 @@ In this section you will expand your application with an API, which allows to ge
 12. In the pop-up configure the relationship like:
 
     - **Relationship:** _Association_
-    - **Relationship Type:** _to-one_
+    - **Multiplicity:** _to-one_
     - **Property Name:** _supplier_
     - **Target Entity Type:** _bupa.A_BusinessPartner_
 
