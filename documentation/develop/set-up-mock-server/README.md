@@ -85,6 +85,23 @@ Also you have to create a destination to the mock service in the same subaccount
       | WebIDEEnabled      | true      |
       | WebIDEUsage     | odata_gen       |
       
- <img src="././images/mock_server_7.png" width="60%">
+  <img src="././images/mock_server_7.png" width="60%">
+ 
 
+### Test the Mock Server
 
+1. Open your **SAP BTP Account** and navigate to your **space**
+    
+ <img src="././images/mock_1.png" width="70%">
+
+2. Find the mockserver application in the table and choose **mock-srv** to open
+
+ <img src="././images/mock_2.png" width="60%">
+
+3. Click on the link for application routes to open mock server
+
+ <img src="././images/mock_3.png" width="60%">
+
+4. Now you can open the service endpoints for */op-api-business-partner-srv* and have a look on the provided data
+
+ <img src="././images/mock_4.png" width="60%">
