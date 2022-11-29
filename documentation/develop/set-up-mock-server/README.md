@@ -60,7 +60,7 @@ Also you have to create a destination to the mock service in the same subaccount
 
    <img src="././images/mock_server_6.png" width="40%">
    
-5. The next step is to create a [destination](#create-destination-for-mock-server) to the mock server
+5. The next step is to create a destination to the mock server
 
 
 ### Set Up Destination in SAP BTP
