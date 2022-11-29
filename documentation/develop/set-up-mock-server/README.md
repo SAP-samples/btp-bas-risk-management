@@ -10,7 +10,7 @@ Also you have to create a destination to the mock service in the same subaccount
 
 1. Open the SAP Business Application Studio and create a new **Dev Space** using the **Full Stack Cloud Application** type
 
-   <img src="././images/mock_server_1.png" width="20%">
+   <img src="././images/mock_server_1.png" width="40%">
 
 2. Switch to the tab where you have opened **SAP Business Application Studio**. In the tabs, choose **View** and select **Find Command**.
 
@@ -85,6 +85,6 @@ Also you have to create a destination to the mock service in the same subaccount
       | WebIDEEnabled      | true      |
       | WebIDEUsage     | odata_gen       |
       
-         <img src="././images/mock_server_7.png" width="40%">
+ <img src="././images/mock_server_7.png" width="60%">
 
 
