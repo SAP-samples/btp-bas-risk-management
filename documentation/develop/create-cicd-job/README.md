@@ -67,7 +67,7 @@ In this section you will you configure and run predefined continuous integration
   <img src="././images/cicd_8.png" width="60%">
   
  
-### Check application logs
+### Check Application Logs
   
 1. Open your **SAP BTP Account** and navigate to your **space**
 
