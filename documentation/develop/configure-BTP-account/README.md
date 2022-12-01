@@ -10,9 +10,9 @@ In this section you will configure an SAP BTP account with all the required enti
 
 1. In [SAP BTP Cockpit](https://account.hana.ondemand.com/), open your global account and navigate to **Boosters**.
 
-2. Search for *Prepare an Account for Developing Extension Applications*.
+2. Search for **Get started with SAP Business Application Studio**.
 
-> This booster will guide you through the process of enabling the tools, configuring entitlements, and assigning members on your SAP BTP account. You will create an account with entitlements for the SAP Business Application Studio, Cloud Foundry Runtime, SAP HANA service and Launchpad service.
+> This booster will guide you through the process of enabling the tools, configuring entitlements, and assigning members on your SAP BTP account. You will create an account with entitlements for the SAP Business Application Studio and CI/CD service.
 
 3. Choose **Start** to create a **Subaccount**.
 
@@ -28,11 +28,7 @@ In this section you will configure an SAP BTP account with all the required enti
 
    <img src="././images/booster_3.png" width="70%">
 
-6. (Optional) You can now configure your subaccount to your use case. To save costs, it is recommended to remove the Entitlements for services, which are not needed in this scenario. Find the entitlements for _Application Autoscaler_, _Application Logging service_, and in the table, and delete them by clicking the **bin icon**.
-
-    <img src="././images/booster_4a.png" width="50%">
-
-7. Then enter the required information for your subaccount configuration and finish by choosing **Next**:
+6. Then enter the required information for your subaccount configuration and finish by choosing **Next**:
   - **Subaccount Name:** for example, _Riskmanagement_
   - **Provider:** Amazon Web Services (AWS)
   - **Region:** EU10
@@ -42,35 +38,55 @@ In this section you will configure an SAP BTP account with all the required enti
 
     <img src="././images/booster_4.png" width="70%">
 
-8. You can add users to your account. Enter all required administrators and users e-mail addresses in the input field. In case you have multiple people you can separate e-mails with quotation marks. Choose **Next** to finish.
+7. You can add users to your account. Enter all required administrators and users e-mail addresses in the input field. In case you have multiple people you can separate e-mails with quotation marks. Choose **Next** to finish.
 
-9. In the next tab, review all the details and then choose **Finish** to start the account creation.
+8. In the next tab, review all the details and then choose **Finish** to start the account creation.
 
-10. After your account is created, open your created **Subaccount** and choose **Entitlements** on the left to add more services to your account.
+9. After your account is created, open your created **Subaccount** and choose **Entitlements** on the left to add more services to your account.
 
-12. Choose **Configure Entitlements** and choose **Add Service Plans**.
+10. Choose **Configure Entitlements** and choose **Add Service Plans**.
 
     <img src="././images/entitlements_1.png" width="70%">
 
-12. In the pop-up, use the search function to find required entitlements for **SAP HANA Cloud** and then choose the service plan 'hana' on the left site.
+11. In the pop-up, use the search function to find required entitlements for **SAP HANA Cloud** and then choose the service plan 'hana' on the left site.
 
-13. Choose **Add 1 Service Plans**.
+12. Repeat step 11 to add further entitlements to your account:
+
+    | Entitlement | Plan |
+    |--|---|
+    |SAP HANA Schemas & HDI Containers | hdi-shared|
+    | Cloud Foundry Runtime | MEMORY |
+    | Launchpad | standard |
+
+13. Choose **Add 4 Service Plans**.
 
     <img src="././images/entitlements_2.png" width="70%">
 
 14. Choose **Save** to finish the configuration.
 
     <img src="././images/entitlements_3.png" width="70%">
+    
+15. Navigate to **Service Marketplace** and search for 'Launchpad Service'
 
-15. In the menu on the left, navigate to **Security** &rarr; **Role Collections**.
+16. Choose **Launchpad service** tile to open
+
+    <img src="././images/launchpad_1.png" width="70%">
+     
+17. Choose **Create** to create a new service instance
+
+    <img src="././images/launchpad_2.png" width="70%">
+
+18. In pop-up choose **Create** to finish
+
+19. In the menu on the left, navigate to **Security** &rarr; **Role Collections**.
 
      <img src="././images/launchpad_3.png" width="70%">
 
-17. In the role collection list, find _Launchpad_Admin_ and choose it to open.
+20. In the role collection list, find _Launchpad_Admin_ and choose it to open.
 
-18. Choose **Edit** button and scroll down to **User** section. Enter your e-mail address in the section and select _Default Identity Provider_ as **Identity Provider**.
+21. Choose **Edit** button and scroll down to **User** section. Enter your e-mail address in the section and select _Default Identity Provider_ as **Identity Provider**.
 
-19. Choose **Save**.
+22. Choose **Save**.
 
     <img src="././images/launchpad_4.png" width="70%">
 
