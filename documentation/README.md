@@ -1,5 +1,6 @@
 # Documentation Structure
 
+### Step 0 (Optional): [Set up Mock Server](../documentation/develop/set-up-mock-server/)
 
 ### Step 1: [Configure Your SAP BTP Environment with the Help of Boosters](../documentation/develop/configure-BTP-account/)
 
@@ -13,10 +14,15 @@
 
 ### Step 6: [Configure Systems in Cloud Connector](../documentation/develop/configure-cloud-connector)
 
-### Step 7: [Consume External Service from SAP S/4HANA](../documentation/develop/consume-external-service)
+### Step 7: [Implement Custom Logic](../documentation/develop/implement-custom-logic/)
 
-### Step 8: [Deploy Application to Cloud Foundry Environment](../documentation/develop/deploy-application/)
+### Step 8: [Consume External Service from SAP S/4HANA](../documentation/develop/consume-external-service)
 
-### Step 9: [Integrate the Application with SAP Launchpad Service](../documentation/develop/integrate-with-launchpad/)
+### Step 9: [Deploy Application to Cloud Foundry Environment](../documentation/develop/deploy-application/)
 
-### Step 10 (Optional): [Set up Mock Server](../documentation/develop/set-up-mock-server/)
+### Step 10: [Integrate the Application with SAP Launchpad Service](../documentation/develop/integrate-with-launchpad/)
+
+### Step 11: [Create Continuous Integration and Delivery Job](../documentation/develop/create-cicd-job/)
+
+
+
