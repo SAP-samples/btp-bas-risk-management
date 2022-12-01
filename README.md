@@ -52,7 +52,7 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 10: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
 
-
+### Step 11: [Create Continuous Integration and Delivery Job](/documentation/develop/create-cicd-job/)
 
 
 
@@ -75,6 +75,8 @@ You can find all requirements to execute the tutorial in this [section](/documen
 ### Step 8: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
 
 ### Step 9: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
+
+### Step 10: [Create Continuous Integration and Delivery Job](/documentation/develop/create-cicd-job/)
 
 
 
