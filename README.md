@@ -23,7 +23,7 @@ The *Food Delivery Platform* implements the application as an SAP S/4HANA extens
 
 ![Solution diagram](./documentation/discover/business-story/images/SolutionDiagramBAS.png)
 
-The Risk Management application is developed using the SAP Business Application Studio visual tools and runs on the SAP BTP, Cloud Foundry environment. It consumes platform services like SAP HANA Cloud, SAP Launchpad service and Connectivity. The Business Partner Validation Application uses SAP S/4HANA OData API's to read additional Business Partner Data from the SAP S/4HANA system. The application is then displayed using the SAP Launchpad service.
+The Risk Management application is developed using the SAP Business Application Studio visual tools and runs on the SAP BTP, Cloud Foundry environment. It consumes platform services like SAP HANA Cloud, SAP Build Work Zone, standard edition service and Connectivity. The Business Partner Validation Application uses SAP S/4HANA OData API's to read additional Business Partner Data from the SAP S/4HANA system. The application is then displayed using the SAP Build Work Zone, standard edition service.
 
 ## Requirements
 
@@ -50,7 +50,7 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 9: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
 
-### Step 10: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
+### Step 10: [Integrate the Application with SAP Build Work Zone, standard edition](/documentation/develop/integrate-with-workzone/)
 
 ### Step 11: [Create Continuous Integration and Delivery Job](/documentation/develop/create-cicd-job/)
 
@@ -74,7 +74,7 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 8: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
 
-### Step 9: [Integrate the Application with Launchpad Service](/documentation/develop/integrate-with-launchpad/)
+### Step 9: [Integrate the Application with SAP Build Work Zone, standard edition](/documentation/develop/integrate-with-workzone/)
 
 ### Step 10: [Create Continuous Integration and Delivery Job](/documentation/develop/create-cicd-job/)
 

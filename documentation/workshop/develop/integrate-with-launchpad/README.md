@@ -1,4 +1,4 @@
-# Integrate the Application with SAP Launchpad Service
+# Integrate the Application with SAP Build Work Zone, standard edition
 
 ## Introduction
 

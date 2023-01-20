@@ -56,7 +56,7 @@ In this section you will configure an SAP BTP account with all the required enti
     |--|---|
     |SAP HANA Schemas & HDI Containers | hdi-shared|
     | Cloud Foundry Runtime | MEMORY |
-    | Launchpad | standard |
+    | SAP Build Work Zone, standard edition | standard |
 
 13. Choose **Add 4 Service Plans**.
 
@@ -66,9 +66,9 @@ In this section you will configure an SAP BTP account with all the required enti
 
     <img src="././images/entitlements_3.png" width="70%">
     
-15. Navigate to **Service Marketplace** and search for 'Launchpad Service'
+15. Navigate to **Service Marketplace** and search for 'SAP Build Work Zone, standard edition'
 
-16. Choose **Launchpad service** tile to open
+16. Choose **SAP Build Work Zone, standard edition** tile to open
 
     <img src="././images/launchpad_1.png" width="70%">
      

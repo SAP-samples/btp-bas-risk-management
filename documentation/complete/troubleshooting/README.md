@@ -13,8 +13,8 @@ In this section, we provide solutions for the most common issues while executing
 - **Issue:** Not able to add entitlements to subaccount - plans can not be chosen
    - **Solution:** Make sure you have purchased all required services. See [Managing Entitlements and Quotas Using the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/c8248745dde24afb91479361de336111.html?locale=en-US) for more details.
 
-- **Issue** Cannot find SAP Launchpad service in Service Marketplace
-    - **Solution:**  Make sure you have clicked save button after you have configured entitlements earlier. Launchpad service tile will only appear in marketplace after entitlements are configured for subaccount.
+- **Issue** Cannot find SAP Build Work Zone, standard edition in Service Marketplace
+    - **Solution:**  Make sure you have clicked save button after you have configured entitlements earlier. SAP Build Work Zone, standard edition tile will only appear in marketplace after entitlements are configured for subaccount.
 
 ## Develop Risk Management Application Using SAP Business Application Studio Visual Tools
 
