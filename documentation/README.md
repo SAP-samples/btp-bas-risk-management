@@ -20,7 +20,7 @@
 
 ### Step 9: [Deploy Application to Cloud Foundry Environment](../documentation/develop/deploy-application/)
 
-### Step 10: [Integrate the Application with SAP Launchpad Service](../documentation/develop/integrate-with-launchpad/)
+### Step 10: [Integrate the Application with SAP Build Work Zone, standard edition](../documentation/develop/integrate-with-workzone/)
 
 ### Step 11: [Create Continuous Integration and Delivery Job](../documentation/develop/create-cicd-job/)
 
