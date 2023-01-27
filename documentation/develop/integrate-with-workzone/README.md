@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this section, the application will be connected with SSAP Build Work Zone, standard edition. This allows to have one central entry point to show all of your SAP BTP applications.
+In this section, the application will be connected with SAP Build Work Zone, standard edition. This allows to have one central entry point to show all of your SAP BTP applications.
 
  <img src="././images/SolutionDiagram_7.png" width="80%">
 
