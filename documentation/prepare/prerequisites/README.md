@@ -16,7 +16,7 @@ The application requires the following set of SAP BTP [Entitlements and Quotas](
 | Service                           | Plan       |
 |-----------------------------------|------------|
 | Cloud Foundry Runtime             | MEMORY     |
-| Launchpad Service                 | standard   |
+| SAP Build Work zone, standard edition  | standard   |
 | SAP Business Application Studio   | standard-edition  |
 | SAP HANA Cloud                    | hana       |
 | SAP HANA Schemas & HDI Containers | hdi-shared |
