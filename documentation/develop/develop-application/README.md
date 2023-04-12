@@ -25,7 +25,7 @@ In this section you will first create your development environment in SAP Busine
 
    > A [dev space](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/6053df8bca3946f098bc9f89e49d7317.html?locale=en-US) in SAP Business Application Studio is a development environment with the tools, capabilities, and resources needed for developing your application.
 
-4. Enter a name for your Dev Space for example, _Riskmanagement_  and select **[Low-Code-Based Full-Stack Cloud Application](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/00ad0484344c461caf80a7c695fd38af.html?locale=en-US)** in menu.
+4. Enter a name for your Dev Space for example, _Riskmanagement_  and select **[Full-Stack Application Using Productivity Tools](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/00ad0484344c461caf80a7c695fd38af.html?locale=en-US)** in menu.
 
 5. Choose **Create Dev Space**
 
@@ -164,7 +164,7 @@ Now you will create service entities for Risks and Mitigations to define which p
 4. Back in **Service Editor** choose **Add Entity**. Repeat the previous steps and configure the new entity and choose **Create** to finish:
    - Enter **Name:** _mitigation_
    - Select **Namespace:** "riskmanagementService"
-   - Select **Type:** "riskmanagement.Mitigation"
+   - Select **Type:** "riskmanagement.Mitigations"
 
      <img src="./images/add_services_5.png" width="60%">
 
@@ -187,6 +187,8 @@ Once the structure of your application is finished, you can add sample data to t
 4. Import `Riskmanagement-Risks.csv` CSV file with the required data for risks.
 
    <img src="./images/add_data_3.png" width="60%">
+
+> Hint: SAP Business Application Studio might show an error in this step, which will be fixed while importing the mitigation csv file.
 
 5. Similarly, import `Riskmanagement-Mitigations.csv` CSV file with the required data for mitigations.
 
