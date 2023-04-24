@@ -10,7 +10,7 @@ Congratulations! You now have finished a first version of your application. In t
 
 2. Find the **[Preview](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/d0d7f68abdcb4c4bb9df427c9f925dba.html?locale=en-US)** button in the top right of your screen.
 
-3. In the dropdown, choose **With Sample Data**.
+3. In the dropdown, choose **Run Riskmanagement**.
 
    <img src="./images/test_app_1.png" width="80%">
 
