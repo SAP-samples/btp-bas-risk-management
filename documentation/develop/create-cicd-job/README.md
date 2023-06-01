@@ -11,16 +11,22 @@ In this section you will you configure and run predefined continuous integration
 2. Choose **Create a Job** to open the *Guided Development* menu
 
   <img src="././images/cicd_1.png" width="50%">
+
+3. In section **Share your Project to Git** and choose **Share project to Git**.
+
+4. Insert your _Git repository URL_ and choose **Enable Sharing**
+
+  <img src="././images/cicd_1a.png" width="50%">
   
-3.  In tile *Job Configuration*, choose button **Configure Job**
+5.  In tile *Job Configuration*, choose button **Configure Job**
 
   <img src="././images/cicd_2.png" width="60%">
   
-4.  Now you can create a new Job. Insert a **Job Name** e.g. 'RMapp' and choose **Continue**
+6.  Now you can create a new Job. Insert a **Job Name** e.g. 'RMapp' and choose **Continue**
 
    <img src="././images/cicd_3.png" width="60%">
      
-5.  In section *Git Credentials* ,configure like described in table and choose **Next**
+7.  In section *Git Credentials* ,configure like described in table and choose **Next**
 
    | Entry | Value | 
    |---------------|---------------|
@@ -34,8 +40,8 @@ In this section you will you configure and run predefined continuous integration
    
    <img src="././images/cicd_4.png" width="60%">
      
- 6. In Section *Test*, choose **Yes** to specify the Cloud Foundry space to which the application will be deployed for testing
- 7. Configure like described in table and choose **Next**
+ 8. In Section *Test*, choose **Yes** to specify the Cloud Foundry space to which the application will be deployed for testing
+ 9. Configure like described in table and choose **Next**
     
    | Entry| Value | 
    |---------------|---------------|
@@ -50,19 +56,19 @@ In this section you will you configure and run predefined continuous integration
    
    <img src="././images/cicd_5.png" width="60%">
    
- 8. Choose **Finish** 
- 9. Back in screen *Guided Development* choose **Get Webhook Data**
- 10. Find entries for **Payload URL** and **Secret** and copy them into a text editor of your choice to save them for later.
- 11. Navigate to the GitHub repository you have added to your account in step 5.
- 12. In GitHub, open the **Settings** menu and find **Webhooks** tab
- 13. Choose **Add Webhook**
+ 10. Choose **Finish** 
+ 11. Back in screen *Guided Development* choose **Get Webhook Data**
+ 12. Find entries for **Payload URL** and **Secret** and copy them into a text editor of your choice to save them for later.
+ 13. Navigate to the GitHub repository you have added to your account in step 5.
+ 14. In GitHub, open the **Settings** menu and find **Webhooks** tab
+ 15. Choose **Add Webhook**
   
   <img src="././images/cicd_7.png" width="60%">
       
- 15. In Webhook menu, insert your **Payload URL** which you have copied in step 10.
- 16. Choose **Content type** as *application/json*
- 17. Insert your **Secret** which you have copied in step 10.
- 18. Choose **Add Webhook**
+ 16. In Webhook menu, insert your **Payload URL** which you have copied in step 10.
+ 17. Choose **Content type** as *application/json*
+ 18. Insert your **Secret** which you have copied in step 10.
+ 19. Choose **Add Webhook**
  
   <img src="././images/cicd_8.png" width="60%">
   
