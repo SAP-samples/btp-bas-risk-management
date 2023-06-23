@@ -43,6 +43,10 @@ In this section you will first create your development environment in SAP Busine
 
    > Loading SAP Business Application Studio for low-code development can take some time, especially if it’s the first time you use it.
 
+9. Once your project is created, you can open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement** &rarr; **Home**
+
+   <img src="./images/home.png" width="40%">
+
 #### Start Development of Application and Create Data Model
 
 Now you can start the development of your application. First you will model your application and define the database table and the relationship between the entities.
