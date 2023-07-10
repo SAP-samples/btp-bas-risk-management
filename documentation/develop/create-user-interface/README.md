@@ -11,11 +11,11 @@ In this section you will build a user interface to display the data and add role
 
 After defining the foundation of your application in the previous chapter, we will add an SAP Fiori elements based User Interface to the application.
 
-1. Go to the home page and find the **[User Interface](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/efab3e5b3c6b4647a6928d68372a67ac.html?locale=en-US)** tile and choose the **+** icon to add a new user interface.
+1. Go to the storyboard page and find the **[UI Application](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/efab3e5b3c6b4647a6928d68372a67ac.html?locale=en-US)** tile and choose the **+** icon to add a new user interface.
 
    <img src="./images/create_UI_1.png" width="40%">
 
-2. A screen will show up where you can add the **Application Name**: _Risks_ and enter a description. Choose **Next**.
+2. A screen will show up where you can add the **Display Name**: _Risks-&lt;Your-User-ID&gt;_ and enter a description. Choose **Next**.
 
    <img src="./images/create_UI_2.png" width="60%">
 
@@ -52,6 +52,8 @@ After defining the foundation of your application in the previous chapter, we wi
 12. Click on **Add** button
 
 13. In the entry **Section** open **Risks** &rarr; **Table** &rarr; **Columns**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Columns_.
+
+      <img src="././images/update_UI_6a.png" width="40%">
 
 14. In the dropdown choose the following fields inside **risks**
    - ID

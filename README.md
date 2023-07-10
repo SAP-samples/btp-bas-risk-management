@@ -29,54 +29,23 @@ The Risk Management application is developed using the SAP Business Application 
 
 You can find all requirements to execute the tutorial in this [section](/documentation/prepare/prerequisites).
 
-
-## Tutorial using SAP BTP and SAP S/4HANA on-premise
-
-### Step 1: [Configure Your SAP BTP Environment with the Help of Boosters](/documentation/develop/configure-BTP-account/)
-
-### Step 2: [Develop Risk Management Application Using SAP Business Application Studio Visual Tools](/documentation/develop/develop-application/)
-
-### Step 3: [Create User Interface and User Roles](/documentation/develop/create-user-interface/)
-
-### Step 4: [Test Application with Sample Data](/documentation/develop/test-application/)
-
-### Step 5: [Configure Your SAP S/4HANA System](/documentation/develop/configure-odata-service/)
-
-### Step 6: [Configure Systems in Cloud Connector](/documentation/develop/configure-cloud-connector)
-
-### Step 7: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
-
-### Step 8: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
-
-### Step 9: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
-
-### Step 10: [Integrate the Application with SAP Build Work Zone, standard edition](/documentation/develop/integrate-with-workzone/)
-
-### Step 11: [Create Continuous Integration and Delivery Job](/documentation/develop/create-cicd-job/)
-
-
-
 ## Tutorial using SAP BTP and Mock Server
 
-### Step 1: [Configure Your SAP BTP Environment with the Help of Boosters](/documentation/develop/configure-BTP-account/)
+### Step 1: [Develop Risk Management Application Using SAP Business Application Studio Visual Tools](/documentation/develop/develop-application/)
 
-### Step 2: [Develop Risk Management Application Using SAP Business Application Studio Visual Tools](/documentation/develop/develop-application/)
+### Step 2: [Create User Interface and User Roles](/documentation/develop/develop-application/)
 
-### Step 3: [Create User Interface and User Roles](/documentation/develop/develop-application/)
+### Step 3: [Test Application with Sample Data](/documentation/develop/test-application/)
 
-### Step 4: [Test Application with Sample Data](/documentation/develop/test-application/)
+### Step 4: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
 
-### Step 5: [Set up Mock Server](/documentation/develop/set-up-mock-server#set-up-mock-server) 
+### Step 5: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
 
-### Step 6: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
+### Step 6: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
 
-### Step 7: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
+### Step 7: [Integrate the Application with SAP Build Work Zone, standard edition](/documentation/develop/integrate-with-workzone/)
 
-### Step 8: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
-
-### Step 9: [Integrate the Application with SAP Build Work Zone, standard edition](/documentation/develop/integrate-with-workzone/)
-
-### Step 10: [Create Continuous Integration and Delivery Job](/documentation/develop/create-cicd-job/)
+### Step 8: [Optional: Create Continuous Integration and Delivery Job](/documentation/develop/create-cicd-job/)
 
 
 

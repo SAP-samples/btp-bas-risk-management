@@ -6,38 +6,30 @@ Congratulations! You now have finished a first version of your application. In t
 
 ## Preview SAP BTP Application
 
-1. Make sure you have opened **SAP Business Application Studio** and navigate to the **Home** tab.
+1. Make sure you have opened **SAP Business Application Studio** and navigate to the **Storyboard**.
 
-2. Find the **[Preview](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/d0d7f68abdcb4c4bb9df427c9f925dba.html?locale=en-US)** button in the top right of your screen.
-
-3. In the dropdown, choose **Run Riskmanagement**.
+2. Choose the **[Run and Debug](https://help.sap.com/docs/bas/developing-business-applications-using-productivity-tools/testing-applications?q=run%20and%20debug)** button in the top right of your screen.
 
    <img src="./images/test_app_1.png" width="80%">
 
-4. If the new tab doesn't automatically open, and the below popup appears on the screen, click the open button.
+3. A new browser tab will open showing your application.
 
-   <img src="./images/test_app_4.png" width="80%">
-
-<!-- 4. If the new tab doesn't automatically open, find the link to your test application in the terminal and click to open.
-
-   <img src="./images/test_app_2.png" width="80%"> -->
-
-5. Choose a tile to try out your app.
+4. Choose a tile to try out your app.
 
    <img src="./images/test_app_3.png" width="80%">
 
-6. Click on `Risk` app
+5. Click on `Risk` app
 
-7. Click `Go` button to display the sample data
+6. Click `Go` button to display the sample data
 
    <img src="./images/test_app_5.png" width="80%">
 
-8. Click on `create` button to create a new Risk
+7. Click on `create` button to create a new Risk
 
-9. Enter the details for title, description, prio and impact
+8. Enter the details for title, description, prio and impact
 
       <img src="./images/test_app_6.png" width="80%">
 
-10. Click on `create` button
+9. Click on `create` button
 
-11. Make sure you exit the preview mode after your test is finished by clicking **Stop Preview** in SAP BAS.
+10. Make sure you exit the preview mode after your test is finished by clicking **Stop Preview** in SAP BAS.
