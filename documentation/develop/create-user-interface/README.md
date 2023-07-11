@@ -70,13 +70,12 @@ After defining the foundation of your application in the previous chapter, we wi
 
 Now, you can create roles to define different authorization for your application. For example you might want to ensure that some people can view data, but are not able to edit them.
 
-1. Go back to the home page of the application. Find the **[User Roles](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/369ed9cc7a724cfcb2bdbe20f8b6e7d6.html?locale=en-US)** tile and choose the **+** icon to add a new role.
+1. Go back to the storyboard of the application. Find the **Open Editor** dropdown on the top and choose **[User Roles](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/369ed9cc7a724cfcb2bdbe20f8b6e7d6.html?locale=en-US)**.
 
    <img src="./images/user_roles_1.png" width="30%">
    
-   > Hint: Loading the LCAP Authorization Editor might take a few seconds
 
-2. Enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
+2. Choose **+** icon and enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
 
    <img src="./images/user_roles_2.png" width="50%">
 
