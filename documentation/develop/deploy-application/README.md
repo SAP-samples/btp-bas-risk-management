@@ -10,11 +10,15 @@ In this section, you will deploy the application to Cloud Foundry environment.
 
 1. Open SAP Business Application Studio.
 
-2. Find the **Deploy** button in the top right of your screen.
+2. Open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement** &rarr; **Home**
+
+   <img src="./images/home.png" width="40%">
+
+3. Find the **Deploy** button in the top right of your screen.
 
    <img src="././images/deploy_1.png" width="80%">
 
-3. Log in to your account:
+4. Log in to your account:
    - Provide API endpoint to your account
    - Select authentication method 'SSO Passcode'
    - Click on the link 'open a new browser page to generate your SSO passcode'

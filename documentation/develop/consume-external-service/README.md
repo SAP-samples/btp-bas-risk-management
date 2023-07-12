@@ -8,7 +8,7 @@ In this section you will expand your application with an API, which allows to ge
 
 ### Add Business Partner API to Application
 
-1. Open your SAP Business Application Studio and navigate to the **Home**.
+1. Open your SAP Business Application Studio and navigate to the **Storyboard**.
 
 2. Find the tile **External Data Model** and choose the **+** icon to create a new data model.
 
@@ -22,25 +22,30 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/consume_external_service _A1.png" width="100%">
 
-7. Go back to the **Home** page and look for the tile **Services**. Choose the **+** icon to add a new entity.
+7. Go back to the **Storyboard** page and look for the tile **Services**. Choose the **+** icon to add a new entity.
 
-8. In the pop-up enter the following data:
-   - **Name:** _A_Supplier_
-   - **Type:** _bupa.A_BusinessPartner_
-   - **Properties:** _BusinessPartner_, _BusinessPartnerFullName_, _BusinessPartnerIsBlocked_
-<!--
+8. In the pop-up select the **bupa.A_BusinessPartner**:
 
-9. In a next step, we individualize the name of properties. Choose the pencil icon behind your selected property and change the names:
+9. Choose **ok**.
+
+   <img src="././images/consume_external_service_A7.png" width="60%">
+
+10. Select the **A_BusinessPartner** and choose the **Show Details** icon in Service Editor.
+
+11. Change the name **A_BusinessPartner** to **A_Supplier** in the header.
+
+    <img src="././images/consume_external_service_A8.png" width="60%">
+
+12. In the list check only _BusinessPartner_, _BusinessPartnerFullName_ and _BusinessPartnerIsBlocked_.
+
+13. Choose the pencil icon behind your selected property and change the names:
     - _BusinessPartner_ &rarr; _Supplier_
     - _BusinessPartnerFullName_ &rarr; _SupplierFullName_
     - _BusinessPartnerIsBlocked_ &rarr;  _SupplierIsBlocked_
-    -->
 
-9. Choose **Create**.
+    <img src="././images/consume_external_service_A9.png" width="60%">
 
-   <img src="././images/consume_external_service_A6.png" width="60%">
-
-10. Go back to the **Home** page and find tile **Data Models**. Choose the entry **Risks**.
+10. Go back to the **Storyboard** page and find tile **Data Models**. Choose the entry **Risks**.
 
 11. Choose the icon to **Add Relationship** of the risk entity. Click on anywhere on screen to configure relationship.
 
@@ -59,7 +64,7 @@ In this section you will expand your application with an API, which allows to ge
 
 ### Update UI Components
 
-1. Navigate to the **Home** page of SAP Business Application Studio.
+1. Navigate to the **Storyboard** page of SAP Business Application Studio.
 
 2. Find the tile **User Interfaces** and choose the entry **Risks**.
 
