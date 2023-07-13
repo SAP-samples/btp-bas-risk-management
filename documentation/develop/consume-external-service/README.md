@@ -38,27 +38,27 @@ In this section you will expand your application with an API, which allows to ge
 
 12. In the list check only _BusinessPartner_, _BusinessPartnerFullName_ and _BusinessPartnerIsBlocked_.
 
+13. Choose the **Tick** icon.
+
 <!-- 13. Choose the pencil icon behind your selected property and change the names:
     - _BusinessPartner_ &rarr; _Supplier_
     - _BusinessPartnerFullName_ &rarr; _SupplierFullName_
     - _BusinessPartnerIsBlocked_ &rarr;  _SupplierIsBlocked_ -->
 
-    <img src="././images/consume_external_service_A9.png" width="60%">
+14. Go back to the **Storyboard** page and find tile **Data Models**. Choose the entry **Risks** and select **open in Graphical Modeler**.
 
-10. Go back to the **Storyboard** page and find tile **Data Models**. Choose the entry **Risks** and select **open in Graphical Modeler**.
-
-11. Choose the icon to **Add Relationship** of the risk entity. Click on anywhere on screen to configure relationship.
+15. Choose the icon to **Add Relationship** of the risk entity. Click on anywhere on screen to configure relationship.
 
     <img src="././images/consume_external_service _3.png" width="60%">
 
-12. In the pop-up configure the relationship like:
+16. In the pop-up configure the relationship like:
 
     - **Relationship:** _Association_
     - **Multiplicity:** _to-one_
     - **Property Name:** _supplier_
     - **Target Entity Type:** _bupa.A_BusinessPartner_
 
-13. Choose **Tick** icon.
+17. Choose **Tick** icon.
 
     <img src="././images/consume_external_service _4.png" width="60%">
 
