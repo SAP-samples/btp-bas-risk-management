@@ -19,7 +19,7 @@ In this section, you will deploy the application to Cloud Foundry environment.
    <img src="././images/deploy_1.png" width="80%">
 
 4. Log in to your account:
-   - Provide API endpoint to your account
+   - Provide API endpoint (**https://api.cf.eu10-004.hana.ondemand.com/**) to your account
    - Select authentication method 'SSO Passcode'
    - Click on the link 'open a new browser page to generate your SSO passcode'
    - Enter SSO passcode 
@@ -37,6 +37,8 @@ In this section, you will deploy the application to Cloud Foundry environment.
 ### Assign Role Collection
 
 Before you can use the application, you need to assign yourself to the roles you have created in the section before. This needs to be done so you are able to edit and view the data from the application.
+
+ - This is a global setup so you are not allowed to assign user roles on BTP. Therefore please contact the organisation team(**Dominic Steinhauser** and **Matthias Adams**) to perform the below steps.
 
 1. Go back to [SAP BTP Cockpit](https://account.hana.ondemand.com/).
 

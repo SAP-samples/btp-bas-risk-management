@@ -12,7 +12,7 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
 2. Search for the application **SAP Build Work Zone, standard edition** and choose the icon to open it.
 
-3. In the menu on the left side choose the icon for **Provider Manager**.
+3. In the menu on the left side choose the icon for **Channel Manager**.
 
 4. Choose the refresh icon to fetch the updated content.
 

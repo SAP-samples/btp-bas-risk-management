@@ -14,11 +14,11 @@ In this section you will expand your application with an API, which allows to ge
 
 3. On the left side of your screen the menu **Service Center** will appear. Expand the section **SAP System** and find your **Subaccount** there.
 
-4. Then open the destination that you created in section earlier, for example, **bupa**.
+4. Then choose the destination **bupa**.
 
 5. On the bupa page, choose **A_BusinessPartner** in the list **Entity**.
 
-6. Choose **Add Data Model**.
+6. Choose **Add External Data Model**.
 
     <img src="././images/consume_external_service _A1.png" width="100%">
 
@@ -38,14 +38,14 @@ In this section you will expand your application with an API, which allows to ge
 
 12. In the list check only _BusinessPartner_, _BusinessPartnerFullName_ and _BusinessPartnerIsBlocked_.
 
-13. Choose the pencil icon behind your selected property and change the names:
+<!-- 13. Choose the pencil icon behind your selected property and change the names:
     - _BusinessPartner_ &rarr; _Supplier_
     - _BusinessPartnerFullName_ &rarr; _SupplierFullName_
-    - _BusinessPartnerIsBlocked_ &rarr;  _SupplierIsBlocked_
+    - _BusinessPartnerIsBlocked_ &rarr;  _SupplierIsBlocked_ -->
 
     <img src="././images/consume_external_service_A9.png" width="60%">
 
-10. Go back to the **Storyboard** page and find tile **Data Models**. Choose the entry **Risks**.
+10. Go back to the **Storyboard** page and find tile **Data Models**. Choose the entry **Risks** and select **open in Graphical Modeler**.
 
 11. Choose the icon to **Add Relationship** of the risk entity. Click on anywhere on screen to configure relationship.
 
@@ -58,15 +58,15 @@ In this section you will expand your application with an API, which allows to ge
     - **Property Name:** _supplier_
     - **Target Entity Type:** _bupa.A_BusinessPartner_
 
-13. Choose **Create**.
+13. Choose **Tick** icon.
 
-    <img src="././images/consume_external_service_A3.png" width="60%">
+    <img src="././images/consume_external_service _4.png" width="60%">
 
 ### Update UI Components
 
 1. Navigate to the **Storyboard** page of SAP Business Application Studio.
 
-2. Find the tile **User Interfaces** and choose the entry **Risks**.
+2. Find the tile **User Interfaces** and choose the entry **Risks** and Open in Page Map.
 
 3. Find the entry **List Report** and choose the icon to edit.
 
