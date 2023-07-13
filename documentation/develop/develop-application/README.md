@@ -25,7 +25,7 @@ In this section you will first create your development environment in SAP Busine
 
    > A [dev space](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/6053df8bca3946f098bc9f89e49d7317.html?locale=en-US) in SAP Business Application Studio is a development environment with the tools, capabilities, and resources needed for developing your application.
 
-4. Enter a unique name for your Dev Space for example, _Riskmanagement-&lt;Your-User-ID&gt;_  and select **[Full-Stack Application Using Productivity Tools](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/00ad0484344c461caf80a7c695fd38af.html?locale=en-US)** in menu.
+4. Enter a unique name for your Dev Space for example, _Riskmanagement\_&lt;Your-User-ID&gt;_  and select **[Full-Stack Application Using Productivity Tools](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/00ad0484344c461caf80a7c695fd38af.html?locale=en-US)** in menu.
 
 5. Choose **Create Dev Space**
 
