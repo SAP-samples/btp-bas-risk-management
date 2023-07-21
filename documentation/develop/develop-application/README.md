@@ -43,7 +43,7 @@ In this section you will first create your development environment in SAP Busine
 
    <img src="./images/create_dev_space_5.png" width="60%">
 
-9. Enter a unique **Project Name**, for example, _riskmanagement-&lt;Your-User-ID&gt;_ and provide a **Short Description**.
+9. Enter a unique **Project Name**, for example, _riskmanagement\_&lt;Your-User-ID&gt;_ and provide a **Short Description**.
 
    <img src="./images/create_dev_space_6.png" width="40%">
 
