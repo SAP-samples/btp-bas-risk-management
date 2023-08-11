@@ -18,31 +18,33 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
     <img src="././images/integrate_launchpad_1.png" width="80%">
 
-5. Choose **Content Manager** in the menu on the left and open tab **Content Explorer**.
+5. Choose **Content Manager** in the menu on the left and choose **Content Explorer** button
 
 6. Select the tile _HTML5 Apps_ with your respective subdomain name.
 
     <img src="././images/integrate_launchpad_2.png" width="70%">
 
-7. In the items table, set checkmark for the apps **Risks** and **Mitigations** and choose the button **Add to My Content**.
+7. In the table, set checkmark for your applications **Risks** and **Mitigatons** and choose the **Add** button. 
 
     <img src="././images/integrate_launchpad_3.png" width="80%">
 
-8. Go to the **My Content** tab, choose **New** and select **Group** from dropdown.
+8. Go back to **Content Manager** tab, choose **Create** button and select **Group** in the dropdown
 
     <img src="././images/integrate_launchpad_4.png" width="80%">
 
 9. Add the title _Risk Management_.
 
-10. Assign items on the right section of your screen. Search for **Risks** and **Mitigations** and choose the '+' icon to assign the apps.
+10. Find your applications _Risks_ and _Mitigations_ in the table. In row Assignment Status switch **toggle button** to on.
 
 11. Choose **Save**.
 
     <img src="././images/integrate_launchpad_5.png" width="80%">
 
-12. Back in the **Content Manager**, choose role **Everyone** and **Edit**.
+12. Go back to Content Manager and select Role **Everyone**.
 
-13. Assign items on the right section of your screen. Search for **Risks** and **Mitigations** and choose the '+' icon to assign the apps.
+    <img src="././images/integrate_launchpad_6a.png" width="80%">
+
+13. Choose **Edit** button and find your applications _Risks_ and _Mitigations_ in the table. In row Assignment Status switch **toggle button** to on.
 
 14. Choose **Save**.
 
