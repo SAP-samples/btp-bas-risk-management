@@ -2,6 +2,33 @@
 
 ## Introduction
 
+In this hands-on session we start from the SAP Build Lobby. The [SAP Build Lobby](https://help.sap.com/docs/help/9d385a1842594230993661ca78dce150/60ebbc68cd8e45da8d38792303e6b70a.html) is a central page for creating, accessing, and managing your projects. In this section you will create your project from the lobby.
+
+### Create a new Project in the SAP Build Lobby
+> Hint: Please use Google Chrome or Microsoft Edge to follow the exercises
+
+1. Open the [SAP Build Lobby](https://lcapteched.eu10.build.cloud.sap/lobby) and login with the provided user-id and password.
+
+2. In the SAP Build Lobby choose the button **Create** to start
+
+   <img src="./images/create_from_lobby_1.png" width="70%">
+
+3. A new window opens asking you what you would like to do. Select **Build an Application**.
+
+   <img src="./images/create_from_lobby_2.png" width="70%">
+   
+4. You are asked which type of application you would like to build. Select the option for **Pro Developers**.
+
+   <img src="./images/create_from_lobby_3.png" width="70%">
+
+5. Add a **Project Name** and a **Short Description**. Please name the project 'Riskmanagement <Your_User_ID>' and choose the same user-id you used for login. 
+
+   <img src="./images/create_from_lobby_4_1.png" width="70%">
+
+6. SAP Business Application Studio opens with the project you just defined. It will take some time until your project is created.
+
+<!-- ## Introduction
+
 In this section you will first create your development environment in SAP Business Application Studio. Then you will use the created environment to develop the sample application:
 - Create data models
 - Define relationships between the entities
@@ -45,7 +72,7 @@ In this section you will first create your development environment in SAP Busine
 
 9. Enter a unique **Project Name**, for example, _riskmanagement\_&lt;Your-User-ID&gt;_ and provide a **Short Description**.
 
-   <img src="./images/create_dev_space_6.png" width="40%">
+   <img src="./images/create_dev_space_6.png" width="40%"> -->
 
 
 #### Start Development of Application and Create Data Model
