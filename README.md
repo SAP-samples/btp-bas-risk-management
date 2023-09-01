@@ -41,11 +41,11 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 5: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
 
-<!-- ### Step 6: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
+### Step 6: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
 
-### Step 7: [Integrate the Application with SAP Build Work Zone, standard edition](/documentation/develop/integrate-with-workzone/)
+<!-- ### Step 7: [Integrate the Application with SAP Build Work Zone, standard edition](/documentation/develop/integrate-with-workzone/) -->
 
-### Step 8: [Optional: Create Continuous Integration and Delivery Job](/documentation/develop/create-cicd-job/) -->
+### Step 7: [Optional: Create Continuous Integration and Delivery Job](/documentation/develop/create-cicd-job/)
 
 
 
