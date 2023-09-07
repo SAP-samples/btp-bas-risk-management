@@ -113,20 +113,21 @@ Now you can start the development of your application. First you will model your
 
 6. Choose the **Checkmark Icon** to create the entity.
 
-7. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Risks** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Mitigations entity, by clicking on table and configure the relationship in pop-up.
+7. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Mitigations** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
-   <img src="./images/add_data_model_5.png" width="60%">
+   <img src="./images/add_data_model_14.png" width="60%">
 
-8. In the screen on the right enter all the required details:
-   - Select **Relationship:** _Association_
-   - Select **Multiplicity:** _To-one_
-   - Enter **Name:** _miti_
+8. In the pop-up screen enter all the required details:
+   - Select **Type:** _Association_
+   - Select **Direction** _Bidirectional_
+   - Select **Multiplicity:** _To-Many_
+   - Enter **Name:** _Risks_
 
-      <img src="./images/add_data_model_6.png" width="50%">
+      <img src="./images/add_data_model_15.png" width="50%">
 
-9. Choose **Checkmark Icon** to save
+9. Choose **Create Button** to save
 
-10. Repeat the previous step for **Mitigations**. Click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
+<!-- 10. Repeat the previous step for **Mitigations**. Click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
 11. In the pop-up screen select all the required details:
    - **Relationship:** Association
@@ -137,7 +138,7 @@ Now you can start the development of your application. First you will model your
    
       <img src="./images/add_data_model_7.png" width="50%">
 
-12. Choose **Checkmark Icon** to save
+12. Choose **Checkmark Icon** to save -->
 <!--
 13. Back in the **Data Model Editor**, choose **Import** at the top bar.
 
@@ -190,17 +191,17 @@ Now you will create service entities for Risks and Mitigations to define which p
 
    <img src="./images/add_services_2.png" width="60%">
 
-3. In the screen **Service Editor**, choose the risks entity. A menu will appear on the right side of the screen. Go to section **Settings** and check the checkbox for _draft editing_.
+<!-- 3. In the screen **Service Editor**, choose the risks entity. A menu will appear on the right side of the screen. Go to section **Settings** and check the checkbox for _draft editing_.
 
    <img src="./images/add_services_3.png" width="40%">
 
-   `Draft Editing` allows to create new data for `Risks` in the draft mode with pre-defined handlers.
+   `Draft Editing` allows to create new data for `Risks` in the draft mode with pre-defined handlers. -->
 
-4. Back in service editor, choose **Add_Entity** and select select _Riskmanagement-&lt;Your-User-ID&gt;_.Mitigations_ as type and choose **Ok** to finish.
+3. Back in service editor, choose **Add_Entity** and select select _Riskmanagement-&lt;Your-User-ID&gt;_.Mitigations_ as type and choose **Ok** to finish.
 
      <img src="./images/add_services_2.png" width="60%">
-
-5. In the screen **Service Editor**, choose the mitigations entity. A menu will appear on the right side of the screen. Go to section **Settings** and check the checkbox for _draft editing_.
+<!-- 
+5. In the screen **Service Editor**, choose the mitigations entity. A menu will appear on the right side of the screen. Go to section **Settings** and check the checkbox for _draft editing_. -->
 
 #### Add Sample Data
 

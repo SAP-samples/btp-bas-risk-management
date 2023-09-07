@@ -29,7 +29,7 @@ In this section, you will implement the custom logic to define the criticality b
 
 ```js
 
-            const risksData = context.results;
+            const risksData = results;
             const risks = Array.isArray(risksData) ? risksData : [risksData];
             risks.forEach(risk => {
                 if (risk.impact >= 100000) {

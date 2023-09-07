@@ -24,11 +24,12 @@ In this section you will expand your application with an API, which allows to ge
 
 7. Go back to the **Storyboard** page and look for the tile **Services**. Choose the **+** icon to add a new entity.
 
-8. In the pop-up select the **bupa.A_BusinessPartner**:
+
+8. In the pop-up uncheck **Enable Draft Editing** and select the **bupa.A_BusinessPartner**:
 
 9. Choose **ok**.
 
-   <img src="././images/consume_external_service_A7.png" width="60%">
+   <img src="././images/consume_external_service_A11.png" width="60%">
 
 10. Select the **A_BusinessPartner** and choose the **Show Details** icon in Service Editor.
 
@@ -53,14 +54,15 @@ In this section you will expand your application with an API, which allows to ge
 
 16. In the pop-up configure the relationship like:
 
-    - **Relationship:** _Association_
+    - **Type:** _Association_
+    - **Direction** _Unidirectional_
     - **Multiplicity:** _to-one_
     - **Property Name:** _supplier_
     - **Target Entity Type:** _bupa.A_BusinessPartner_
 
-17. Choose **Tick** icon.
+17. Choose **Create** Button.
 
-    <img src="././images/consume_external_service _4.png" width="60%">
+    <img src="././images/consume_external_service _10.png" width="60%">
 
 ### Update UI Components
 
@@ -89,7 +91,7 @@ In this section you will expand your application with an API, which allows to ge
     <img src="././images/update_UI_5.png" width="40%">
 
 8. Add the following fields using the dropdown:
-    - _miti_ID_
+    - _mitigations_ID_
     - _supplier_BusinessPartner_
     - _BusinessPartnerFullName_
     - _BusinessPartnerIsBlocked_
@@ -116,7 +118,7 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/update_UI_8.png" width="40%">
 
-17. Similary, configure value help for mitigation. select the property `miti_ID`
+17. Similary, configure value help for mitigation. select the property `mitigations_ID`
 
 18. Find entry **Display Type** and choose **Value Help** in the dropdown.
 

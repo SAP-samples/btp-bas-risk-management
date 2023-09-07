@@ -22,15 +22,20 @@ In this section, you will deploy the application to Cloud Foundry environment.
    - Provide API endpoint (**https://api.cf.eu10-004.hana.ondemand.com/**) to your account
    - Select authentication method 'SSO Passcode'
    - Click on the link 'open a new browser page to generate your SSO passcode'
+
+   <img src="././images/deploy_5.png" width="60%">
+
+   - Enter **lcap-platform** in Text field
+   - Choose the 'Sign in with alternative identity provider'
+
+   <img src="././images/deploy_6.png" width="60%">
+   
    - Enter SSO passcode 
    - Click on Sign in
-
-   <img src="././images/deploy_3.png" width="80%">
-   
    - Select org and space
    - Click on Apply
    
-   <img src="././images/deploy_4.png" width="80%">
+   <img src="././images/deploy_4.png" width="60%">
 
 5. Your application will be deployed. This can take a few minutes.
 
