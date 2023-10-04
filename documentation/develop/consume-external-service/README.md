@@ -8,66 +8,72 @@ In this section you will expand your application with an API, which allows to ge
 
 ### Add Business Partner API to Application
 
-1. Open your SAP Business Application Studio and navigate to the **Home**.
+1. Open your SAP Business Application Studio and navigate to the **Storyboard**.
 
 2. Find the tile **External Data Model** and choose the **+** icon to create a new data model.
 
 3. On the left side of your screen the menu **Service Center** will appear. Expand the section **SAP System** and find your **Subaccount** there.
 
-4. Then open the destination that you created in section earlier, for example, **bupa**.
+4. Then choose the destination **bupa**.
 
 5. On the bupa page, choose **A_BusinessPartner** in the list **Entity**.
 
-6. Choose **Add Data Model**.
+6. Choose **Add External Data Model**.
 
     <img src="././images/consume_external_service _A1.png" width="100%">
 
-7. Go back to the **Home** page and look for the tile **Services**. Choose the **+** icon to add a new entity.
+7. Go back to the **Storyboard** page and look for the tile **Services**. Choose the **+** icon to add a new entity.
 
-8. In the pop-up enter the following data:
-   - **Name:** _A_Supplier_
-   - **Type:** _bupa.A_BusinessPartner_
-   - **Properties:** _BusinessPartner_, _BusinessPartnerFullName_, _BusinessPartnerIsBlocked_
-<!--
 
-9. In a next step, we individualize the name of properties. Choose the pencil icon behind your selected property and change the names:
+8. In the pop-up uncheck **Enable Draft Editing** and select the **bupa.A_BusinessPartner**:
+
+9. Choose **ok**.
+
+   <img src="././images/consume_external_service_A11.png" width="60%">
+
+10. Select the **A_BusinessPartner** and choose the **Show Details** icon in Service Editor.
+
+11. Change the name **A_BusinessPartner** to **A_Supplier** in the header.
+
+    <img src="././images/consume_external_service_A8.png" width="60%">
+
+12. In the list check only _BusinessPartner_, _BusinessPartnerFullName_ and _BusinessPartnerIsBlocked_.
+
+13. Choose the **Tick** icon.
+
+<!-- 13. Choose the pencil icon behind your selected property and change the names:
     - _BusinessPartner_ &rarr; _Supplier_
     - _BusinessPartnerFullName_ &rarr; _SupplierFullName_
-    - _BusinessPartnerIsBlocked_ &rarr;  _SupplierIsBlocked_
-    -->
+    - _BusinessPartnerIsBlocked_ &rarr;  _SupplierIsBlocked_ -->
 
-9. Choose **Create**.
+14. Go back to the **Storyboard** page and find tile **Data Models**. Choose the entry **Risks** and select **open in Graphical Modeler**.
 
-   <img src="././images/consume_external_service_A6.png" width="60%">
-
-10. Go back to the **Home** page and find tile **Data Models**. Choose the entry **Risks**.
-
-11. Choose the icon to **Add Relationship** of the risk entity. Click on anywhere on screen to configure relationship.
+15. Choose the icon to **Add Relationship** of the risk entity. Click on anywhere on screen to configure relationship.
 
     <img src="././images/consume_external_service _3.png" width="60%">
 
-12. In the pop-up configure the relationship like:
+16. In the pop-up configure the relationship like:
 
-    - **Relationship:** _Association_
+    - **Type:** _Association_
+    - **Direction** _Unidirectional_
     - **Multiplicity:** _to-one_
     - **Property Name:** _supplier_
     - **Target Entity Type:** _bupa.A_BusinessPartner_
 
-13. Choose **Create**.
+17. Choose **Create** Button.
 
-    <img src="././images/consume_external_service_A3.png" width="60%">
+    <img src="././images/consume_external_service _10.png" width="60%">
 
 ### Update UI Components
 
-1. Navigate to the **Home** page of SAP Business Application Studio.
+1. Navigate to the **Storyboard** page of SAP Business Application Studio.
 
-2. Find the tile **User Interfaces** and choose the entry **Risks**.
-
+2. Find the tile **UI Applications** and choose the entry **Risks** and choose **Open in Page Map**.
 3. Find the entry **List Report** and choose the icon to edit.
 
     <img src="././images/update_UI_1.png" width="40%">
 
-4. In the Page Editor, expand the **Columns** section and choose the **+** icon and select ***Add basic columns** from the dropdown.
+4. In the Page Editor, expand the **Columns** section and choose the **+** icon and select **Add basic columns** from the dropdown.
 
     <img src="././images/update_UI_2.png" width="40%">
 
@@ -84,7 +90,7 @@ In this section you will expand your application with an API, which allows to ge
     <img src="././images/update_UI_5.png" width="40%">
 
 8. Add the following fields using the dropdown:
-    - _miti_ID_
+    - _mitigations_ID_
     - _supplier_BusinessPartner_
     - _BusinessPartnerFullName_
     - _BusinessPartnerIsBlocked_
@@ -111,7 +117,7 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/update_UI_8.png" width="40%">
 
-17. Similary, configure value help for mitigation. select the property `miti_ID`
+17. Similary, configure value help for mitigation. select the property `mitigations_ID`
 
 18. Find entry **Display Type** and choose **Value Help** in the dropdown.
 
