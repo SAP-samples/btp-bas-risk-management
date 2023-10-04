@@ -48,7 +48,7 @@ In this section you will first create your development environment in SAP Busine
 
    > Loading SAP Business Application Studio for low-code development can take some time, especially if it’s the first time you use it.
 
-10. Once your project is created, you can open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement** &rarr; **Home**.
+10. Once your project is created, you can open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement**.
 
     <img src="./images/home.png" width="40%">
 
@@ -76,9 +76,7 @@ Now you can start the development of your application. First you will model your
 
       <img src="./images/add_data_model_2.png" width="70%">
 
-4. Choose the **Checkmark Icon** to create the entity.
-
-5. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_. Retain the property `ID` and choose the **+** icon in the table to add following properties:
+4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_. Retain the property `ID` and choose the **+** icon in the table to add following properties:
 
    | Property Name | Property Type | Max Length |
    |---------------|---------------|------------|
@@ -88,13 +86,11 @@ Now you can start the development of your application. First you will model your
 
    <img src="./images/add_data_model_3.png" width="60%">
 
-6. Choose the **Checkmark Icon** to create the entity.
-
-7. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Mitigations** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
+5. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Mitigations** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
    <img src="./images/add_data_model_mitigation.png" width="60%">
 
-8. In the pop-up screen enter all the required details:
+6. In the pop-up screen enter all the required details:
    - Select **Type:** _Association_
    - Select **Direction** _Bidirectional_
    - Select **Multiplicity:** _To-Many_
@@ -102,7 +98,7 @@ Now you can start the development of your application. First you will model your
 
       <img src="./images/add_data_model_15.png" width="50%">
 
-9. Choose **Create** button to save.
+7. Choose **Create** button to save.
 
 <!-- 10. Repeat the previous step for **Mitigations**. Click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
@@ -150,11 +146,11 @@ Now you can start the development of your application. First you will model your
 
       <img src="./images/add_data_model_11.png" width="30%"> -->
 
-10. In the details section of **Risks**, choose **Aspects** and check entry for **managed**. Choose **Checkmark Icon** to save.
+8. In the details section of **Risks**, choose **Aspects** and check entry for **managed**. Choose **Checkmark Icon** to save.
 
       <img src="./images/add_data_model_10.png" width="30%">
 
-11. In the details section of **Mitigations**, choose **Aspects** and check entry for **managed**.
+9. In the details section of **Mitigations**, choose **Aspects** and check entry for **managed**.
 
 #### Create Services
 

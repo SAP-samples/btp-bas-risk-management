@@ -27,7 +27,7 @@ After defining the foundation of your application in the previous chapter, we wi
 
    <img src="./images/create_UI_4.png" width="40%">
 
-5. Select main entity _risks_ in as main entity in Data Objects, to show risks entity in UI. Choose **Finish**.
+5. Select main entity as _risks_ in Data Objects, to show risks entity in UI. Choose **Finish**.
 
    <img src="./images/create_UI_5.png" width="40%">
 
@@ -35,11 +35,11 @@ After defining the foundation of your application in the previous chapter, we wi
 
 7. Select **Mitigation** as main entity in Data Objects, and choose **_risks_** as navigation entity. Choose **Finish**.
 
-   <img src="./images/create_UI_5a.png" width="40%">
+   <img src="./images/create_UI_6.png" width="40%">
 
 8. Under UI Applications, choose the entry **Riskmanagement.Mitigations**.
 
-   <img src="./images/create_UI_5b.png" width="40%">
+   <img src="./images/create_UI_7.png" width="40%">
 
 9. Find the **Object Page** entry and choose the edit icon.
 
@@ -57,7 +57,7 @@ After defining the foundation of your application in the previous chapter, we wi
 
 13. In the entry **Section** open **Risks** &rarr; **Table** &rarr; **Columns**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Columns_.
 
-      <img src="././images/create_UI_6a.png" width="40%">
+      <img src="././images/create_UI_8.png" width="40%">
 
 14. In the dropdown choose the following fields inside **risks**.
    - ID
