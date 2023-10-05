@@ -40,6 +40,7 @@ In this section you will first create your development environment in SAP Busine
     <img src="./images/create_project.png" width="60%">
 
 8. Select **Full-Stack Project (Productivity Toolkit)** and choose **Start**.
+    
     <img src="./images/start_project.png" width="60%">
 
 9. Enter a **Project Name**, for example, _Riskmanagement_ and provide a **Short Description** and choose **Finish**.
@@ -50,7 +51,7 @@ In this section you will first create your development environment in SAP Busine
 
 10. Once your project is created, you can open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement**.
 
-    <img src="./images/home.png" width="40%">
+    <img src="./images/storyboard.png" width="40%">
 
 #### Start Development of Application and Create Data Model
 
@@ -74,7 +75,7 @@ Now you can start the development of your application. First you will model your
     | impact        | integer       |            |
     | criticality   | integer       |            |
 
-      <img src="./images/add_data_model_2.png" width="70%">
+      <img src="./images/add_data_model_risks.png" width="70%">
 
 4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_. Retain the property `ID` and choose the **+** icon in the table to add following properties:
 
@@ -84,11 +85,12 @@ Now you can start the development of your application. First you will model your
    | owner         | string        | 100        |
    | timeline      | string        | 100        |
 
-   <img src="./images/add_data_model_3.png" width="60%">
+   <img src="./images/add_data_model_mitigations.png" width="60%">
 
 5. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Mitigations** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
-   <img src="./images/add_data_model_mitigation.png" width="60%">
+   <img src="./images/data_model_risks.png" width="60%">
+   <img src="./images/data_model_mitigations.png" width="60%">
 
 6. In the pop-up screen enter all the required details:
    - Select **Type:** _Association_
@@ -100,55 +102,9 @@ Now you can start the development of your application. First you will model your
 
 7. Choose **Create** button to save.
 
-<!-- 10. Repeat the previous step for **Mitigations**. Click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
+8. In the details section of **Risks**, choose **Aspects** and check entry for **managed**.
 
-11. In the pop-up screen select all the required details:
-   - **Relationship:** Association
-   - **Multiplicity:** To-many
-   - **Name:** risks
-   - **Backlink Property:** miti
-
-   
-      <img src="./images/add_data_model_7.png" width="50%">
-
-12. Choose **Checkmark Icon** to save -->
-<!--
-13. Back in the **Data Model Editor**, choose **Import** at the top bar.
-
-13. In the dropdown, select **Common Types** from the list.
-
-    <img src="./images/add_data_model_8.png" width="60%">
-
-   `sap.common` provides predefined easy-to-use `Types`, `Aspects` and `Code Lists` that can be used in the application to foster interoperability.
-
-14. In the pop-up, select **sap.common** from the list and choose **Select** to finish.
-
-    <img src="./images/add_data_model_12.png" width="30%">
-
-15. Go Back in the **Data Model Editor** by clicking on **home icon**
-
-      <img src="./images/add_data_model_13.png" width="80%">
-
-16. Click on the header of the **Risks** entry and then choose the **Include Aspects** icon in the appeared menu. This allows to flexibly extend definitions by new elements as well as overriding properties and annotations.
-
-    <img src="./images/add_data_model_10.png" width="50%">
-
-
-17. In the pop-up, choose **global.managed** from the list
-
-    <img src="./images/add_data_model_11.png" width="30%">
-
-18. Choose **Select**. The global.managed aspect allows to track changes made in the data.
-
-19. Repeat the steps for _Mitigations_. Click on the header of the **Mitigations** entry and choose the **Include Aspects** icon in the appeared menu.
-
-20. In the pop-up, choose **global.managed** from the list and choose **Select**.
-
-      <img src="./images/add_data_model_11.png" width="30%"> -->
-
-8. In the details section of **Risks**, choose **Aspects** and check entry for **managed**. Choose **Checkmark Icon** to save.
-
-      <img src="./images/add_data_model_10.png" width="30%">
+      <img src="./images/aspects_mitigations.png" width="30%">
 
 9. In the details section of **Mitigations**, choose **Aspects** and check entry for **managed**.
 
@@ -164,7 +120,7 @@ Now you will create service entities for Risks and Mitigations to define which p
    
    <img src="./images/add_service_risks.png" width="30%">
 
-3. Back in service editor, choose **Add_Entity** and select select _Riskmanagement-&lt;Your-User-ID&gt;_.Mitigations_ as type and choose **Ok** to finish.
+3. Back in service editor, choose **Add_Entity** and select _Riskmanagement.Mitigations_ as type and choose **Ok** to finish.
 
      <img src="./images/add_service_mitigations.png" width="30%">
 
@@ -184,11 +140,11 @@ Once the structure of your application is finished, you can add sample data to t
 
 4. Import `Riskmanagement-Risks.csv` CSV file with the required data for risks.
 
-   <img src="./images/add_sample_data_3.png" width="60%">
+   <img src="./images/add_sample_data_risks.png" width="60%">
 
 > Hint: SAP Business Application Studio might show an error in this step, which will be fixed while importing the mitigation csv file.
 
-5. Similarly, import `Riskmanagement-Mitigations.csv` CSV file with the required data for mitigations.
+5. Similarly, import `Riskmanagement-Mitigations.csv` file with the required data for mitigations.
 
 ## Summary
 
