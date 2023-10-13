@@ -4,29 +4,30 @@
 
 In this section, you will deploy the application to Cloud Foundry environment.
 
- <img src="././images/SolutionDiagram_6.png" width="80%">
+<img src="././images/SolutionDiagram_6.png" width="80%">
 
 ### Deploy Application to Cloud Foundry
 
 1. Open SAP Business Application Studio.
 
-2. Open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement** &rarr; **Home**
+2. Open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement** &rarr; **Storyboard**
 
-   <img src="./images/home.png" width="40%">
+   <img src="./images/deploy_home.png" width="40%">
 
-3. Find the **Deploy** button in the top right of your screen.
+3. Choose **Task Explorer** and expand **Deploy** and choose **Deploy Riskmanagement** and click on **Run** button.
 
    <img src="././images/deploy_1.png" width="80%">
 
-4. Log in to your account:
+4. On deploy process, a tab opens for **Cloud Foundry Sign In and Targets**, log in to your account:
    - Provide API endpoint (**https://api.cf.eu10-004.hana.ondemand.com/**) to your account
    - Select authentication method 'SSO Passcode'
    - Click on the link 'open a new browser page to generate your SSO passcode'
 
-   <img src="././images/deploy_5.png" width="60%">
+   <img src="././images/deploy_2.png" width="60%">
 
-   - Enter **lcap-platform** in Text field
-   - Choose the 'Sign in with alternative identity provider'
+   - Click on Sign in with another account.
+   - Enter **lcap-platform** in Text field for signing in with alternative identity provider.
+   - Choose **Sign in with alternative identity provider**
 
    <img src="././images/deploy_6.png" width="60%">
    

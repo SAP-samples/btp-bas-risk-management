@@ -12,13 +12,15 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
 2. Search for the application **SAP Build Work Zone, standard edition** and choose the icon to open it.
 
-3. In the menu on the left side choose the icon for **Provider Manager**.
+3. In the menu on the left side choose the icon for **Channel Manager**.
 
 4. Choose the refresh icon to fetch the updated content.
 
     <img src="././images/integrate_launchpad_1.png" width="80%">
 
 5. Choose **Content Manager** in the menu on the left and choose **Content Explorer** button
+
+    <img src="././images/integrate_launchpad_1a.png" width="80%">
 
 6. Select the tile _HTML5 Apps_ with your respective subdomain name.
 
@@ -28,13 +30,13 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
     <img src="././images/integrate_launchpad_3.png" width="80%">
 
-8. Go back to **Content Manager** tab, choose **Create** button and select **Group** in the dropdown
+8. Go back to **Content Manager** tab, choose **Create** button and select **Group** from the dropdown
 
     <img src="././images/integrate_launchpad_4.png" width="80%">
 
 9. Add the title _Risk Management_.
 
-10. Find your applications _Risks_ and _Mitigations_ in the table. In row Assignment Status switch **toggle button** to on.
+10. Find your applications _Risks_ and _Mitigations_ in the table. In that particular row **Assignment Status** switch **toggle button** to on.
 
 11. Choose **Save**.
 
@@ -44,7 +46,7 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
     <img src="././images/integrate_launchpad_6a.png" width="80%">
 
-13. Choose **Edit** button and find your applications _Risks_ and _Mitigations_ in the table. In row Assignment Status switch **toggle button** to on.
+13. Choose **Edit** button and find your applications _Risks_ and _Mitigations_ in the table. In row **Assignment Status** switch **toggle button** to on.
 
 14. Choose **Save**.
 
@@ -58,7 +60,9 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
 17. Enter the site name as 'RiskManagement Site' and choose **Create**.
 
-18. Now, you are forwarded to your created site. Choose **Edit**.
+    <img src="././images/integrate_launchpad_10.png" width="40%">
+
+18. Now, you are forwarded to your created site.
 
 19. Navigate to **Site Directory**.
 
@@ -72,13 +76,13 @@ In this section, the application will be connected with SAP Build Work Zone, sta
 
     - Open the Risks Application
 
-    <img src="././images/risk_1.png" width="50%">
+         <img src="././images/risk_1.png" width="50%">
 
     **Create New Risk**
     - Choose Create button
     - Provide values in title, impact, prio, descr.
 
-    <img src="././images/risk_2.png" width="50%">
+        <img src="././images/risk_2.png" width="50%">
 
     - Choose value help icon to select supplier_BusinessPartner
     - Choose create button to generate new Risk  
