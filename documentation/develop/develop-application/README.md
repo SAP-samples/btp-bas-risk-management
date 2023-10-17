@@ -35,27 +35,37 @@ In this section you will first create your development environment in SAP Busine
 
    <img src="./images/create_dev_space_3.png" width="60%">
 
-7.  In the pop-up enter a **Project Name**, for example, _riskmanagement_ and provide a **Short Description**.
+7.  Click on **Create Project** under Project Explorer.
 
-8. Finish by choosing **Create**.
+    <img src="./images/create_project.png" width="60%">
 
-   <img src="./images/create_dev_space_5.png" width="40%">
+8. Select **Full-Stack Project (Productivity Toolkit)** and choose **Start**.
+    
+    <img src="./images/start_project.png" width="60%">
+
+9. Enter a **Project Name**, for example, _Riskmanagement_ and provide a **Short Description** and choose **Finish**.
+
+    <img src="./images/project_name.png" width="40%">
 
    > Loading SAP Business Application Studio for low-code development can take some time, especially if it’s the first time you use it.
 
-9. Once your project is created, you can open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement** &rarr; **Home**
+10. Once your project is created, you can open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement**.
 
-   <img src="./images/home.png" width="40%">
+    <img src="./images/storyboard.png" width="40%">
 
 #### Start Development of Application and Create Data Model
 
 Now you can start the development of your application. First you will model your application and define the database table and the relationship between the entities.
 
-1. In this application two Data Models 'Risks' and 'Mitigations', to hold the data are needed. To create a Data Model open SAP Business Application Studio under tab **Home**, look for the tile **[Data Models](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/759ecc54523141d1af2b56f7b27c110a.html?locale=en-US)** and choose the **+** icon to add a new entity.
+1. In this application two Data Models 'Risks' and 'Mitigations', to hold the data are needed. To create a Data Model open SAP Business Application Studio, look for the tile **[Data Models](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/759ecc54523141d1af2b56f7b27c110a.html?locale=en-US)** and choose the **+** icon to add a new entity.
 
    <img src="./images/add_data_model_1.png" width="30%">
 
-2. Enter the **Entity Name** _Risks_. Retain the property `ID` and choose the **+** icon in the table to add the following properties:
+2. A new entity is created for you. Click on the tile and choose **Show Details** to edit the entity
+
+      <img src="./images/add_data_model_2a.png" width="70%">
+
+3. Change the **Entity Name** to _Risks_. Retain the property `ID` and choose the **+** icon in the table to add the following properties:
 
     | Property Name | Property Type | Max Length |
     |---------------|---------------|------------|
@@ -65,10 +75,7 @@ Now you can start the development of your application. First you will model your
     | impact        | integer       |            |
     | criticality   | integer       |            |
 
-      <img src="./images/add_data_model_2.png" width="70%">
-
-3. Choose **Create**.
-
+      <img src="./images/add_data_model_risks.png" width="70%">
 
 4. Back in the **Data Model Editor**, choose the **Add Entity** button in the menu on the top to add another entity. Enter the Entity name _Mitigations_. Retain the property `ID` and choose the **+** icon in the table to add following properties:
 
@@ -78,101 +85,44 @@ Now you can start the development of your application. First you will model your
    | owner         | string        | 100        |
    | timeline      | string        | 100        |
 
-   <img src="./images/add_data_model_3.png" width="60%">
+   <img src="./images/add_data_model_mitigations.png" width="60%">
 
-   <img src="./images/add_data_model_4.png" width="60%">
+5. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Mitigations** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
-5. Choose **Create** to finish.
+   <img src="./images/data_model_risks.png" width="60%">
+   <img src="./images/data_model_mitigations.png" width="60%">
 
-6. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Risks** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Mitigations entity, by clicking on table and configure the relationship in pop-up.
+6. In the pop-up screen enter all the required details:
+   - Select **Type:** _Association_
+   - Select **Direction** _Bidirectional_
+   - Select **Multiplicity:** _To-Many_
+   - Enter **Name:** _Risks_
 
-   <img src="./images/add_data_model_5.png" width="60%">
+      <img src="./images/add_data_model_15.png" width="50%">
 
-7. In the pop-up screen enter all the required details:
-   - Select **Relationship:** _Association_
-   - Select **Multiplicity:** _To-one_
-   - Enter **Property name:** _miti_
+7. Choose **Create** button to save.
 
-      <img src="./images/add_data_model_6.png" width="50%">
+8. In the details section of **Risks**, choose **Aspects** and check entry for **managed**.
 
-8. Choose **Create**.
+      <img src="./images/aspects_mitigations.png" width="30%">
 
-9. Repeat the previous step for **Mitigations**. Click on the header of the table to **add relationship**. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
-
-10. In the pop-up screen select all the required details:
-   - **Relationship:** Association
-   - **Multiplicity:** To-many
-   - **Property Name:** risks
-   - **Backlink Property:** miti
-
-   
-      <img src="./images/add_data_model_7.png" width="50%">
-
-11. Choose **Create**.
-
-
-12. Back in the **Data Model Editor**, choose **Import** at the top bar.
-
-13. In the dropdown, select **Common Types** from the list.
-
-    <img src="./images/add_data_model_8.png" width="60%">
-
-   `sap.common` provides predefined easy-to-use `Types`, `Aspects` and `Code Lists` that can be used in the application to foster interoperability.
-
-14. In the pop-up, select **sap.common** from the list and choose **Select** to finish.
-
-    <img src="./images/add_data_model_12.png" width="30%">
-
-15. Go Back in the **Data Model Editor** by clicking on **home icon**
-
-      <img src="./images/add_data_model_13.png" width="80%">
-
-16. Click on the header of the **Risks** entry and then choose the **Include Aspects** icon in the appeared menu. This allows to flexibly extend definitions by new elements as well as overriding properties and annotations.
-
-    <img src="./images/add_data_model_10.png" width="50%">
-
-
-17. In the pop-up, choose **global.managed** from the list
-
-    <img src="./images/add_data_model_11.png" width="30%">
-
-18. Choose **Select**. The global.managed aspect allows to track changes made in the data.
-
-19. Repeat the steps for _Mitigations_. Click on the header of the **Mitigations** entry and choose the **Include Aspects** icon in the appeared menu.
-
-20. In the pop-up, choose **global.managed** from the list and choose **Select**.
-
-      <img src="./images/add_data_model_11.png" width="30%">
+9. In the details section of **Mitigations**, choose **Aspects** and check entry for **managed**.
 
 #### Create Services
 
 Now you will create service entities for Risks and Mitigations to define which parts of the data models you just have created should be exposed to the application.
 
-1. Go back to the home page of the application. Find the **[Services](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/af4df4c8fcd94152bb7bf6a4e205709b.html?locale=en-US)** tile and choose the **+** icon to add a new service entity.
+1. Go back to the storyboard page of the application. Find the **[Services](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/af4df4c8fcd94152bb7bf6a4e205709b.html?locale=en-US)** tile and choose the **+** icon to add a new service entity.
 
    <img src="./images/add_services_1.png" width="30%">
 
-2. On the next screen, enter the following and choose **Create** to finish:
-   - Enter **Name:** _risks_
-   - Select **Namespace:** "riskmanagementService"
-   - Select **Type:** "riskmanagement.Risks"
+2. On the next screen, select _Riskmanagement.Risks_ and choose **Ok** to finish.
+   
+   <img src="./images/add_service_risks.png" width="30%">
 
-   <img src="./images/add_services_2.png" width="60%">
+3. Back in service editor, choose **Add_Entity** and select _Riskmanagement.Mitigations_ as type and choose **Ok** to finish.
 
-3. In the screen **Service Editor**, find the risks entity and choose header of entry. A menu will appear on the right side of the screen. in section **Property Sheet** check the checkbox for _draft editing_.
-
-   <img src="./images/add_services_3.png" width="40%">
-
-   `Draft Editing` allows to create new data for `Risks` in the draft mode with pre-defined handlers.
-
-4. Back in **Service Editor** choose **Add Entity**. Repeat the previous steps and configure the new entity and choose **Create** to finish:
-   - Enter **Name:** _mitigation_
-   - Select **Namespace:** "riskmanagementService"
-   - Select **Type:** "riskmanagement.Mitigations"
-
-     <img src="./images/add_services_5.png" width="60%">
-
-5. Find the Mitigations entity and choose header of entry. A menu will appear on the right side of the screen. In section **Property Sheet**, check the checkbox for _draft editing_.
+     <img src="./images/add_service_mitigations.png" width="30%">
 
 #### Add Sample Data
 
@@ -180,21 +130,21 @@ Once the structure of your application is finished, you can add sample data to t
 
 1. Download the [archive](../../../data.zip) containing the sample data in CSV format and extract the files.
 
-2. Go back to the home page of the application. Find the **[Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)** tile and choose **+** icon to add a new data entity.
+2. Go back to the storyboard of the application. Find the **Risk** entity in **Data Models** and choose **[Add Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)**.
 
-   <img src="./images/add_data_1.png" width="30%">
+   <img src="./images/add_sample_data_1.png" width="30%">
 
-3. In the pop-up choose **Import** and select _Risks_ in the **Import for Entity** field. Then choose **Import**.
+3. In the pop-up choose **Import** and select _Risks_ in the **Add for Entity** field. Then choose **Add**.
 
-   <img src="./images/add_data_2.png" width="60%">
+   <img src="./images/add_sample_data_2.png" width="60%">
 
 4. Import `Riskmanagement-Risks.csv` CSV file with the required data for risks.
 
-   <img src="./images/add_data_3.png" width="60%">
+   <img src="./images/add_sample_data_risks.png" width="60%">
 
 > Hint: SAP Business Application Studio might show an error in this step, which will be fixed while importing the mitigation csv file.
 
-5. Similarly, import `Riskmanagement-Mitigations.csv` CSV file with the required data for mitigations.
+5. Similarly, import `Riskmanagement-Mitigations.csv` file with the required data for mitigations.
 
 ## Summary
 

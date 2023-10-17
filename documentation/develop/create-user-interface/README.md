@@ -11,56 +11,62 @@ In this section you will build a user interface to display the data and add role
 
 After defining the foundation of your application in the previous chapter, we will add an SAP Fiori elements based User Interface to the application.
 
-1. Go to the home page and find the **[User Interface](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/efab3e5b3c6b4647a6928d68372a67ac.html?locale=en-US)** tile and choose the **+** icon to add a new user interface.
+1. Go to the storyboard page and find the **[UI Application](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/efab3e5b3c6b4647a6928d68372a67ac.html?locale=en-US)** tile and choose the **+** icon to add a new user interface.
 
    <img src="./images/create_UI_1.png" width="40%">
 
-2. A screen will show up where you can add the **Application Name**: _Risks_ and enter a description. Choose **Next**.
+2. A screen will show up where you can add the **Display Name**: _Risks_ and enter a description. Choose **Next**.
 
    <img src="./images/create_UI_2.png" width="60%">
 
-3. Select **UI Application type** as _Template-Based, Responsive Application_ to create a SAP Fiori elements based UI. Choose **Next**.
+3. Select **UI Application type** as **_Template-Based, Responsive Application_** to create a SAP Fiori elements based UI. Choose **Next**.
 
    <img src="./images/create_UI_3.png" width="40%">
 
-4. Choose **UI application template** as _List Report Page_. Choose **Next**.
+4. Choose **UI application template** as **_List Report Page_**. Choose **Next**.
 
    <img src="./images/create_UI_4.png" width="40%">
 
-5. Select main entity _risks_ in as main entity in Data Objects, to show risks entity in UI. Choose **Finish**.
+5. Select main entity as _risks_ in Data Objects, to show risks entity in UI. Choose **Finish**.
 
    <img src="./images/create_UI_5.png" width="40%">
 
-6. Repeat the steps 1–4 for _Mitigations_.
+6. Repeat the steps 1–4 for **_Mitigations_**. This time choose _Mitigation_ as **Display Name**.
 
-7. Select main entity _mitigation_ in as main entity in Data Objects, to show mitigations entity in the UI and choose _risks_ as navigation entity. Choose **Finish**.
+7. Select **Mitigation** as main entity in Data Objects, and choose **_risks_** as navigation entity. Choose **Finish**.
 
-8. Find the tile User Interfaces and choose the entry **Mitigations**.
+   <img src="./images/create_UI_6.png" width="40%">
+
+8. Under UI Applications, choose the entry **Riskmanagement.Mitigations**.
+
+   <img src="./images/create_UI_7.png" width="40%">
 
 9. Find the **Object Page** entry and choose the edit icon.
 
     <img src="././images/update_UI_4.png" width="40%">
 
-10. In the entry **Section** choose the **+** icon to add new section to the UI. In the dropdown, select _Add Table Section_.
+10. Near to **Sections** choose the **+** icon to add new section to the UI. In the dropdown, select _Add Table Section_.
 
     <img src="././images/update_UI_5.png" width="40%">
 
-11. In the popup enter Label as **Risks** and choose value source as **risks** from the dropdown
+11. In the popup enter Label as **Risks** and choose value source as **risks** from the dropdown.
 
       <img src="././images/update_UI_6.png" width="40%">
 
-12. Click on **Add** button
+12. Click on **Add** button.
 
 13. In the entry **Section** open **Risks** &rarr; **Table** &rarr; **Columns**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Columns_.
 
-14. In the dropdown choose the following fields inside **risks**
+      <img src="././images/create_UI_8.png" width="40%">
+
+14. In the dropdown choose the following fields inside **risks**.
    - ID
    - title
    - description
    - impact
    - prio
 
-15. Click on Add button
+15. Click on **Add** button.
 
       <img src="././images/update_UI_7.png" width="40%">
 
@@ -68,21 +74,20 @@ After defining the foundation of your application in the previous chapter, we wi
 
 Now, you can create roles to define different authorization for your application. For example you might want to ensure that some people can view data, but are not able to edit them.
 
-1. Go back to the home page of the application. Find the **[User Roles](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/369ed9cc7a724cfcb2bdbe20f8b6e7d6.html?locale=en-US)** tile and choose the **+** icon to add a new role.
+1. Go back to the storyboard of the application. Find the **Open Editor** dropdown on the top and choose **[User Roles](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/369ed9cc7a724cfcb2bdbe20f8b6e7d6.html?locale=en-US)**.
 
    <img src="./images/user_roles_1.png" width="30%">
    
-   > Hint: Loading the LCAP Authorization Editor might take a few seconds
 
-2. Enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
+2. Choose **+** icon and enter a role name, for example, _RiskViewer_. Enter a description and choose **Read** as **Privilege Defaults**. Choose **Save**.
 
    <img src="./images/user_roles_2.png" width="50%">
 
-3. Choose your created role and select your created service in the **Service Assignments** field. Choose **Add Service Entities**.
+3. Choose your created role and select your created service in the **Service Assignments** field.
 
    <img src="./images/user_roles_3.png" width="50%">
 
-4. In the pop-up, switch on the assign toggle button for _risks_ and _mitigations_. Check if slider for privileges is selected as read. Choose **Save**.
+4. Choose **Add Service Entities**. In the pop-up, switch on the assign toggle button for _risks_ and _mitigations_. Check if slider for privileges is selected as read. Choose **Save**.
 
    <img src="./images/user_roles_4.png" width="50%">
 
@@ -90,9 +95,9 @@ Now, you can create roles to define different authorization for your application
 
    <img src="./images/user_roles_5.png" width="50%">
 
-6. Choose your created role and select your created service in the **Service Assignments** field. Choose **Add Service Entities**.
+6. Choose your created role and select your created service in the **Service Assignments** field.
 
-7. In the pop-up, switch on the assign toggle button for _risks_ and _mitigations_. Check if slider for privileges is selected as full. Choose **Save**.
+7. Choose **Add Service Entities**. In the pop-up, switch on the assign toggle button for _risks_ and _mitigations_. Check if slider for privileges is selected as full. Choose **Save**.
 
    <img src="./images/user_roles_6.png" width="60%">
 

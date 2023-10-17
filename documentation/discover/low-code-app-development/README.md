@@ -13,3 +13,4 @@ These are the best resources to start from:
 * [Blog Post: Develop Low Code app with SAP Business Application Studio](https://blogs.sap.com/?p=1478305?source=email-global-notification-bp-new-in-tag-followed)
 * [Blog Post: Exploring SAP Business Application Studio for low-code development](https://blogs.sap.com/2022/01/03/exploring-sap-business-application-studio-for-low-code-development-and-deploying-a-multichannel-sample-app-to-mobile/)
 
+
