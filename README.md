@@ -62,7 +62,7 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 2: [Develop Risk Management Application Using SAP Business Application Studio Visual Tools](/documentation/develop/develop-application/)
 
-### Step 3: [Create User Interface and User Roles](/documentation/develop/develop-application/)
+### Step 3: [Create User Interface and User Roles](/documentation/develop/create-user-interface/)
 
 ### Step 4: [Test Application with Sample Data](/documentation/develop/test-application/)
 
