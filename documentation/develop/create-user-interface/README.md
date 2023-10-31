@@ -31,7 +31,7 @@ After defining the foundation of your application in the previous chapter, we wi
 
    <img src="./images/create_UI_5.png" width="40%">
 
-6. Repeat the steps 1–4 for **_Mitigations_**. This time choose _Mitigation_ as **Display Name**.
+<!-- 6. Repeat the steps 1–4 for **_Mitigations_**. This time choose _Mitigation_ as **Display Name**.
 
 7. Select **Mitigation** as main entity in Data Objects, and choose **_risks_** as navigation entity. Choose **Finish**.
 
@@ -53,20 +53,20 @@ After defining the foundation of your application in the previous chapter, we wi
 
       <img src="././images/update_UI_6.png" width="40%">
 
-12. Click on **Add** button.
+12. Click on **Add** button. -->
 
-13. In the entry **Section** open **Risks** &rarr; **Table** &rarr; **Columns**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Columns_.
+6. In the entry **Section** open **Risks** &rarr; **Table** &rarr; **Columns**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Columns_.
 
       <img src="././images/create_UI_8.png" width="40%">
 
-14. In the dropdown choose the following fields inside **risks**.
+7. In the dropdown choose the following fields inside **risks**.
    - ID
    - title
    - description
    - impact
    - prio
 
-15. Click on **Add** button.
+8. Click on **Add** button.
 
       <img src="././images/update_UI_7.png" width="40%">
 
