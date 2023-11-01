@@ -15,7 +15,7 @@ In this section you will first create your development environment in SAP Busine
 
 ### Open Low-Code Development Tools and Create Development Project
 
-1. Go back to your subaccount in SAP BTP Cockpit and navigate to **Instances and Subscriptions** in the menu on the left side of the screen.
+<!-- 1. Go back to your subaccount in SAP BTP Cockpit and navigate to **Instances and Subscriptions** in the menu on the left side of the screen.
 
 2. Find **SAP Business Application Studio** in the application section and choose the browser icon to open the app.
 
@@ -33,23 +33,23 @@ In this section you will first create your development environment in SAP Busine
 
 6. Your Dev Space is now being created and as soon as status change to _Running_ you can open your Dev Space by clicking on the name
 
-   <img src="./images/create_dev_space_3.png" width="60%">
+   <img src="./images/create_dev_space_3.png" width="60%"> -->
 
-7.  Click on **Create Project** under Project Explorer.
+1.  Click on **Create Project** under Project Explorer.
 
     <img src="./images/create_project.png" width="60%">
 
-8. Select **Full-Stack Project (Productivity Toolkit)** and choose **Start**.
+2. Select **Full-Stack Project (Productivity Toolkit)** and choose **Start**.
     
     <img src="./images/start_project.png" width="60%">
 
-9. Enter a **Project Name**, for example, _Riskmanagement_ and provide a **Short Description** and choose **Finish**.
+3. Enter a **Project Name**, for example, _Riskmanagement_ and provide a **Short Description** and choose **Finish**.
 
     <img src="./images/project_name.png" width="40%">
 
    > Loading SAP Business Application Studio for low-code development can take some time, especially if it’s the first time you use it.
 
-10. Once your project is created, you can open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement**.
+4. Once your project is created, you can open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement**.
 
     <img src="./images/storyboard.png" width="40%">
 
@@ -89,7 +89,6 @@ Now you can start the development of your application. First you will model your
 
 5. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Mitigations** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
-   <img src="./images/data_model_risks.png" width="60%">
    <img src="./images/data_model_mitigations.png" width="60%">
 
 6. In the pop-up screen enter all the required details:
@@ -130,13 +129,13 @@ Once the structure of your application is finished, you can add sample data to t
 
 1. Download the [archive](../../../data.zip) containing the sample data in CSV format and extract the files.
 
-2. Go back to the storyboard of the application. Find the **Risk** entity in **Data Models** and choose **[Add Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)**.
+2. Go back to the storyboard of the application. Find the **Risk** entity in **Data Models** and choose **[Set Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)**.
 
    <img src="./images/add_sample_data_1.png" width="30%">
 
-3. In the pop-up choose **Import** and select _Risks_ in the **Add for Entity** field. Then choose **Add**.
+3. Select _Risks_ in the **Entity list** then choose **Import**.
 
-   <img src="./images/add_sample_data_2.png" width="60%">
+   <img src="./images/add_sample_data_3.png" width="60%">
 
 4. Import `Riskmanagement-Risks.csv` CSV file with the required data for risks.
 

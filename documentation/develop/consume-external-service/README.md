@@ -39,8 +39,6 @@ In this section you will expand your application with an API, which allows to ge
 
 12. In the list check only _BusinessPartner_, _BusinessPartnerFullName_ and _BusinessPartnerIsBlocked_.
 
-13. Choose the **Tick** icon.
-
 <!-- 13. Choose the pencil icon behind your selected property and change the names:
     - _BusinessPartner_ &rarr; _Supplier_
     - _BusinessPartnerFullName_ &rarr; _SupplierFullName_
@@ -90,7 +88,6 @@ In this section you will expand your application with an API, which allows to ge
     <img src="././images/update_UI_5.png" width="40%">
 
 8. Add the following fields using the dropdown:
-    - _mitigations_ID_
     - _supplier_BusinessPartner_
     - _BusinessPartnerFullName_
     - _BusinessPartnerIsBlocked_
@@ -117,15 +114,6 @@ In this section you will expand your application with an API, which allows to ge
 
     <img src="././images/update_UI_8.png" width="40%">
 
-17. Similary, configure value help for mitigation. select the property `mitigations_ID`
-
-18. Find entry **Display Type** and choose **Value Help** in the dropdown.
-
-19. In screen **Value Help** choose the following
-
-    <img src="././images/update_UI_10.png" width="50%">
-
-20. Choose **Apply**.
 ## Summary
 
  In this section, you have integrated an external service API from an SAP S/4HANA system to your application. In the next step, you will deploy your application.

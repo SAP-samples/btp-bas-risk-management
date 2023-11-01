@@ -16,7 +16,7 @@ Congratulations! You now have finished a first version of your application. In t
 
 4. Choose a tile to try out your app.
 
-   <img src="./images/test_app_3.png" width="80%">
+   <img src="./images/test_app_7.png" width="80%">
 
 5. Click on `Risk` app
 
@@ -32,4 +32,4 @@ Congratulations! You now have finished a first version of your application. In t
 
 9. Click on `create` button
 
-10. Make sure you exit the preview mode after your test is finished by clicking **Stop Preview** in SAP BAS.
+10. Make sure you exit the preview mode after your test is finished by clicking **Stop** in SAP BAS.
