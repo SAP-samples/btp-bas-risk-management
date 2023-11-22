@@ -55,7 +55,7 @@ After defining the foundation of your application in the previous chapter, we wi
 
 12. Click on **Add** button. -->
 
-6. In the entry **Section** open **Risks** &rarr; **Table** &rarr; **Columns**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Columns_.
+<!-- 6. In the entry **Section** open **Risks** &rarr; **Table** &rarr; **Columns**. Choose the **+** icon to add new fields to the UI. In the dropdown, select _Add Basic Columns_.
 
       <img src="././images/create_UI_8.png" width="40%">
 
@@ -68,7 +68,7 @@ After defining the foundation of your application in the previous chapter, we wi
 
 8. Click on **Add** button.
 
-      <img src="././images/update_UI_7.png" width="40%">
+      <img src="././images/update_UI_7.png" width="40%"> -->
 
 #### Create User Roles
 
