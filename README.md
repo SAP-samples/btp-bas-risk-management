@@ -44,9 +44,9 @@ You can find all requirements to execute the tutorial in this [section](/documen
 
 ### Step 6: [Configure Systems in Cloud Connector](/documentation/develop/configure-cloud-connector) -->
 
-### Step 4: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
+<!-- ### Step 4: [Implement Custom Logic](/documentation/develop/implement-custom-logic) 
 
-### Step 5: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service)
+### Step 5: [Consume External Service from SAP S/4HANA](/documentation/develop/consume-external-service) -->
 
 <!-- ### Step 9: [Deploy Application to Cloud Foundry Environment](/documentation/develop/deploy-application/)
 
