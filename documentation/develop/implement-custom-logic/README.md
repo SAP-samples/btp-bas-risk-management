@@ -25,7 +25,7 @@ In this section, you will implement the custom logic to define the criticality b
 
     <img src="./images/logic_editor.png" width="60%">    
 
-4. Add the following code to the `code/risks-service.js` under the **module.exports**:
+4. Add the following code to the `code/risks-logic.js` under the **module.exports**:
 
 ```js
 
