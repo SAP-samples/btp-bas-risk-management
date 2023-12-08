@@ -21,7 +21,7 @@ In this section, you will implement the custom logic to define the criticality b
 
     <img src="./images/add_logic.png" width="40%">
 
-3. Now Select **After** in the Phase, **Read** in the Standard Event and choose the **Open JS Editor**.
+3. Now Select **After** in the Phase, **Read** in the Standard Event and choose the **Open Code Editor**.
 
     <img src="./images/logic_editor.png" width="40%">    
 
