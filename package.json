@@ -6,19 +6,19 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@sap-cloud-sdk/http-client": "^2.9.0",
-    "@sap-cloud-sdk/util": "^2.9.0",
+    "@sap-cloud-sdk/http-client": "^3.8.1",
+    "@sap-cloud-sdk/util": "^3.8",
     "@sap/cds": "^6",
-    "@sap/low-code-event-handler": "^1.1.1",
-    "@sap/xsenv": "^3.3.2",
-    "@sap/xssec": "^3.2.13",
+    "@sap/low-code-event-handler": "^1.2.4",
+    "@sap/xsenv": "^4.2.0",
+    "@sap/xssec": "^3.6.0",
     "express": "^4",
-    "hdb": "^0.19.5",
-    "passport": "^0.6.0"
+    "hdb": "^0.19.7",
+    "passport": "^0.7.0"
   },
   "devDependencies": {
-    "@sap/ux-specification": "^1.102.9",
-    "sqlite3": "^5.0.4"
+    "@sap/ux-specification": "^1.120.0",
+    "sqlite3": "^5.1.6"
   },
   "scripts": {
     "start": "cds run",
