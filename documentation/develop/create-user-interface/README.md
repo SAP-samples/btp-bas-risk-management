@@ -15,7 +15,7 @@ After defining the foundation of your application in the previous chapter, we wi
 
    <img src="./images/create_UI_1.png" width="40%">
 
-2. A screen will show up where you can add the **Display Name**: _Risks_ and enter a description. Choose **Next**.
+2. A screen will show up where you can add the **Display Name**: _**Risks**_ and enter a description. Choose **Next**.
 
    <img src="./images/create_UI_2.png" width="60%">
 

@@ -21,11 +21,11 @@ In this section, you will implement the custom logic to define the criticality b
 
     <img src="./images/add_logic.png" width="40%">
 
-3. Now Select **After** in the Phase, **Read** in the Standard Event and choose the **Open Code Editor**.
+3. Now Select **After** in the Phase, **Read** in the Standard Event and choose the **Open code Editor** and select **Application Logic**.
 
-    <img src="./images/logic_editor.png" width="60%">    
+    <img src="./images/logic_editor_1.png" width="40%">    
 
-4. Add the following code to the `code/risks-logic.js` under the **module.exports**:
+4. Add the following code to the `code/risks-service.js` under the **module.exports**:
 
 ```js
 

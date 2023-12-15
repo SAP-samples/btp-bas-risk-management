@@ -49,7 +49,7 @@ In this section you will first create your development environment in SAP Busine
 
    > Loading SAP Business Application Studio for low-code development can take some time, especially if it’s the first time you use it.
 
-10. Once your project is created, you can open the Home view of SAP BAS. Choose **Project Explorer** &rarr; **RiskManagement**.
+10. Once your project is created, you can see the Storyboard of SAP BAS .
 
     <img src="./images/storyboard.png" width="40%">
 
@@ -65,7 +65,11 @@ Now you can start the development of your application. First you will model your
 
       <img src="./images/add_data_model_2a.png" width="70%">
 
-3. Change the **Entity Name** to _Risks_. Retain the property `ID` and choose the **+** icon in the table to add the following properties:
+3. Change the **Entity Name** to _Risks_.
+
+      <img src="./images/change_name.png" width="70%">
+
+4. Retain the property `ID` and choose the **+** icon in the table to add the following properties:
 
     | Property Name | Property Type | Max Length |
     |---------------|---------------|------------|
@@ -89,7 +93,6 @@ Now you can start the development of your application. First you will model your
 
 5. Now, you can see two entities in the **Data Model Editor**. In a next step you will describe the interconnection between those entities by defining a relationship, so each risk has a mitigation associated to it.  Find the entry of **Mitigations** and click on the header of the table. Choose **Add relationship Icon** in the menu appearing on the right. Connect the appeared line to Risks entity, by clicking on table and configure the relationship in pop-up.
 
-   <img src="./images/data_model_risks.png" width="60%">
    <img src="./images/data_model_mitigations.png" width="60%">
 
 6. In the pop-up screen enter all the required details:
@@ -120,7 +123,7 @@ Now you will create service entities for Risks and Mitigations to define which p
    
    <img src="./images/add_service_risks.png" width="30%">
 
-3. Back in service editor, choose **Add_Entity** and select _Riskmanagement.Mitigations_ as type and choose **Ok** to finish.
+3. Back in service editor, choose **Add Entity** and select _Riskmanagement.Mitigations_ as type and choose **Ok** to finish.
 
      <img src="./images/add_service_mitigations.png" width="30%">
 
@@ -130,13 +133,13 @@ Once the structure of your application is finished, you can add sample data to t
 
 1. Download the [archive](../../../data.zip) containing the sample data in CSV format and extract the files.
 
-2. Go back to the storyboard of the application. Find the **Risk** entity in **Data Models** and choose **[Add Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)**.
+2. Go back to the storyboard of the application. Find the **Risk** entity in **Data Models** and choose **[Set Sample Data](https://help.sap.com/docs/Application%20Development/6a5fc562f6e2402aa84b0416614a05fc/a024e7debfc24b67a0120447b147fab4.html?locale=en-US)**.
 
    <img src="./images/add_sample_data_1.png" width="30%">
 
-3. In the pop-up choose **Import** and select _Risks_ in the **Add for Entity** field. Then choose **Add**.
+3. Select _Risks_ in the **Entity list** then choose **Import**.
 
-   <img src="./images/add_sample_data_2.png" width="60%">
+   <img src="./images/add_sample_data_3.png" width="60%">
 
 4. Import `Riskmanagement-Risks.csv` CSV file with the required data for risks.
 
