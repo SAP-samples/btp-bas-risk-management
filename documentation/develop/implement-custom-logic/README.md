@@ -59,7 +59,7 @@ In this section, you will implement the custom logic to define the criticality b
 
      <img src="./images/update_UI_criticality.png" width="40%">
 
-7. Now, the separate _criticality_ column is no longer required. Find and remove the _criticality_ column by by clicking the delete icon next to it. 
+7. Now, the separate _criticality_ column is no longer required. Find and remove the _criticality_ column by clicking the delete icon next to it. 
 
     <img src="./images/delete_UI_1.png" width="40%">
 

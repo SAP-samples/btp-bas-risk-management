@@ -72,7 +72,7 @@ Also you have to create a destination to the mock service in the same subaccount
 3. Again, choose **Destinations** &rarr; **New Destination** and enter the following information destination:
 
     - Name: `bupa`
-    - URL: `https://<mock_srv_url>/v2/api-business-partner`
+    - URL: `https://<mock_srv_url>/api-business-partner`
     - Authentication: `No Authentication`
 
 
