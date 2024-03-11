@@ -10,7 +10,7 @@ In this section you will expand your application with an API, which allows to ge
 
 1. Open your SAP Business Application Studio and navigate to the **Storyboard**.
 
-2. Find the tile **External Data Model** and choose the **+** icon to create a new data model.
+2. Find the tile **External Resources** and choose the **+** icon to create a new data model.
 
 3. On the left side of your screen the menu **Service Center** will appear. Expand the section **SAP System** and find your **Subaccount** there.
 
@@ -18,7 +18,7 @@ In this section you will expand your application with an API, which allows to ge
 
 5. On the bupa page, choose **A_BusinessPartner** in the list **Entity**.
 
-6. Choose **Add External Data Model**.
+6. Choose **Add to CAP**.
 
     <img src="././images/consume_external_service _A1.png" width="100%">
 

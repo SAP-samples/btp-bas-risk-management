@@ -44,8 +44,6 @@ In this section, you will deploy the application to Cloud Foundry environment.
 
 Before you can use the application, you need to assign yourself to the roles you have created in the section before. This needs to be done so you are able to edit and view the data from the application.
 
- - This is a global setup so you are not allowed to assign user roles on BTP. Therefore please contact the organisation team(**Dominic Steinhauser** and **Matthias Adams**) to perform the below steps.
-
 1. Go back to [SAP BTP Cockpit](https://account.hana.ondemand.com/).
 
 2. Navigate to **Security** &rarr; **Users**.
