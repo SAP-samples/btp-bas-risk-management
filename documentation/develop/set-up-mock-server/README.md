@@ -87,6 +87,15 @@ Also you have to create a destination to the mock service in the same subaccount
       
   <img src="././images/mock_server_7.png" width="60%">
  
+### Bind SAP Event Mesh Service Instance
+If you already have Event Mesh instance, bind the same instance to the Mock server.
+
+Run the following command from the terminal:
+ ```bash
+cf bs mock-srv BusinessPartnerValidation-ems && cf restart mock-srv
+ ```
+NOTE: In the example above the name of Event Mesh service instance is BusinessPartnerValidation-ems. It can be different in your case!
+
 
 ### Test the Mock Server
 
