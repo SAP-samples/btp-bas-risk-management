@@ -111,6 +111,6 @@ NOTE: In the example above the name of Event Mesh service instance is BusinessPa
 
  <img src="././images/mock_3.png" width="60%">
 
-4. Now you can open the service endpoints for */op-api-business-partner-srv* and have a look on the provided data
+4. Now you can open the service endpoints for */api-business-partner* and have a look on the provided data
 
- <img src="././images/mock_4.png" width="60%">
+ <img src="././images/mock_5.png" width="60%">
